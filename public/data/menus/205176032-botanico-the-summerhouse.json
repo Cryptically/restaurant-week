@@ -1,0 +1,229 @@
+{
+  "restaurant_id": 205176032,
+  "meals": [
+    {
+      "id": 94330,
+      "meal_type": "dinner",
+      "key_word": "dinner_b",
+      "price": "58",
+      "menu_title": "Dinner Set",
+      "desc": "SG$58 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133960,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2124168,
+            "name": "Bread Service",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2124170,
+                "desc": null,
+                "name": "BREAD SERVICE",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857636,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2124172,
+            "name": "1st Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2124174,
+                "desc": "COMPRESSED HEIRLOOM TOMATOES | STRACCIATELLA CHEESE | CRISPY QUINOA EXTRA VIRGIN OLIVE OIL GELATO",
+                "name": "HEIRLOOM TOMATO & STRACCIATELLA",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857638,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2124176,
+            "name": "2nd Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2124178,
+                "desc": "SAVOY CABBAGE | POTATO TORTELLINI | ONION | CARROT",
+                "name": "SAVOY CABBAGE & TORTELLONI SOUP",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857640,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2124180,
+            "name": "Main Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2124182,
+                "desc": "LEAF SALAD | SWEET POTATO PURÉE | BAROLO WINE SAUCE",
+                "name": "WOOD FIRE GRILLED A4 WAGYU SIRLOIN (180G)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857642,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24677,
+                    "name": "Supplement of $22++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/1787561254acfbdcf9dd2758c6c33738d1592da0cc.png"
+                  }
+                ]
+              },
+              {
+                "id": 2124184,
+                "desc": "INKA GRILLED SNAPPER | CHARRED LADY FINGERS BROCCOLINI | PICKLED ONIONS CHAMPAGNE CAVIAR SAUCE",
+                "name": "KELONG SNAPPER FILLET",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857644,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2124186,
+                "desc": "DUCK FAT FINGERLING POTATOES | PICKLED RADISH COCONUT MILK | CHICKEN JUS",
+                "name": "WOOD FIRE GRILLED FRENCH POULET",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857646,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2124188,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2124190,
+                "desc": "FRESH LEMON | LEMON ZEST",
+                "name": "BRÛLÉE OF LEMON POSSET",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857648,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

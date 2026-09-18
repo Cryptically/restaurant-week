@@ -1,0 +1,469 @@
+{
+  "restaurant_id": 205195204,
+  "meals": [
+    {
+      "id": 94016,
+      "meal_type": "lunch",
+      "key_word": "lunch_b",
+      "price": "38",
+      "menu_title": "Lunch Set",
+      "desc": "SG$38 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133392,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2116636,
+            "name": "Starter",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116638,
+                "desc": "Parma Ham, Burrata, Peach, Sundried Tomato, Honey Orange Dressing",
+                "name": "Parma Ham, Peach, Burrata Salad",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854830,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116640,
+                "desc": "Mozzarella Cheese, Baguette, Onions, Beef Stocks",
+                "name": "French Onion Soup",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854832,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116642,
+            "name": "Mains",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116644,
+                "desc": "Roasted Marinated Chicken, Quinoa, Onions, Mixed Green, Garlic Butter",
+                "name": "Chicken Breast",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800698,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116646,
+                "desc": "Agustus Rump Cap, Fries, Red Wine Jus. Add on Pan-seared Foie Gras + $9",
+                "name": "Steak Frites",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854834,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21280,
+                    "name": "Supplement of $4++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/175636437797d0dd491fa03bb79300b3cd24b42976.png"
+                  }
+                ]
+              },
+              {
+                "id": 2116648,
+                "desc": "Pan-seared Halibut, Baby Potatoes, Asparagus, Parsley Oil, Salsa Verde",
+                "name": "Pan-seared Halibut",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800702,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116650,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116652,
+                "desc": null,
+                "name": "Tiramisu",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854836,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116654,
+                "desc": null,
+                "name": "Lemon Tart",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854838,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 94018,
+      "meal_type": "dinner",
+      "key_word": "dinner_b",
+      "price": "58",
+      "menu_title": "Dinner Set",
+      "desc": "SG$58 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133394,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2116656,
+            "name": "Starters - Trio Of House Favourites",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116658,
+                "desc": "Chilled Beef Tenderloin, Chopped Onion, Cornichons, Capers, Egg Yolk, Salted Butter, Grilled Toast",
+                "name": "Signature Beef Tartare",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800710,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116660,
+                "desc": "Cajun Marinated Tiger Prawn, Padron Pepper, Garlic, Smoked Olive Oil, Chili Flakes, White Wine",
+                "name": "Gambas Al Ajillo",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800712,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116662,
+                "desc": "Roasted Cauliflower, Miso Garlic, Mayo Dressing, Sesame, Chives",
+                "name": "Roasted Cauliflower",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 802138,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116664,
+            "name": "Main",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116666,
+                "desc": "Grilled Pork Jowl, Mashed Potato, Brussel Sprout, Apple Jus",
+                "name": "Pork Jowl",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854840,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116668,
+                "desc": "Duck Leg Confit, Baby Potato, French Bean, Carrots, A’L Orange Sauce",
+                "name": "Duck Confit",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800718,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116670,
+                "desc": "Pan-seared Halibut, Potato Dauphinoise, Kale, Sesame Sauce",
+                "name": "Poached Herbed Halibut",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800720,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116672,
+                "desc": "200g MB4/5, Fries, Broccolini, Forestiere Jus (Add on Pan-seared Foie Gras + $9)",
+                "name": "Wagyu Ribeye",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800722,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21276,
+                    "name": "Supplement of $12++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/1756364318112a2964a5054f307bdeb4b8c8c1e9db.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2116674,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116676,
+                "desc": null,
+                "name": "Chocolate Lava Pudding",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854842,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116678,
+                "desc": null,
+                "name": "Burnt Cheese Cake",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854844,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

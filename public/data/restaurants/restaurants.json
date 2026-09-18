@@ -1,0 +1,5885 @@
+[
+  {
+    "id": 2055216,
+    "name": "Basilico",
+    "address": "1 Cuscaden Rd, Level 2 Conrad Singapore Orchard",
+    "ratings_avg": 9.1,
+    "thumb": "https://static-assets.diningcity.asia/19dec7i7p6xzx4loxwxcme1fci4e_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "special",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8249313,
+    "lat": 1.3046549,
+    "dirname": "basilico_ird3",
+    "cover": "https://static-assets.diningcity.asia/19dec7i7p6xzx4loxwxcme1fci4e_thumb",
+    "avg_price": 58,
+    "format_avg_price": "S$58",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$98 p.p.",
+      "SG$48 p.p.",
+      "SG$75 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "brunch",
+        "price": "SG$98 p.p.",
+        "menu_title": "Brunch",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_brunch.svg"
+      },
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$75 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/basilico_ird3",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13465,
+        "name": "Italian",
+        "dir_name": "italian",
+        "restaurants_count": 76
+      }
+    ],
+    "tags": [
+      {
+        "id": 24723,
+        "name": "Hotel Buffet",
+        "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756126399697bda2bd0c2c91edb71c812983535.jpg"
+      }
+    ],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205191138,
+    "name": "NOA Lounge By Olivia",
+    "address": "83 Neil Rd, 01, #01-02-03, 089813",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/j4k669fgdrljbyn380wr0urhmesm_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8419489,
+    "lat": 1.2789527,
+    "dirname": "noa_by_Olivia",
+    "cover": "https://static-assets.diningcity.asia/j4k669fgdrljbyn380wr0urhmesm_thumb",
+    "avg_price": 58,
+    "format_avg_price": "S$58",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$72 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$72 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/noa_by_Olivia",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13468,
+        "name": "Spanish",
+        "dir_name": "spanish",
+        "restaurants_count": 28
+      },
+      {
+        "id": 13516,
+        "name": "Mediterranean",
+        "dir_name": "mediterranean",
+        "restaurants_count": 13
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205188876,
+    "name": "665 Degrees Fahrenheit",
+    "address": "5 Fraser Street, Level 38, Andaz Singapore, Singapore 189354",
+    "ratings_avg": 8.4,
+    "thumb": "https://static-assets.diningcity.asia/3sgirz8tyiwvtu5xpxya3l994d2j_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8577253,
+    "lat": 1.2992107,
+    "dirname": "665_Degrees_Fahrenheit",
+    "cover": "https://static-assets.diningcity.asia/3sgirz8tyiwvtu5xpxya3l994d2j_thumb",
+    "avg_price": 120,
+    "format_avg_price": "S$120",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$50 p.p.",
+      "SG$88 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$50 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$88 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/665_Degrees_Fahrenheit",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13499,
+        "name": "Steakhouse",
+        "dir_name": "steakhouse",
+        "restaurants_count": 24
+      }
+    ],
+    "tags": [
+      {
+        "id": 24711,
+        "name": "Steak House",
+        "icon_url": "https://static-assets.diningcity.asia/tag/2026/1787561260f7c0dea926a5d093419485bc69fa6534.jpg"
+      },
+      {
+        "id": 24719,
+        "name": "Past Winners",
+        "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756126287da617cbad13507bd4b4424a47c3399.webp"
+      },
+      {
+        "id": 24721,
+        "name": "Hotel Restaurants",
+        "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756126325b004005ca2d4e42c43d8f7ab53fd12.png"
+      }
+    ],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 2055223,
+    "name": "Wooloomooloo Steakhouse",
+    "address": "2 Stamford Road Level 3",
+    "ratings_avg": 8.9,
+    "thumb": "https://static-assets.diningcity.asia/v0s9igdbt6kms092e8kh92bti0we_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8531036,
+    "lat": 1.2933597,
+    "dirname": "wooloomooloo_steakhouse",
+    "cover": "https://static-assets.diningcity.asia/v0s9igdbt6kms092e8kh92bti0we_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$88 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$88 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/wooloomooloo_steakhouse",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13499,
+        "name": "Steakhouse",
+        "dir_name": "steakhouse",
+        "restaurants_count": 24
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205174744,
+    "name": "FLNT at 1-Atico",
+    "address": "2 Orchard Turn, #55-01 ION Orchard, Singapore 238801",
+    "ratings_avg": 8.7,
+    "thumb": "https://static-assets.diningcity.asia/fmK9tt9SQdGesifgaQVhhwh8_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8319512,
+    "lat": 1.3039288,
+    "dirname": "flnt",
+    "cover": "https://static-assets.diningcity.asia/fmK9tt9SQdGesifgaQVhhwh8_thumb",
+    "avg_price": 68,
+    "format_avg_price": "S$68",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$58 p.p.",
+      "SG$78 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$58 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$78 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/flnt",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13479,
+        "name": "Japanese",
+        "dir_name": "japanese",
+        "restaurants_count": 88
+      },
+      {
+        "id": 13506,
+        "name": "Peruvian",
+        "dir_name": "peruvian",
+        "restaurants_count": 5
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205180586,
+    "name": "Garibaldi Italian Restaurant & Bar",
+    "address": "36 Purvis St, #01-02, Singapore 188613",
+    "ratings_avg": 9,
+    "thumb": "https://static-assets.diningcity.asia/nh5ixsfvm3jda5qc68mtq1iy72x7_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8549138,
+    "lat": 1.2964499,
+    "dirname": "Garibaldi",
+    "cover": "https://static-assets.diningcity.asia/nh5ixsfvm3jda5qc68mtq1iy72x7_thumb",
+    "avg_price": 198,
+    "format_avg_price": "S$198",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$88 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$88 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Garibaldi",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13465,
+        "name": "Italian",
+        "dir_name": "italian",
+        "restaurants_count": 76
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205174962,
+    "name": "TANOKE",
+    "address": "7 Purvis St, Level 2, Singapore 188586",
+    "ratings_avg": 9,
+    "thumb": "https://static-assets.diningcity.asia/5iu6xgf41b0ryf74a04oorlg7e0j_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8551743,
+    "lat": 1.2967501,
+    "dirname": "tanoke",
+    "cover": "https://static-assets.diningcity.asia/5iu6xgf41b0ryf74a04oorlg7e0j_thumb",
+    "avg_price": 88,
+    "format_avg_price": "S$88",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$78 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$78 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/tanoke",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13479,
+        "name": "Japanese",
+        "dir_name": "japanese",
+        "restaurants_count": 88
+      },
+      {
+        "id": 13487,
+        "name": "Modern",
+        "dir_name": "modern",
+        "restaurants_count": 56
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205176080,
+    "name": "The Ritz Lounge",
+    "address": "The Ritz-Carlton, Millenia Singapore  7 Raffles Avenue Singapore 039799",
+    "ratings_avg": 9.4,
+    "thumb": "https://static-assets.diningcity.asia/ff839cp07eno5uwafojvx1dljx6p_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8601209,
+    "lat": 1.2909687,
+    "dirname": "Ritz_lounge",
+    "cover": "https://static-assets.diningcity.asia/ff839cp07eno5uwafojvx1dljx6p_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$48 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$48 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Ritz_lounge",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13485,
+        "name": "International",
+        "dir_name": "international",
+        "restaurants_count": 66
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205178300,
+    "name": "Lerouy 3.0",
+    "address": "7 Mohamed Sultan Rd, Singapore 238957",
+    "ratings_avg": 8.9,
+    "thumb": "https://static-assets.diningcity.asia/nizb9ken7w0cyhl4djexed2kf7o9_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.841848,
+    "lat": 1.2939491,
+    "dirname": "Lerouy",
+    "cover": "https://static-assets.diningcity.asia/nizb9ken7w0cyhl4djexed2kf7o9_thumb",
+    "avg_price": 148,
+    "format_avg_price": "S$148",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$88 p.p.",
+      "SG$138 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$88 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$138 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Lerouy",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205196450,
+    "name": "Bochinche - Argentine Steakhouse and Bar",
+    "address": "27 Club St, Singapore 069413",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/x7xhl72a774pcvsuur18al3g6jn0_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8465455,
+    "lat": 1.2824146,
+    "dirname": "bochinche_-_argentine_steakhouse_and_bar",
+    "cover": "https://static-assets.diningcity.asia/x7xhl72a774pcvsuur18al3g6jn0_thumb",
+    "avg_price": 98,
+    "format_avg_price": "S$98",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$68 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$68 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/bochinche_-_argentine_steakhouse_and_bar",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13499,
+        "name": "Steakhouse",
+        "dir_name": "steakhouse",
+        "restaurants_count": 24
+      },
+      {
+        "id": 13507,
+        "name": "Argentinian",
+        "dir_name": "argentinian",
+        "restaurants_count": 4
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195034,
+    "name": "Stags Head Steakhouse",
+    "address": " 7 Raffles Blvd, Level 3 Pan Pacific Singapore, Singapore 039595",
+    "ratings_avg": 9.5,
+    "thumb": "https://static-assets.diningcity.asia/eqjnqxchor7a36v4dabml8wm7gh1_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8585852,
+    "lat": 1.2924176,
+    "dirname": "stagsheadsteakhouse",
+    "cover": "https://static-assets.diningcity.asia/eqjnqxchor7a36v4dabml8wm7gh1_thumb",
+    "avg_price": 60,
+    "format_avg_price": "S$60",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$52 p.p.",
+      "SG$128 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$52 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$128 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/stagsheadsteakhouse",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13491,
+        "name": "European",
+        "dir_name": "european",
+        "restaurants_count": 87
+      },
+      {
+        "id": 13499,
+        "name": "Steakhouse",
+        "dir_name": "steakhouse",
+        "restaurants_count": 24
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000229,
+        "name": "South West",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 2055205,
+    "name": "Wakanui Grill Dining",
+    "address": "5 Straits View Marina One The Heart West Tower, #04-02",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/cevbrssirqicexjyoksc0fnh58fy_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "a",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8526892,
+    "lat": 1.2774441,
+    "dirname": "wakanui_grill_dining",
+    "cover": "https://static-assets.diningcity.asia/cevbrssirqicexjyoksc0fnh58fy_thumb",
+    "avg_price": 38,
+    "format_avg_price": "S$38",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$48 L - SG$68 D",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$68 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$68 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/wakanui_grill_dining",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13482,
+        "name": "Grill Dining",
+        "dir_name": "grill_dining",
+        "restaurants_count": 25
+      },
+      {
+        "id": 13483,
+        "name": "New Zealand",
+        "dir_name": "new_zealand",
+        "restaurants_count": 1
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205192884,
+    "name": "DOMO Modern Japanese Restaurant",
+    "address": "252 N Bridge Rd, #03-00 Fairmont Singapore, Singapore 179103",
+    "ratings_avg": 9,
+    "thumb": "https://static-assets.diningcity.asia/heb1ilk5byob3t5jc2tm94zjrns2_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "A",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8529487,
+    "lat": 1.2942831,
+    "dirname": "domo",
+    "cover": "https://static-assets.diningcity.asia/heb1ilk5byob3t5jc2tm94zjrns2_thumb",
+    "avg_price": 78,
+    "format_avg_price": "S$78",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$48 L - SG$68 D",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$68 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$68 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/domo",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13479,
+        "name": "Japanese",
+        "dir_name": "japanese",
+        "restaurants_count": 88
+      },
+      {
+        "id": 13487,
+        "name": "Modern",
+        "dir_name": "modern",
+        "restaurants_count": 56
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195120,
+    "name": "Cenzo",
+    "address": "81 Club St, Singapore 069449",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/1msx3z7ya61ly5wnley8erlks1kc_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8457936,
+    "lat": 1.2818541,
+    "dirname": "Cenzo",
+    "cover": "https://static-assets.diningcity.asia/1msx3z7ya61ly5wnley8erlks1kc_thumb",
+    "avg_price": 38,
+    "format_avg_price": "S$38",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$68 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$68 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Cenzo",
+    "michelin_stars_text": "",
+    "cuisines": [],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195082,
+    "name": "Alice Boulangerie & Restaurant - Icon Village",
+    "address": "12 Gopeng St, #01-05/11 Icon Village, Singapore 078877",
+    "ratings_avg": 9,
+    "thumb": "https://static-assets.diningcity.asia/17hga084j5b34h29kbxbweozgzmi_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8446322,
+    "lat": 1.2749022,
+    "dirname": "Alice Boulangerie_and_Restaurant_Icon_Village",
+    "cover": "https://static-assets.diningcity.asia/17hga084j5b34h29kbxbweozgzmi_thumb",
+    "avg_price": 38,
+    "format_avg_price": "S$38",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$29 p.p.",
+      "SG$49 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$29 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$49 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Alice Boulangerie_and_Restaurant_Icon_Village",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      },
+      {
+        "id": 13487,
+        "name": "Modern",
+        "dir_name": "modern",
+        "restaurants_count": 56
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205192201,
+    "name": "L'Angelus ",
+    "address": "85 Club St, Singapore 069453",
+    "ratings_avg": 9,
+    "thumb": "https://static-assets.diningcity.asia/nud6mifae1np9wi6e3n64id0zx4c_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8457196,
+    "lat": 1.2817357,
+    "dirname": "l_angelus",
+    "cover": "https://static-assets.diningcity.asia/nud6mifae1np9wi6e3n64id0zx4c_thumb",
+    "avg_price": 78,
+    "format_avg_price": "S$78",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$65 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$65 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/l_angelus",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 2055256,
+    "name": "MONTI",
+    "address": "82 Collyer Quay",
+    "ratings_avg": 8.7,
+    "thumb": "https://static-assets.diningcity.asia/NAroGQ7DnnxV66d6LbLWR2wB_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "special",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8539926,
+    "lat": 1.2846535,
+    "dirname": "monti",
+    "cover": "https://static-assets.diningcity.asia/NAroGQ7DnnxV66d6LbLWR2wB_thumb",
+    "avg_price": 58,
+    "format_avg_price": "S$58",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$88 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$88 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/monti",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13465,
+        "name": "Italian",
+        "dir_name": "italian",
+        "restaurants_count": 76
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205196188,
+    "name": "Araya",
+    "address": "Mondrian Singapore Duxton 83 Neil Road, Duxton Hl, #01-08 Access via, Singapore 089813",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/xisx33fs5xxyj54ug1xj3pfe7f57_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8419489,
+    "lat": 1.2789527,
+    "dirname": "araya",
+    "cover": "https://static-assets.diningcity.asia/xisx33fs5xxyj54ug1xj3pfe7f57_thumb",
+    "avg_price": 250,
+    "format_avg_price": "S$250",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$128 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$128 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/araya",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13468,
+        "name": "Spanish",
+        "dir_name": "spanish",
+        "restaurants_count": 28
+      },
+      {
+        "id": 13491,
+        "name": "European",
+        "dir_name": "european",
+        "restaurants_count": 87
+      }
+    ],
+    "tags": [],
+    "locations": []
+  },
+  {
+    "id": 205195072,
+    "name": "JEJU HAENYEO",
+    "address": "179429, Old Parliament Ln, 1号, The Arts House Annex Building, #01-04",
+    "ratings_avg": 8.1,
+    "thumb": "https://static-assets.diningcity.asia/7acjxrzp2kdalyh7nyhzh7lsg1ec_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8513664,
+    "lat": 1.2885491,
+    "dirname": "JEJU_HAENYEO",
+    "cover": "https://static-assets.diningcity.asia/7acjxrzp2kdalyh7nyhzh7lsg1ec_thumb",
+    "avg_price": 108,
+    "format_avg_price": "S$108",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$43 p.p.",
+      "SG$29 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$43 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$29 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/JEJU_HAENYEO",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13480,
+        "name": "Korean",
+        "dir_name": "korean",
+        "restaurants_count": 6
+      },
+      {
+        "id": 13486,
+        "name": "Asian",
+        "dir_name": "asian",
+        "restaurants_count": 65
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195136,
+    "name": "Centro",
+    "address": "350 Orchard Road 5th,  #6th Shaw House Singapore 238868",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/o4teux0cvtwt51lnuwuj3g2yeku1_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8316062,
+    "lat": 1.3054665,
+    "dirname": "centro",
+    "cover": "https://static-assets.diningcity.asia/o4teux0cvtwt51lnuwuj3g2yeku1_thumb",
+    "avg_price": 38,
+    "format_avg_price": "S$38",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$48 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$48 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/centro",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13484,
+        "name": "Australian",
+        "dir_name": "australian",
+        "restaurants_count": 13
+      },
+      {
+        "id": 13485,
+        "name": "International",
+        "dir_name": "international",
+        "restaurants_count": 66
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000229,
+        "name": "South West",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 2056126,
+    "name": "OSO Ristorante",
+    "address": "100 Peck Seah St, 27th Floor Oasia Hotel Downtown, Singapore 079333",
+    "ratings_avg": 8.6,
+    "thumb": "https://static-assets.diningcity.asia/y5unc01inmd0gp7r7n55k4v2zdy8_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8443611,
+    "lat": 1.2758528,
+    "dirname": "oso_ristorante",
+    "cover": "https://static-assets.diningcity.asia/y5unc01inmd0gp7r7n55k4v2zdy8_thumb",
+    "avg_price": 80,
+    "format_avg_price": "S$80",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$78 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$78 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/oso_ristorante",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13465,
+        "name": "Italian",
+        "dir_name": "italian",
+        "restaurants_count": 76
+      },
+      {
+        "id": 13481,
+        "name": "Contemporary",
+        "dir_name": "contemporary",
+        "restaurants_count": 38
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205188890,
+    "name": "Alley on 25",
+    "address": "5 Fraser Street Level 25 Andaz Singapore, Singapore 189354 Singapore",
+    "ratings_avg": 9.1,
+    "thumb": "https://static-assets.diningcity.asia/cey2bdmvy9lavyry2c2g7d01qkbs_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8577253,
+    "lat": 1.2992107,
+    "dirname": "alley_on_25",
+    "cover": "https://static-assets.diningcity.asia/cey2bdmvy9lavyry2c2g7d01qkbs_thumb",
+    "avg_price": 60,
+    "format_avg_price": "S$60",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$47 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "brunch",
+        "price": "SG$47 p.p.",
+        "menu_title": "Brunch",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_brunch.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/alley_on_25",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13485,
+        "name": "International",
+        "dir_name": "international",
+        "restaurants_count": 66
+      }
+    ],
+    "tags": [
+      {
+        "id": 24719,
+        "name": "Past Winners",
+        "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756126287da617cbad13507bd4b4424a47c3399.webp"
+      },
+      {
+        "id": 24721,
+        "name": "Hotel Restaurants",
+        "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756126325b004005ca2d4e42c43d8f7ab53fd12.png"
+      }
+    ],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205175711,
+    "name": "Li Bai Cantonese Restaurant",
+    "address": "39 Scotts Rd, Sheraton Towers Singapore, Singapore 228230",
+    "ratings_avg": 8.7,
+    "thumb": "https://static-assets.diningcity.asia/c0hcw16u3c23tstcibfdhyu6jrs4_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8364761,
+    "lat": 1.3118244,
+    "dirname": "li_bai_cantonese_restaurant",
+    "cover": "https://static-assets.diningcity.asia/c0hcw16u3c23tstcibfdhyu6jrs4_thumb",
+    "avg_price": 58,
+    "format_avg_price": "S$58",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$88 p.p.",
+      "SG$88 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$88 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$88 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/li_bai_cantonese_restaurant",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13478,
+        "name": "Chinese",
+        "dir_name": "chinese",
+        "restaurants_count": 45
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205188985,
+    "name": "Butcher's Block",
+    "address": "1 Beach Rd, Singapore 189673",
+    "ratings_avg": 9.4,
+    "thumb": "https://static-assets.diningcity.asia/moyn2puhact0a0xm7oylkeg27mw5_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8544382,
+    "lat": 1.2954836,
+    "dirname": "Butchers_Block",
+    "cover": "https://static-assets.diningcity.asia/moyn2puhact0a0xm7oylkeg27mw5_thumb",
+    "avg_price": 78,
+    "format_avg_price": "S$78",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$78 p.p.",
+      "SG$78 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$78 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$78 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Butchers_Block",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13482,
+        "name": "Grill Dining",
+        "dir_name": "grill_dining",
+        "restaurants_count": 25
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205180536,
+    "name": "Saveur",
+    "address": " 5 Purvis St, #01-04, Singapore 188584",
+    "ratings_avg": 8.6,
+    "thumb": "https://static-assets.diningcity.asia/pzmb8zhjq3f3sjevlyi8i85ulut4_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8549624,
+    "lat": 1.296736,
+    "dirname": "Saveur",
+    "cover": "https://static-assets.diningcity.asia/pzmb8zhjq3f3sjevlyi8i85ulut4_thumb",
+    "avg_price": 38,
+    "format_avg_price": "S$38",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$28 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "dinner",
+        "price": "SG$28 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Saveur",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      },
+      {
+        "id": 13491,
+        "name": "European",
+        "dir_name": "european",
+        "restaurants_count": 87
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205193994,
+    "name": "L'Entrecôte The Steak & Fries Bistro River Valley",
+    "address": "18 Mohamed Sultan Road, Singapore, Singapore, 238967",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/ztnd4w2nk0ybu1kuwxotznrpahke_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "b",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8414732,
+    "lat": 1.2934625,
+    "dirname": "L'Entrecôte_TheSteakandFriesBistro_RiverValley",
+    "cover": "https://static-assets.diningcity.asia/ztnd4w2nk0ybu1kuwxotznrpahke_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$38 L - SG$58 D",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$58 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/L'Entrecôte_TheSteakandFriesBistro_RiverValley",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      },
+      {
+        "id": 13499,
+        "name": "Steakhouse",
+        "dir_name": "steakhouse",
+        "restaurants_count": 24
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205193626,
+    "name": "Mare Hachikyo Singapore",
+    "address": "390 Orchard Rd, #01-07 Palais Renaissance, Singapore 238871",
+    "ratings_avg": 9.2,
+    "thumb": "https://static-assets.diningcity.asia/qcqw2h1g60ho54dq4zc3ng9tqzl5_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8294996,
+    "lat": 1.3066514,
+    "dirname": "Mare_Hachikyo",
+    "cover": "https://static-assets.diningcity.asia/qcqw2h1g60ho54dq4zc3ng9tqzl5_thumb",
+    "avg_price": 108,
+    "format_avg_price": "S$108",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$68 p.p.",
+      "SG$98 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$68 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$98 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Mare_Hachikyo",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13479,
+        "name": "Japanese",
+        "dir_name": "japanese",
+        "restaurants_count": 88
+      },
+      {
+        "id": 13488,
+        "name": "Fusion",
+        "dir_name": "fusion",
+        "restaurants_count": 47
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205190588,
+    "name": "Torio Japanese Restaurant",
+    "address": "9 Scotts Road #01-01/02/03 Pacific Plaza Singapore 228210",
+    "ratings_avg": 8,
+    "thumb": "https://static-assets.diningcity.asia/cfkexagfy2yvqyqwgf5jfmmphv4w_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "a",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8342718,
+    "lat": 1.2848692,
+    "dirname": "Torio_Japanese_Restaurant",
+    "cover": "https://static-assets.diningcity.asia/cfkexagfy2yvqyqwgf5jfmmphv4w_thumb",
+    "avg_price": 188,
+    "format_avg_price": "S$188",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$48 L - SG$68 D",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$68 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$68 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Torio_Japanese_Restaurant",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13479,
+        "name": "Japanese",
+        "dir_name": "japanese",
+        "restaurants_count": 88
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205192160,
+    "name": "Tea Lounge at Conrad Singapore",
+    "address": "1 Cuscaden Rd, Lobby Level, Singapore 249715",
+    "ratings_avg": 8.8,
+    "thumb": "https://static-assets.diningcity.asia/52umx2yn5q2cbhqsiyecn0370yqf_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "special",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8244111,
+    "lat": 1.3041357,
+    "dirname": "tea_lounge_at_conrad_singapore",
+    "cover": "https://static-assets.diningcity.asia/52umx2yn5q2cbhqsiyecn0370yqf_thumb",
+    "avg_price": 78,
+    "format_avg_price": "S$78",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$56 p.p.",
+      "SG$36 p.p.",
+      "SG$40 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "brunch",
+        "price": "SG$56 p.p.",
+        "menu_title": "Brunch",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_brunch.svg"
+      },
+      {
+        "meal_type": "lunch",
+        "price": "SG$36 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "afternoon_tea",
+        "price": "SG$40 p.p.",
+        "menu_title": "Afternoon Tea",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_afternoon_tea.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/tea_lounge_at_conrad_singapore",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13510,
+        "name": "High Tea",
+        "dir_name": "high_tea",
+        "restaurants_count": 11
+      },
+      {
+        "id": 13824,
+        "name": "Afternoon Tea",
+        "dir_name": "afternoon_tea",
+        "restaurants_count": 4
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205193128,
+    "name": "Olivia Restaurant & Lounge",
+    "address": "55 Keong Saik Rd., #01-03, Singapore 089158",
+    "ratings_avg": 9,
+    "thumb": "https://static-assets.diningcity.asia/oix3dmsa6iwi5t1bo335y4e5hap6_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "a",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8416412,
+    "lat": 1.2807293,
+    "dirname": "olivia",
+    "cover": "https://static-assets.diningcity.asia/oix3dmsa6iwi5t1bo335y4e5hap6_thumb",
+    "avg_price": 98,
+    "format_avg_price": "S$98",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$48 L - SG$68 D",
+    "prices": [
+      "SG$48 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/olivia",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13468,
+        "name": "Spanish",
+        "dir_name": "spanish",
+        "restaurants_count": 28
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205180562,
+    "name": "Humpback",
+    "address": "18-20 Bukit Pasoh Road Singapore 089834",
+    "ratings_avg": 9.2,
+    "thumb": "https://static-assets.diningcity.asia/tc5arrhq08lh825talwq2tfkml3s_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8406725,
+    "lat": 1.2791972,
+    "dirname": "Humpback",
+    "cover": "https://static-assets.diningcity.asia/tc5arrhq08lh825talwq2tfkml3s_thumb",
+    "avg_price": 68,
+    "format_avg_price": "S$68",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$42 p.p.",
+      "SG$65 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$42 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$65 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Humpback",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13502,
+        "name": "Seafood",
+        "dir_name": "seafood",
+        "restaurants_count": 16
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195204,
+    "name": "Maison Crown Bistro, Bar & Wine",
+    "address": "165 Telok Ayer St, Singapore 068617",
+    "ratings_avg": 8.7,
+    "thumb": "https://static-assets.diningcity.asia/p4m3taccq6uba1b1dl1crbdla9cm_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "B",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.847481,
+    "lat": 1.2802071,
+    "dirname": "maison_crown",
+    "cover": "https://static-assets.diningcity.asia/p4m3taccq6uba1b1dl1crbdla9cm_thumb",
+    "avg_price": 58,
+    "format_avg_price": "S$58",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$38 L - SG$58 D",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$58 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/maison_crown",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      },
+      {
+        "id": 13491,
+        "name": "European",
+        "dir_name": "european",
+        "restaurants_count": 87
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205174745,
+    "name": "FIRE at 1-Atico",
+    "address": "2 Orchard Turn, #55-01 ION Orchard, Singapore 238801",
+    "ratings_avg": 8.9,
+    "thumb": "https://static-assets.diningcity.asia/uyU83gSLtM1UTTYTLuR5yJKQ_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8319512,
+    "lat": 1.3039288,
+    "dirname": "fire_at_1-atico",
+    "cover": "https://static-assets.diningcity.asia/uyU83gSLtM1UTTYTLuR5yJKQ_thumb",
+    "avg_price": 68,
+    "format_avg_price": "S$68",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$58 p.p.",
+      "SG$78 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$58 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$78 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/fire_at_1-atico",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13507,
+        "name": "Argentinian",
+        "dir_name": "argentinian",
+        "restaurants_count": 4
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205188950,
+    "name": "Firangi Superstar",
+    "address": "20 Craig Rd, #01-03, Singapore 089692",
+    "ratings_avg": 9.5,
+    "thumb": "https://static-assets.diningcity.asia/5866r6np8r6u5zvjnxb4eeha9jv5_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8423541,
+    "lat": 1.2781681,
+    "dirname": "firangi_superstar",
+    "cover": "https://static-assets.diningcity.asia/5866r6np8r6u5zvjnxb4eeha9jv5_thumb",
+    "avg_price": 30,
+    "format_avg_price": "S$30",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$68 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$68 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/firangi_superstar",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13487,
+        "name": "Modern",
+        "dir_name": "modern",
+        "restaurants_count": 56
+      },
+      {
+        "id": 13490,
+        "name": "Indian",
+        "dir_name": "indian",
+        "restaurants_count": 26
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 2055240,
+    "name": "CALI Rochester Park – Pet-Friendly Restaurant & Bar",
+    "address": "31 Rochester Drive #01-01/02, Singapore 138637",
+    "ratings_avg": 7.4,
+    "thumb": "https://static-assets.diningcity.asia/41sjb75d5na92ejeygzttat38tfr_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "C",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.7888898,
+    "lat": 1.3049379,
+    "dirname": "cali_rochester",
+    "cover": "https://static-assets.diningcity.asia/41sjb75d5na92ejeygzttat38tfr_thumb",
+    "avg_price": 28,
+    "format_avg_price": "S$28",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$28 L - SG$38 D",
+    "prices": [
+      "SG$28 p.p.",
+      "SG$38 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$28 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$38 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/cali_rochester",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13485,
+        "name": "International",
+        "dir_name": "international",
+        "restaurants_count": 66
+      },
+      {
+        "id": 13822,
+        "name": "Mexican",
+        "dir_name": "mexican",
+        "restaurants_count": 6
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000229,
+        "name": "South West",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195076,
+    "name": "YAKINIQUEST",
+    "address": "333A Orchard Rd Mandarin Gallery, #04-08/09/10, Singapore 238897",
+    "ratings_avg": 8.7,
+    "thumb": "https://static-assets.diningcity.asia/arnxwtmiakjteqpc4ixmnvobxakg_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8363403,
+    "lat": 1.3020878,
+    "dirname": "YAKINIQUEST",
+    "cover": "https://static-assets.diningcity.asia/arnxwtmiakjteqpc4ixmnvobxakg_thumb",
+    "avg_price": 100,
+    "format_avg_price": "S$100",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$98 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$98 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/YAKINIQUEST",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13479,
+        "name": "Japanese",
+        "dir_name": "japanese",
+        "restaurants_count": 88
+      },
+      {
+        "id": 13482,
+        "name": "Grill Dining",
+        "dir_name": "grill_dining",
+        "restaurants_count": 25
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205189596,
+    "name": "Kappou",
+    "address": "18 Robinson Rd, #03-01, Singapore 048547",
+    "ratings_avg": 9.7,
+    "thumb": "https://static-assets.diningcity.asia/xvw19i3rqukztrgnxslqca7554cn_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.850738,
+    "lat": 1.2818358,
+    "dirname": "kappou",
+    "cover": "https://static-assets.diningcity.asia/xvw19i3rqukztrgnxslqca7554cn_thumb",
+    "avg_price": 128,
+    "format_avg_price": "S$128",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$128 p.p.",
+      "SG$258 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$128 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$258 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/kappou",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13479,
+        "name": "Japanese",
+        "dir_name": "japanese",
+        "restaurants_count": 88
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205194944,
+    "name": "The Plump Frenchman",
+    "address": "20 Tan Quee Lan St, #01-20 Guoco Midtown II, Singapore 188107",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/8blkznvsugziacanyos1v6yll685_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8568306,
+    "lat": 1.2985824,
+    "dirname": "theplump_frenchman",
+    "cover": "https://static-assets.diningcity.asia/8blkznvsugziacanyos1v6yll685_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$28 p.p.",
+      "SG$38 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$28 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$38 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/theplump_frenchman",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205191666,
+    "name": "Pacific Emporium",
+    "address": "Pan Pacific Singapore 7 Raffles Blvd, Singapore 039595",
+    "ratings_avg": 9.2,
+    "thumb": "https://static-assets.diningcity.asia/9h2ohkj2quku6bzkp5avjlvehg8v_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "special",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8587186,
+    "lat": 1.2919681,
+    "dirname": "pacific_emporium_sg",
+    "cover": "https://static-assets.diningcity.asia/9h2ohkj2quku6bzkp5avjlvehg8v_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$35 p.p.",
+      "SG$45 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$35 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$45 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/pacific_emporium_sg",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13485,
+        "name": "International",
+        "dir_name": "international",
+        "restaurants_count": 66
+      },
+      {
+        "id": 13491,
+        "name": "European",
+        "dir_name": "european",
+        "restaurants_count": 87
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205190482,
+    "name": "Shikar",
+    "address": "2 Cook St, Maxwell Reserve, Singapore 078857",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/b8wzt71gbpdejuv983nnwfe1xeoh_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "special",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8443954,
+    "lat": 1.2788723,
+    "dirname": "shikar",
+    "cover": "https://static-assets.diningcity.asia/b8wzt71gbpdejuv983nnwfe1xeoh_thumb",
+    "avg_price": 78,
+    "format_avg_price": "S$78",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$98 p.p.",
+      "SG$58 p.p.",
+      "SG$98 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "brunch",
+        "price": "SG$98 p.p.",
+        "menu_title": "Brunch",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_brunch.svg"
+      },
+      {
+        "meal_type": "lunch",
+        "price": "SG$58 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$98 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/shikar",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13490,
+        "name": "Indian",
+        "dir_name": "indian",
+        "restaurants_count": 26
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205176100,
+    "name": "UNA at The Alkaff Mansion",
+    "address": "10 Telok Blangah Green, Level 2, Singapore 109178",
+    "ratings_avg": 8.6,
+    "thumb": "https://static-assets.diningcity.asia/rio76ny28172kkoart0nlk7szria_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "B",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.813289,
+    "lat": 1.278877,
+    "dirname": "una_at_the_alkaff_mansion",
+    "cover": "https://static-assets.diningcity.asia/rio76ny28172kkoart0nlk7szria_thumb",
+    "avg_price": 40,
+    "format_avg_price": "S$40",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$38 L - SG$58 D",
+    "prices": [
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "dinner",
+        "price": "SG$58 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/una_at_the_alkaff_mansion",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13468,
+        "name": "Spanish",
+        "dir_name": "spanish",
+        "restaurants_count": 28
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000226,
+        "name": "North East",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205178892,
+    "name": "OUMI Modern Japanese Kappo Restaurant",
+    "address": "88 Market St, #51-01, Singapore 048948",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/uz2m90s1yc96uxa2427unhlvf3qa_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8501235,
+    "lat": 1.2837048,
+    "dirname": "oumi_singapore",
+    "cover": "https://static-assets.diningcity.asia/uz2m90s1yc96uxa2427unhlvf3qa_thumb",
+    "avg_price": 150,
+    "format_avg_price": "S$150",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$78 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "dinner",
+        "price": "SG$78 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/oumi_singapore",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13479,
+        "name": "Japanese",
+        "dir_name": "japanese",
+        "restaurants_count": 88
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205174689,
+    "name": "Oscar's ",
+    "address": "2 Temasek Blvd, Singapore 038982",
+    "ratings_avg": 8.1,
+    "thumb": "https://static-assets.diningcity.asia/xw44lgyh3ro7no5sm1eocytee5kg_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8588092,
+    "lat": 1.29343,
+    "dirname": "oscar_039_s",
+    "cover": "https://static-assets.diningcity.asia/xw44lgyh3ro7no5sm1eocytee5kg_thumb",
+    "avg_price": 49,
+    "format_avg_price": "S$49",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$54 p.p.",
+      "SG$54 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$54 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$54 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/oscar_039_s",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13485,
+        "name": "International",
+        "dir_name": "international",
+        "restaurants_count": 66
+      },
+      {
+        "id": 13494,
+        "name": "Buffet",
+        "dir_name": "buffet",
+        "restaurants_count": 13
+      }
+    ],
+    "tags": [
+      {
+        "id": 24723,
+        "name": "Hotel Buffet",
+        "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756126399697bda2bd0c2c91edb71c812983535.jpg"
+      }
+    ],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 2055275,
+    "name": "Meatsmith Telok Ayer",
+    "address": "167-169 Telok Ayer St",
+    "ratings_avg": 8.2,
+    "thumb": "https://static-assets.diningcity.asia/ziawb1782r4efkwfbdwwuzjstryv_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "B",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.847458,
+    "lat": 1.280169,
+    "dirname": "meatsmith_telok_ayer",
+    "cover": "https://static-assets.diningcity.asia/ziawb1782r4efkwfbdwwuzjstryv_thumb",
+    "avg_price": 38,
+    "format_avg_price": "S$38",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$38 L - SG$58 D",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$58 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/meatsmith_telok_ayer",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13492,
+        "name": "BBQ",
+        "dir_name": "bbq",
+        "restaurants_count": 6
+      },
+      {
+        "id": 13623,
+        "name": "American",
+        "dir_name": "american",
+        "restaurants_count": 10
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195084,
+    "name": "Alice Boulangerie & Restaurant - Raffles City",
+    "address": "252 N Bridge Rd, #01-22A Raffles City Shopping Centre, Singapore 179103",
+    "ratings_avg": 8.1,
+    "thumb": "https://static-assets.diningcity.asia/bz0t6qa4pg60l35mlbbgch8to0j4_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8531473,
+    "lat": 1.29401,
+    "dirname": "Alice_Boulangerie_and_Restaurant_Raffles_City",
+    "cover": "https://static-assets.diningcity.asia/bz0t6qa4pg60l35mlbbgch8to0j4_thumb",
+    "avg_price": 38,
+    "format_avg_price": "S$38",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$58 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Alice_Boulangerie_and_Restaurant_Raffles_City",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      },
+      {
+        "id": 13487,
+        "name": "Modern",
+        "dir_name": "modern",
+        "restaurants_count": 56
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 2055541,
+    "name": "Zorba The Greek Taverna",
+    "address": "#ORA 1  BLK A – CLARKE QUAY  3A RIVER VALLEY ROAD  SINGAPORE 179020",
+    "ratings_avg": 6.9,
+    "thumb": "https://static-assets.diningcity.asia/3v3u4zbwp5o4g677uh1htjeu9p1b_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8448929,
+    "lat": 1.2903646,
+    "dirname": "zorba_the_greek_taverna",
+    "cover": "https://static-assets.diningcity.asia/3v3u4zbwp5o4g677uh1htjeu9p1b_thumb",
+    "avg_price": 28,
+    "format_avg_price": "S$28",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$28 p.p.",
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$28 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$58 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/zorba_the_greek_taverna",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13467,
+        "name": "Greek",
+        "dir_name": "greek",
+        "restaurants_count": 2
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 2055219,
+    "name": "Bistro Gaston",
+    "address": "25 Keong Saik Rd",
+    "ratings_avg": 9.2,
+    "thumb": "https://static-assets.diningcity.asia/restaurantpictures/2020/431b25003159ba9accc2e03369733228.jpeg_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "b",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.84145,
+    "lat": 1.279837,
+    "dirname": "gaston",
+    "cover": "https://static-assets.diningcity.asia/restaurantpictures/2020/431b25003159ba9accc2e03369733228.jpeg_thumb",
+    "avg_price": 38,
+    "format_avg_price": "S$38",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$38 L - SG$58 D",
+    "prices": [
+      "SG$38 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/gaston",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205190726,
+    "name": "Le Petit Paris",
+    "address": "15 Swan Lake Ave, Opera Estate, Singapore 455711",
+    "ratings_avg": 9,
+    "thumb": "https://static-assets.diningcity.asia/kof3mzn4ikcqu2noao6kk5frtwzt_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.9241436,
+    "lat": 1.3212661,
+    "dirname": "le_petit_paris",
+    "cover": "https://static-assets.diningcity.asia/kof3mzn4ikcqu2noao6kk5frtwzt_thumb",
+    "avg_price": 38,
+    "format_avg_price": "S$38",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$48 p.p.",
+      "SG$78 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "afternoon_tea",
+        "price": "SG$48 p.p.",
+        "menu_title": "Afternoon Tea",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_afternoon_tea.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$78 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/le_petit_paris",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      },
+      {
+        "id": 13491,
+        "name": "European",
+        "dir_name": "european",
+        "restaurants_count": 87
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000228,
+        "name": "South East",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205196416,
+    "name": "Portman's Bar",
+    "address": "6 Raffles Blvd, Level 4 PARKROYAL COLLECTION Marina Bay, Singapore 039594",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/qyqzgjq5l7udrl46ktzhrofyd093_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "special",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8571184,
+    "lat": 1.2917922,
+    "dirname": "portman_s_bar",
+    "cover": "https://static-assets.diningcity.asia/qyqzgjq5l7udrl46ktzhrofyd093_thumb",
+    "avg_price": 65,
+    "format_avg_price": "S$65",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$38 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$38 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/portman_s_bar",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13485,
+        "name": "International",
+        "dir_name": "international",
+        "restaurants_count": 66
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205190654,
+    "name": "Godmama at Parkway Parade - Modern Peranakan Restaurant Singapore",
+    "address": "80 Marine Parade Road, #01-69A Parkway Parade, Singapore 449269",
+    "ratings_avg": 9.1,
+    "thumb": "https://static-assets.diningcity.asia/193j4ly18cuygb7z6pkz464x6x2u_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.9051552,
+    "lat": 1.3014702,
+    "dirname": "godmama_at_parkway_parade",
+    "cover": "https://static-assets.diningcity.asia/193j4ly18cuygb7z6pkz464x6x2u_thumb",
+    "avg_price": 28,
+    "format_avg_price": "S$28",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$18 p.p.",
+      "SG$28 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$18 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$28 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/godmama_at_parkway_parade",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13473,
+        "name": "Singaporean",
+        "dir_name": "singaporean",
+        "restaurants_count": 17
+      },
+      {
+        "id": 13486,
+        "name": "Asian",
+        "dir_name": "asian",
+        "restaurants_count": 65
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195138,
+    "name": "NOX - Dine in the Dark",
+    "address": "83 Club St, Singapore 069451",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/5neg06ent4gszw2z4rku4u7huumu_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8457327,
+    "lat": 1.281777,
+    "dirname": "nox_dine_in_the_dark",
+    "cover": "https://static-assets.diningcity.asia/5neg06ent4gszw2z4rku4u7huumu_thumb",
+    "avg_price": 108,
+    "format_avg_price": "S$108",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$98 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "dinner",
+        "price": "SG$98 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/nox_dine_in_the_dark",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13487,
+        "name": "Modern",
+        "dir_name": "modern",
+        "restaurants_count": 56
+      },
+      {
+        "id": 13491,
+        "name": "European",
+        "dir_name": "european",
+        "restaurants_count": 87
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205193622,
+    "name": "Le Clos",
+    "address": "46 Kim Yam Road #01-18, Level 1 New Bahru, Singapore 239351",
+    "ratings_avg": 9,
+    "thumb": "https://static-assets.diningcity.asia/yfnlc4gbhkxniopuw3vomp53c583_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "A",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8386992,
+    "lat": 1.2928106,
+    "dirname": "Le_Clos",
+    "cover": "https://static-assets.diningcity.asia/yfnlc4gbhkxniopuw3vomp53c583_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$48 L - SG$68 D",
+    "prices": [
+      "SG$48 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Le_Clos",
+    "michelin_stars_text": "",
+    "cuisines": [],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205190142,
+    "name": "Moss Cross Tokyo Singapore",
+    "address": "181 South Bridge Rd, #02-01 Capri by Fraser China Square, Singapore 058743",
+    "ratings_avg": 8.6,
+    "thumb": "https://static-assets.diningcity.asia/g2rluon3vofzs57narnspmfgm1fb_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "special",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8468328,
+    "lat": 1.2839845,
+    "dirname": "moss_cross_tokyo_singapore",
+    "cover": "https://static-assets.diningcity.asia/g2rluon3vofzs57narnspmfgm1fb_thumb",
+    "avg_price": 150,
+    "format_avg_price": "S$150",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$88 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$88 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/moss_cross_tokyo_singapore",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      },
+      {
+        "id": 13488,
+        "name": "Fusion",
+        "dir_name": "fusion",
+        "restaurants_count": 47
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 2055727,
+    "name": "L'Entrecôte The Steak and Fries Bistro (Duxton Hill)",
+    "address": "36 Duxton Hill",
+    "ratings_avg": 8.3,
+    "thumb": "https://static-assets.diningcity.asia/7j09y12j5sjcmzqaoi1wein0irq1_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "B",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8428048,
+    "lat": 1.2784789,
+    "dirname": "l_039_entrecote_the_steak_fries_bistro",
+    "cover": "https://static-assets.diningcity.asia/7j09y12j5sjcmzqaoi1wein0irq1_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$38 L - SG$58 D",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$58 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/l_039_entrecote_the_steak_fries_bistro",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      },
+      {
+        "id": 13499,
+        "name": "Steakhouse",
+        "dir_name": "steakhouse",
+        "restaurants_count": 24
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 2055222,
+    "name": "Golden Peony",
+    "address": "2 Temasek Blvd, Level 3 Conrad Centennial Hotel",
+    "ratings_avg": 8.8,
+    "thumb": "https://static-assets.diningcity.asia/restaurantpictures/2020/63c9deb55bef970944c0e3c1b9d3dba4.jpg_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8588092,
+    "lat": 1.29343,
+    "dirname": "golden_peony",
+    "cover": "https://static-assets.diningcity.asia/restaurantpictures/2020/63c9deb55bef970944c0e3c1b9d3dba4.jpg_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$50 p.p.",
+      "SG$60 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$50 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$60 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/golden_peony",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13478,
+        "name": "Chinese",
+        "dir_name": "chinese",
+        "restaurants_count": 45
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195080,
+    "name": "Pranakorn Authentic Thai Food",
+    "address": "326 Serangoon Ave 3, #01-380, Singapore 550326",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/ha5lkh9x6sicm6zy08pj3r502agd_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8689723,
+    "lat": 1.3503871,
+    "dirname": "Pranakorn_Authentic_Thai_Food",
+    "cover": "https://static-assets.diningcity.asia/ha5lkh9x6sicm6zy08pj3r502agd_thumb",
+    "avg_price": 20,
+    "format_avg_price": "S$20",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$32 p.p.",
+      "SG$42 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$32 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$42 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Pranakorn_Authentic_Thai_Food",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13475,
+        "name": "Thai",
+        "dir_name": "thai",
+        "restaurants_count": 11
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000229,
+        "name": "South West",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195064,
+    "name": "L'Amo Bistrò del Mare",
+    "address": "11 Canning Walk, Singapore 178881",
+    "ratings_avg": 8.9,
+    "thumb": "https://static-assets.diningcity.asia/s079pgicpafyo9c443vgk3b0jiyg_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8454732,
+    "lat": 1.295966,
+    "dirname": "LAmo_Bistro_del_Mare",
+    "cover": "https://static-assets.diningcity.asia/s079pgicpafyo9c443vgk3b0jiyg_thumb",
+    "avg_price": 108,
+    "format_avg_price": "S$108",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$78 p.p.",
+      "SG$48 p.p.",
+      "SG$78 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "brunch",
+        "price": "SG$78 p.p.",
+        "menu_title": "Brunch",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_brunch.svg"
+      },
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$78 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/LAmo_Bistro_del_Mare",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13465,
+        "name": "Italian",
+        "dir_name": "italian",
+        "restaurants_count": 76
+      },
+      {
+        "id": 13488,
+        "name": "Fusion",
+        "dir_name": "fusion",
+        "restaurants_count": 47
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205196716,
+    "name": "L'Entrecôte The Steak & Fries Bistro",
+    "address": "693 E Coast Rd, Singapore 459058",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/9gfz6c05cymhzypnar44z55d6r31_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "B",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.9218812,
+    "lat": 1.3118571,
+    "dirname": "lentrecote_the_steak_and_fries_bistro_singapore",
+    "cover": "https://static-assets.diningcity.asia/9gfz6c05cymhzypnar44z55d6r31_thumb",
+    "avg_price": 65,
+    "format_avg_price": "S$65",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$38 L - SG$58 D",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$58 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/lentrecote_the_steak_and_fries_bistro_singapore",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000228,
+        "name": "South East",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205193338,
+    "name": "Tempura Ensei",
+    "address": "390 Orchard Road B1-06/07 Palais Rennaisance Singapore 238871",
+    "ratings_avg": 9.5,
+    "thumb": "https://static-assets.diningcity.asia/ac86eyhf795j115p17v0qkyvhlgu_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8295057,
+    "lat": 1.3066492,
+    "dirname": "tempura_ensei",
+    "cover": "https://static-assets.diningcity.asia/ac86eyhf795j115p17v0qkyvhlgu_thumb",
+    "avg_price": 100,
+    "format_avg_price": "S$100",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$68 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$68 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/tempura_ensei",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13479,
+        "name": "Japanese",
+        "dir_name": "japanese",
+        "restaurants_count": 88
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205178206,
+    "name": "Tablescape Restaurant and Bar",
+    "address": "10 Coleman St, Level 3, Singapore 179809",
+    "ratings_avg": 8.9,
+    "thumb": "https://static-assets.diningcity.asia/654y2odoexmx5kt8pmoqqsymix1e_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8502489,
+    "lat": 1.2927303,
+    "dirname": "Tablescape_Restaurant_and_Bar",
+    "cover": "https://static-assets.diningcity.asia/654y2odoexmx5kt8pmoqqsymix1e_thumb",
+    "avg_price": 88,
+    "format_avg_price": "S$88",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$48 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$48 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Tablescape_Restaurant_and_Bar",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13487,
+        "name": "Modern",
+        "dir_name": "modern",
+        "restaurants_count": 56
+      },
+      {
+        "id": 13491,
+        "name": "European",
+        "dir_name": "european",
+        "restaurants_count": 87
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 2055208,
+    "name": "The Spot",
+    "address": "5 Straits View, #01-26/27 Marina One",
+    "ratings_avg": 8.9,
+    "thumb": "https://static-assets.diningcity.asia/12hb6wae9f2rphi784iyb9yp5nk6_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "special",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8525394,
+    "lat": 1.2782987,
+    "dirname": "the_spot",
+    "cover": "https://static-assets.diningcity.asia/12hb6wae9f2rphi784iyb9yp5nk6_thumb",
+    "avg_price": 28,
+    "format_avg_price": "S$28",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$48 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$48 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/the_spot",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13481,
+        "name": "Contemporary",
+        "dir_name": "contemporary",
+        "restaurants_count": 38
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 2055270,
+    "name": "The French Ladle",
+    "address": "2 Pandan Valley",
+    "ratings_avg": 8.5,
+    "thumb": "https://static-assets.diningcity.asia/b5s1j86ehsuhgux4shvb1i20xjej_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.7789302,
+    "lat": 1.3204349,
+    "dirname": "the_french_ladle",
+    "cover": "https://static-assets.diningcity.asia/b5s1j86ehsuhgux4shvb1i20xjej_thumb",
+    "avg_price": 38,
+    "format_avg_price": "S$38",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$32 p.p.",
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$32 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$58 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/the_french_ladle",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205178890,
+    "name": "Kaarla Wood-Fire Grill and Bar",
+    "address": "88 Market St, #51-02, CapitaSpring 048948",
+    "ratings_avg": 9.1,
+    "thumb": "https://static-assets.diningcity.asia/gebnnk5h0231mzuuf0royc72yaj1_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8503315,
+    "lat": 1.283778,
+    "dirname": "kaarla",
+    "cover": "https://static-assets.diningcity.asia/gebnnk5h0231mzuuf0royc72yaj1_thumb",
+    "avg_price": 108,
+    "format_avg_price": "S$108",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$58 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/kaarla",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13484,
+        "name": "Australian",
+        "dir_name": "australian",
+        "restaurants_count": 13
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205177182,
+    "name": "FOC Restaurant ",
+    "address": "32 Keong Saik Rd., Singapore 089139",
+    "ratings_avg": 9.1,
+    "thumb": "https://static-assets.diningcity.asia/tlr5rt9g63vjov2nz114fzgicmvf_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8417202,
+    "lat": 1.2803004,
+    "dirname": "FOC_Restaurant",
+    "cover": "https://static-assets.diningcity.asia/tlr5rt9g63vjov2nz114fzgicmvf_thumb",
+    "avg_price": 70,
+    "format_avg_price": "S$70",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$88 p.p.",
+      "SG$88 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$88 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$88 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/FOC_Restaurant",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13468,
+        "name": "Spanish",
+        "dir_name": "spanish",
+        "restaurants_count": 28
+      },
+      {
+        "id": 13491,
+        "name": "European",
+        "dir_name": "european",
+        "restaurants_count": 87
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205175056,
+    "name": "Jiang-Nan Chun",
+    "address": "190 Orchard Blvd, Singapore 248646",
+    "ratings_avg": 9.7,
+    "thumb": "https://static-assets.diningcity.asia/7dheey2yq16iyr201h6zsdzghc9n_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8284188,
+    "lat": 1.3051922,
+    "dirname": "jiang-nan_chun",
+    "cover": "https://static-assets.diningcity.asia/7dheey2yq16iyr201h6zsdzghc9n_thumb",
+    "avg_price": 158,
+    "format_avg_price": "S$158",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$80 p.p.",
+      "SG$190 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$80 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$190 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/jiang-nan_chun",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13478,
+        "name": "Chinese",
+        "dir_name": "chinese",
+        "restaurants_count": 45
+      },
+      {
+        "id": 13498,
+        "name": "Cantonese",
+        "dir_name": "cantonese",
+        "restaurants_count": 14
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195070,
+    "name": "Sushi Ayumu by Masa Ishibashi",
+    "address": "333A Orchard Rd, #04-16 Mandarin Gallery, Singapore 238897",
+    "ratings_avg": 9.5,
+    "thumb": "https://static-assets.diningcity.asia/tb9v1t0tjo995g04fh2c6t10sfwj_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8363403,
+    "lat": 1.3020878,
+    "dirname": "Sushi_Ayumu_by_Masa_Ishibashi",
+    "cover": "https://static-assets.diningcity.asia/tb9v1t0tjo995g04fh2c6t10sfwj_thumb",
+    "avg_price": 198,
+    "format_avg_price": "S$198",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$180 p.p.",
+      "SG$350 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$180 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$350 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Sushi_Ayumu_by_Masa_Ishibashi",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13479,
+        "name": "Japanese",
+        "dir_name": "japanese",
+        "restaurants_count": 88
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205196762,
+    "name": "Godmama at Funan - Modern Peranakan Restaurant Singapore",
+    "address": "107 N Bridge Rd, #04-07, Singapore 179105",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/3p1io8mlhm4v46ai5533wb1eim4t_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "C",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.850074,
+    "lat": 1.29133,
+    "dirname": "godmama_at_funan_modern_peranakan_restaurant_singapore_singapore",
+    "cover": "https://static-assets.diningcity.asia/3p1io8mlhm4v46ai5533wb1eim4t_thumb",
+    "avg_price": 80,
+    "format_avg_price": "S$80",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$28 L - SG$38 D",
+    "prices": [
+      "SG$28 p.p.",
+      "SG$38 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$28 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$38 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/godmama_at_funan_modern_peranakan_restaurant_singapore_singapore",
+    "michelin_stars_text": "",
+    "cuisines": [],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195068,
+    "name": "The White Label",
+    "address": "101 Jalan Sultan, The Sultan, #01-02",
+    "ratings_avg": 7.7,
+    "thumb": "https://static-assets.diningcity.asia/18j973olmib056qi8fsvv44nmgee_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "B",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8609092,
+    "lat": 1.3036871,
+    "dirname": "The_White_Label",
+    "cover": "https://static-assets.diningcity.asia/18j973olmib056qi8fsvv44nmgee_thumb",
+    "avg_price": 28,
+    "format_avg_price": "S$28",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$38 L - SG$58 D",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$58 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/The_White_Label",
+    "michelin_stars_text": "",
+    "cuisines": [],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205191658,
+    "name": "Hai Tien Lo",
+    "address": " Pan Pacific Singapore 7 Raffles Blvd, Singapore 039595",
+    "ratings_avg": 7.5,
+    "thumb": "https://static-assets.diningcity.asia/pme90hwusegh9ruhou0amyk39zm1_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8587186,
+    "lat": 1.2919681,
+    "dirname": "haitienlosg",
+    "cover": "https://static-assets.diningcity.asia/pme90hwusegh9ruhou0amyk39zm1_thumb",
+    "avg_price": 128,
+    "format_avg_price": "S$128",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$58 p.p.",
+      "SG$98 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$58 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$98 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/haitienlosg",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13478,
+        "name": "Chinese",
+        "dir_name": "chinese",
+        "restaurants_count": 45
+      },
+      {
+        "id": 13498,
+        "name": "Cantonese",
+        "dir_name": "cantonese",
+        "restaurants_count": 14
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 2055363,
+    "name": "Waterfall Ristorante Italiano",
+    "address": "22 Orange Grove Rd, Level One",
+    "ratings_avg": 8.8,
+    "thumb": "https://static-assets.diningcity.asia/9zz3zxurihsx70c1q2oxdcu0asp4_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8265168,
+    "lat": 1.3112751,
+    "dirname": "waterfall_ristorante_italiano",
+    "cover": "https://static-assets.diningcity.asia/9zz3zxurihsx70c1q2oxdcu0asp4_thumb",
+    "avg_price": 58,
+    "format_avg_price": "S$58",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$35 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$35 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/waterfall_ristorante_italiano",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13465,
+        "name": "Italian",
+        "dir_name": "italian",
+        "restaurants_count": 76
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205173372,
+    "name": "La Brasserie",
+    "address": "80 Collyer Quay",
+    "ratings_avg": 8.8,
+    "thumb": "https://static-assets.diningcity.asia/3km0aua9ftwo9dlbu4myvawq8qdy_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8535294,
+    "lat": 1.2839449,
+    "dirname": "la_brasserie_aat3",
+    "cover": "https://static-assets.diningcity.asia/3km0aua9ftwo9dlbu4myvawq8qdy_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$78 p.p.",
+      "SG$78 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "brunch",
+        "price": "SG$78 p.p.",
+        "menu_title": "Brunch",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_brunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$78 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/la_brasserie_aat3",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205191660,
+    "name": "Edge",
+    "address": "7 Raffles Blvd, Level 3 Pan Pacific, Singapore 039595",
+    "ratings_avg": 8.6,
+    "thumb": "https://static-assets.diningcity.asia/pvgxmgcv6z4bj995l2ucm7qp9iis_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "special",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8587186,
+    "lat": 1.2919681,
+    "dirname": "edge_sg",
+    "cover": "https://static-assets.diningcity.asia/pvgxmgcv6z4bj995l2ucm7qp9iis_thumb",
+    "avg_price": 78,
+    "format_avg_price": "S$78",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$100 p.p.",
+      "SG$62 p.p.",
+      "SG$100 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "brunch",
+        "price": "SG$100 p.p.",
+        "menu_title": "Brunch",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_brunch.svg"
+      },
+      {
+        "meal_type": "lunch",
+        "price": "SG$62 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$100 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/edge_sg",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13485,
+        "name": "International",
+        "dir_name": "international",
+        "restaurants_count": 66
+      },
+      {
+        "id": 13494,
+        "name": "Buffet",
+        "dir_name": "buffet",
+        "restaurants_count": 13
+      }
+    ],
+    "tags": [
+      {
+        "id": 24723,
+        "name": "Hotel Buffet",
+        "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756126399697bda2bd0c2c91edb71c812983535.jpg"
+      }
+    ],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195132,
+    "name": "SABòR Cocina Y Tapas",
+    "address": "30 Victoria St, #01-33 Chijmes, Singapore 187996",
+    "ratings_avg": 8.2,
+    "thumb": "https://static-assets.diningcity.asia/8xux2u4myiumsj9zer4rab5nrnp6_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8522414,
+    "lat": 1.2950388,
+    "dirname": "sabor_cocina",
+    "cover": "https://static-assets.diningcity.asia/8xux2u4myiumsj9zer4rab5nrnp6_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$58 p.p.",
+      "SG$68 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$58 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$68 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/sabor_cocina",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13468,
+        "name": "Spanish",
+        "dir_name": "spanish",
+        "restaurants_count": 28
+      },
+      {
+        "id": 13481,
+        "name": "Contemporary",
+        "dir_name": "contemporary",
+        "restaurants_count": 38
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205192176,
+    "name": "Tapas24",
+    "address": "60 Robertson Quay, #01-04 The Quayside, Singapore 238252",
+    "ratings_avg": 8.2,
+    "thumb": "https://static-assets.diningcity.asia/uavzhp174xtewehkaf548pu6mumy_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8391251,
+    "lat": 1.2901235,
+    "dirname": "Tapas_24",
+    "cover": "https://static-assets.diningcity.asia/uavzhp174xtewehkaf548pu6mumy_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$35 p.p.",
+      "SG$75 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$35 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$75 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Tapas_24",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13468,
+        "name": "Spanish",
+        "dir_name": "spanish",
+        "restaurants_count": 28
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205192950,
+    "name": "Les Bouchons Steakhouse Ann Siang",
+    "address": "7 Ann Siang Rd, Singapore 069689",
+    "ratings_avg": 8.1,
+    "thumb": "https://static-assets.diningcity.asia/9fg9fbgan1eaaux28nxd12qio91t_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8455104,
+    "lat": 1.2814489,
+    "dirname": "Les_Bouchons _Ann_ Siang _Hill",
+    "cover": "https://static-assets.diningcity.asia/9fg9fbgan1eaaux28nxd12qio91t_thumb",
+    "avg_price": 78,
+    "format_avg_price": "S$78",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$36 p.p.",
+      "SG$78 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$36 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$78 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Les_Bouchons _Ann_ Siang _Hill",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      },
+      {
+        "id": 13499,
+        "name": "Steakhouse",
+        "dir_name": "steakhouse",
+        "restaurants_count": 24
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205178400,
+    "name": "LUCE",
+    "address": "80 Middle Road, Frasers House, a Luxury Collection Hotel, Singapore 188966",
+    "ratings_avg": 7.6,
+    "thumb": "https://static-assets.diningcity.asia/qmeq9g87hmv4j6dgbl1ugk9m7yu7_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.854865,
+    "lat": 1.2984504,
+    "dirname": "luce_frasershouse",
+    "cover": "https://static-assets.diningcity.asia/qmeq9g87hmv4j6dgbl1ugk9m7yu7_thumb",
+    "avg_price": 88,
+    "format_avg_price": "S$88",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$74 p.p.",
+      "SG$55 p.p.",
+      "SG$74 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "brunch",
+        "price": "SG$74 p.p.",
+        "menu_title": "Brunch",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_brunch.svg"
+      },
+      {
+        "meal_type": "lunch",
+        "price": "SG$55 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$74 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/luce_frasershouse",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13465,
+        "name": "Italian",
+        "dir_name": "italian",
+        "restaurants_count": 76
+      },
+      {
+        "id": 13494,
+        "name": "Buffet",
+        "dir_name": "buffet",
+        "restaurants_count": 13
+      }
+    ],
+    "tags": [
+      {
+        "id": 24723,
+        "name": "Hotel Buffet",
+        "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756126399697bda2bd0c2c91edb71c812983535.jpg"
+      }
+    ],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205188852,
+    "name": "Duomo Ristorante",
+    "address": "30 Victoria St, #01-32 CHIJMES, Singapore 187996",
+    "ratings_avg": 7.4,
+    "thumb": "https://static-assets.diningcity.asia/6svp5iwr06w9dii12au1xn7nvpas_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8519491,
+    "lat": 1.2948852,
+    "dirname": "Duomo_Ristorante",
+    "cover": "https://static-assets.diningcity.asia/6svp5iwr06w9dii12au1xn7nvpas_thumb",
+    "avg_price": 38,
+    "format_avg_price": "S$38",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$68 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$68 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Duomo_Ristorante",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13465,
+        "name": "Italian",
+        "dir_name": "italian",
+        "restaurants_count": 76
+      },
+      {
+        "id": 13516,
+        "name": "Mediterranean",
+        "dir_name": "mediterranean",
+        "restaurants_count": 13
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205192948,
+    "name": "Les Bouchons Steakhouse Robertson Quay",
+    "address": "60 Robertson Quay, #01-02, Singapore 238252",
+    "ratings_avg": 8.5,
+    "thumb": "https://static-assets.diningcity.asia/rr6vnzzc1ob8xyc9ocjp2g0chwqn_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8395029,
+    "lat": 1.2904037,
+    "dirname": "Les _Bouchons_ Robertson_ Quay",
+    "cover": "https://static-assets.diningcity.asia/rr6vnzzc1ob8xyc9ocjp2g0chwqn_thumb",
+    "avg_price": 78,
+    "format_avg_price": "S$78",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$36 p.p.",
+      "SG$78 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$36 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$78 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Les _Bouchons_ Robertson_ Quay",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      },
+      {
+        "id": 13499,
+        "name": "Steakhouse",
+        "dir_name": "steakhouse",
+        "restaurants_count": 24
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205175270,
+    "name": "Kan Sushi (Robertson Quay)",
+    "address": "30 Robertson Quay, Singapore 238251",
+    "ratings_avg": 7.7,
+    "thumb": "https://static-assets.diningcity.asia/kgd6j8c37zov1udkake6r3bkkw73_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8414166,
+    "lat": 1.291333,
+    "dirname": "kan_sushi_robertson_quay",
+    "cover": "https://static-assets.diningcity.asia/kgd6j8c37zov1udkake6r3bkkw73_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$128 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$128 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/kan_sushi_robertson_quay",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13479,
+        "name": "Japanese",
+        "dir_name": "japanese",
+        "restaurants_count": 88
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205194002,
+    "name": "Cultivate",
+    "address": "2 Cook St, Maxwell Reserve, Singapore 078857",
+    "ratings_avg": 7,
+    "thumb": "https://static-assets.diningcity.asia/tlbcfpoaasqzrvlw1ylzferyn3e7_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "A",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8443955,
+    "lat": 1.2788723,
+    "dirname": "Cultivate_Cafe",
+    "cover": "https://static-assets.diningcity.asia/tlbcfpoaasqzrvlw1ylzferyn3e7_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$48 L - SG$68 D",
+    "prices": [
+      "SG$48 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Cultivate_Cafe",
+    "michelin_stars_text": "",
+    "cuisines": [],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205178376,
+    "name": "Sol & Ora",
+    "address": "10 Artillery Ave, #07-01, 099951",
+    "ratings_avg": 8.6,
+    "thumb": "https://static-assets.diningcity.asia/5h4h2mz9gve2yrbj7rjj2zb3bsoy_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8203751,
+    "lat": 1.253599,
+    "dirname": "Sol_and_Ora",
+    "cover": "https://static-assets.diningcity.asia/5h4h2mz9gve2yrbj7rjj2zb3bsoy_thumb",
+    "avg_price": 68,
+    "format_avg_price": "S$68",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$52 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "dinner",
+        "price": "SG$52 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Sol_and_Ora",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13465,
+        "name": "Italian",
+        "dir_name": "italian",
+        "restaurants_count": 76
+      },
+      {
+        "id": 13467,
+        "name": "Greek",
+        "dir_name": "greek",
+        "restaurants_count": 2
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205177483,
+    "name": "Sol & Luna",
+    "address": "88 Market St, #17-01, CapitaSpring 048948",
+    "ratings_avg": 8.8,
+    "thumb": "https://static-assets.diningcity.asia/sgqf7xz1b5imiaprdyv424flp8gg_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.850227,
+    "lat": 1.2842254,
+    "dirname": "Sol_and_Luna",
+    "cover": "https://static-assets.diningcity.asia/sgqf7xz1b5imiaprdyv424flp8gg_thumb",
+    "avg_price": 38,
+    "format_avg_price": "S$38",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$65 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "dinner",
+        "price": "SG$65 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Sol_and_Luna",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13487,
+        "name": "Modern",
+        "dir_name": "modern",
+        "restaurants_count": 56
+      },
+      {
+        "id": 13491,
+        "name": "European",
+        "dir_name": "european",
+        "restaurants_count": 87
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205175679,
+    "name": "Dolce Vita",
+    "address": " 5 Raffles Ave, Singapore 039797",
+    "ratings_avg": 8.8,
+    "thumb": "https://static-assets.diningcity.asia/t2lj1mku8vu7dn6j3hm2255hcrqi_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "A",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.858311,
+    "lat": 1.2906908,
+    "dirname": "dolce_vita",
+    "cover": "https://static-assets.diningcity.asia/t2lj1mku8vu7dn6j3hm2255hcrqi_thumb",
+    "avg_price": 68,
+    "format_avg_price": "S$68",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$48 L - SG$68 D",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$68 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$68 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/dolce_vita",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13465,
+        "name": "Italian",
+        "dir_name": "italian",
+        "restaurants_count": 76
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205193596,
+    "name": "Mansion 7 Cantonese Cuisine",
+    "address": "30 Maxwell Rd #01-03, Singapore 069114",
+    "ratings_avg": 7.2,
+    "thumb": "https://static-assets.diningcity.asia/hisa3666fpbkee1ht76agzit0ebf_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "A",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8453943,
+    "lat": 1.2778356,
+    "dirname": "Mansion_7_Cantonese_Cuisine",
+    "cover": "https://static-assets.diningcity.asia/hisa3666fpbkee1ht76agzit0ebf_thumb",
+    "avg_price": 58,
+    "format_avg_price": "S$58",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$48 L - SG$68 D",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$68 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$68 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Mansion_7_Cantonese_Cuisine",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13478,
+        "name": "Chinese",
+        "dir_name": "chinese",
+        "restaurants_count": 45
+      },
+      {
+        "id": 13621,
+        "name": "Chinese - Cantonese",
+        "dir_name": "chinese_-_cantonese",
+        "restaurants_count": 6
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205174395,
+    "name": "Winestone",
+    "address": "28 Stevens Rd, #01-02 Orchard District, Singapore 257878",
+    "ratings_avg": 8.1,
+    "thumb": "https://static-assets.diningcity.asia/i0n65iomeo78jhdn021b3f4g2mn8_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8291048,
+    "lat": 1.3135334,
+    "dirname": "winestone",
+    "cover": "https://static-assets.diningcity.asia/i0n65iomeo78jhdn021b3f4g2mn8_thumb",
+    "avg_price": 28,
+    "format_avg_price": "S$28",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$35 p.p.",
+      "SG$48 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$35 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$48 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/winestone",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13486,
+        "name": "Asian",
+        "dir_name": "asian",
+        "restaurants_count": 65
+      },
+      {
+        "id": 13491,
+        "name": "European",
+        "dir_name": "european",
+        "restaurants_count": 87
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205180632,
+    "name": "SKIRT Restaurant",
+    "address": "21 Ocean Way, 098374",
+    "ratings_avg": 8,
+    "thumb": "https://static-assets.diningcity.asia/dwp2tqi1u054gqqmz4e5e3pjn7th_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8423677,
+    "lat": 1.2461984,
+    "dirname": "SKIRT_Restaurant",
+    "cover": "https://static-assets.diningcity.asia/dwp2tqi1u054gqqmz4e5e3pjn7th_thumb",
+    "avg_price": 40,
+    "format_avg_price": "S$40",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$88 p.p.",
+      "SG$78 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "brunch",
+        "price": "SG$88 p.p.",
+        "menu_title": "Brunch",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_brunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$78 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/SKIRT_Restaurant",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13499,
+        "name": "Steakhouse",
+        "dir_name": "steakhouse",
+        "restaurants_count": 24
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000229,
+        "name": "South West",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205192946,
+    "name": "Les Bouchons Steakhouse Rochester",
+    "address": "10 Rochester Park, Singapore139221",
+    "ratings_avg": 8.8,
+    "thumb": "https://static-assets.diningcity.asia/tufkdub9qbwr8i9y8ehbdkb0uzjq_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.7874331,
+    "lat": 1.3056384,
+    "dirname": "les_bouchons_rochester",
+    "cover": "https://static-assets.diningcity.asia/tufkdub9qbwr8i9y8ehbdkb0uzjq_thumb",
+    "avg_price": 78,
+    "format_avg_price": "S$78",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$36 p.p.",
+      "SG$78 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$36 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$78 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/les_bouchons_rochester",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      },
+      {
+        "id": 13499,
+        "name": "Steakhouse",
+        "dir_name": "steakhouse",
+        "restaurants_count": 24
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205176024,
+    "name": "The Landing Point",
+    "address": "80 Collyer Quay, Singapore 049326",
+    "ratings_avg": 9,
+    "thumb": "https://static-assets.diningcity.asia/c21axi53we0py872d2uf7u9qf86c_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "special",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8536908,
+    "lat": 1.2839169,
+    "dirname": "the_landing_point",
+    "cover": "https://static-assets.diningcity.asia/c21axi53we0py872d2uf7u9qf86c_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "afternoon_tea",
+        "price": "SG$58 p.p.",
+        "menu_title": "Afternoon Tea",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_afternoon_tea.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/the_landing_point",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13485,
+        "name": "International",
+        "dir_name": "international",
+        "restaurants_count": 66
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195066,
+    "name": "Canning Bar & Lounge",
+    "address": "11 Canning Walk, Singapore 178881",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/36pe0eus5rhq2upe66hh2575vnnb_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8454732,
+    "lat": 1.295966,
+    "dirname": "Canning_Bar_and_Lounge",
+    "cover": "https://static-assets.diningcity.asia/36pe0eus5rhq2upe66hh2575vnnb_thumb",
+    "avg_price": 68,
+    "format_avg_price": "S$68",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$50 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "afternoon_tea",
+        "price": "SG$50 p.p.",
+        "menu_title": "Afternoon Tea",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_afternoon_tea.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Canning_Bar_and_Lounge",
+    "michelin_stars_text": "",
+    "cuisines": [],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205176032,
+    "name": "Botanico at The Summerhouse",
+    "address": "3 Park Ln, Level 2 The Summerhouse, Singapore 798387",
+    "ratings_avg": 8,
+    "thumb": "https://static-assets.diningcity.asia/rec4h3arle07nra8168xdsv2hxzp_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "B",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8683218,
+    "lat": 1.408043,
+    "dirname": "botanico_the_summerhouse",
+    "cover": "https://static-assets.diningcity.asia/rec4h3arle07nra8168xdsv2hxzp_thumb",
+    "avg_price": 58,
+    "format_avg_price": "S$58",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$38 L - SG$58 D",
+    "prices": [
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "dinner",
+        "price": "SG$58 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/botanico_the_summerhouse",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13487,
+        "name": "Modern",
+        "dir_name": "modern",
+        "restaurants_count": 56
+      },
+      {
+        "id": 13491,
+        "name": "European",
+        "dir_name": "european",
+        "restaurants_count": 87
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000226,
+        "name": "North East",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205178250,
+    "name": "Sky22 ",
+    "address": "99 Irrawaddy Road Courtyard by Marriott Singapore Novena Singapore (329568)",
+    "ratings_avg": 8.7,
+    "thumb": "https://static-assets.diningcity.asia/hs7vp3d0sxovihzgja0j3bsp299o_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "C",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.843232,
+    "lat": 1.3205847,
+    "dirname": "Sky22_at_Courtyard_by_Marriott_Singapore_Novena",
+    "cover": "https://static-assets.diningcity.asia/hs7vp3d0sxovihzgja0j3bsp299o_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$28 L - SG$38 D",
+    "prices": [
+      "SG$38 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "dinner",
+        "price": "SG$38 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Sky22_at_Courtyard_by_Marriott_Singapore_Novena",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13485,
+        "name": "International",
+        "dir_name": "international",
+        "restaurants_count": 66
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205176862,
+    "name": "The Lobby Lounge, Frasers House, a Luxury Collection Hotel, Singapore",
+    "address": "80 Middle Road, Frasers House, a Luxury Collection Hotel, 188966",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/r3lih4z3i9ypf0aftf8q0nwff8uy_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.854865,
+    "lat": 1.2984504,
+    "dirname": "the_lobby_lounge_frasershouse",
+    "cover": "https://static-assets.diningcity.asia/r3lih4z3i9ypf0aftf8q0nwff8uy_thumb",
+    "avg_price": 55,
+    "format_avg_price": "S$55",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$46 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "afternoon_tea",
+        "price": "SG$46 p.p.",
+        "menu_title": "Afternoon Tea",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_afternoon_tea.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/the_lobby_lounge_frasershouse",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13485,
+        "name": "International",
+        "dir_name": "international",
+        "restaurants_count": 66
+      },
+      {
+        "id": 13510,
+        "name": "High Tea",
+        "dir_name": "high_tea",
+        "restaurants_count": 11
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195086,
+    "name": "Caffe Fernet",
+    "address": "70 Collyer Quay, #01-05 Customs House, Singapore 049323",
+    "ratings_avg": 9.5,
+    "thumb": "https://static-assets.diningcity.asia/4qx2h7ou620x10q641p1pjp1t1qm_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8534753,
+    "lat": 1.2824913,
+    "dirname": "Caffe_Fernet",
+    "cover": "https://static-assets.diningcity.asia/4qx2h7ou620x10q641p1pjp1t1qm_thumb",
+    "avg_price": 78,
+    "format_avg_price": "S$78",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$42 p.p.",
+      "SG$65 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$42 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$65 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Caffe_Fernet",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13465,
+        "name": "Italian",
+        "dir_name": "italian",
+        "restaurants_count": 76
+      },
+      {
+        "id": 13488,
+        "name": "Fusion",
+        "dir_name": "fusion",
+        "restaurants_count": 47
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205195316,
+    "name": "Asia Grand Restaurant ",
+    "address": "252 N Bridge Rd, #03-22B Fairmont Singapore (South Tower, Singapore 179103",
+    "ratings_avg": 0,
+    "thumb": "https://static-assets.diningcity.asia/okangunnwl0whls6j3pocirfaeqa_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8534304,
+    "lat": 1.2942187,
+    "dirname": "asia_grand_restaurant",
+    "cover": "https://static-assets.diningcity.asia/okangunnwl0whls6j3pocirfaeqa_thumb",
+    "avg_price": 30,
+    "format_avg_price": "S$30",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$68 p.p.",
+      "SG$88 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$68 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$88 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/asia_grand_restaurant",
+    "michelin_stars_text": "",
+    "cuisines": [],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000229,
+        "name": "South West",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205176870,
+    "name": "Kan Sushi (Tanjong Pagar)",
+    "address": "10 Anson Rd, #02-54, Singapore 079903",
+    "ratings_avg": 7.2,
+    "thumb": "https://static-assets.diningcity.asia/y9kdenqwjyt2le5hba8ed47g3yv5_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8458098,
+    "lat": 1.2756998,
+    "dirname": "kan_sushi_tanjong_pagar",
+    "cover": "https://static-assets.diningcity.asia/y9kdenqwjyt2le5hba8ed47g3yv5_thumb",
+    "avg_price": 68,
+    "format_avg_price": "S$68",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$128 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$128 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/kan_sushi_tanjong_pagar",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13479,
+        "name": "Japanese",
+        "dir_name": "japanese",
+        "restaurants_count": 88
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 2055422,
+    "name": "Man Fu Yuan Restaurant",
+    "address": "80 Middle Rd, Frasers House, a Luxury Collection Hotel, Singapore 188966",
+    "ratings_avg": 8.6,
+    "thumb": "https://static-assets.diningcity.asia/nblbpojnnvodvl49nda9ci2bnliy_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.854865,
+    "lat": 1.2984504,
+    "dirname": "man_fu_yuan_restaurant",
+    "cover": "https://static-assets.diningcity.asia/nblbpojnnvodvl49nda9ci2bnliy_thumb",
+    "avg_price": 98,
+    "format_avg_price": "S$98",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$95 p.p.",
+      "SG$127 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$95 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$127 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/man_fu_yuan_restaurant",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13478,
+        "name": "Chinese",
+        "dir_name": "chinese",
+        "restaurants_count": 45
+      },
+      {
+        "id": 13621,
+        "name": "Chinese - Cantonese",
+        "dir_name": "chinese_-_cantonese",
+        "restaurants_count": 6
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205196812,
+    "name": "The Dempsey Project",
+    "address": "Block 9 Dempsey Rd, #01-12, Singapore 247697",
+    "ratings_avg": 0,
+    "thumb": "https://static-assets.diningcity.asia/0k71fh4g6gldpmcsicn3fkb2jpad_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "B",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8097865,
+    "lat": 1.3037548,
+    "dirname": "the_dempsey_project_singapore",
+    "cover": "https://static-assets.diningcity.asia/0k71fh4g6gldpmcsicn3fkb2jpad_thumb",
+    "avg_price": 85,
+    "format_avg_price": "S$85",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$38 L - SG$58 D",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$58 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/the_dempsey_project_singapore",
+    "michelin_stars_text": "",
+    "cuisines": [],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  {
+    "id": 205175712,
+    "name": "the kitchen table",
+    "address": "21 Ocean Way, Sentosa, 098374",
+    "ratings_avg": 9.2,
+    "thumb": "https://static-assets.diningcity.asia/ha2mdps1dtnowxswga21ah1kpaz2_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8423677,
+    "lat": 1.2461984,
+    "dirname": "the_kitchen_table_gcsz",
+    "cover": "https://static-assets.diningcity.asia/ha2mdps1dtnowxswga21ah1kpaz2_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$118 p.p.",
+      "SG$83 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "brunch",
+        "price": "SG$118 p.p.",
+        "menu_title": "Brunch",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_brunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$83 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/the_kitchen_table_gcsz",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13485,
+        "name": "International",
+        "dir_name": "international",
+        "restaurants_count": 66
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  }
+]

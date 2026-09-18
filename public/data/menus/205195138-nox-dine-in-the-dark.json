@@ -1,0 +1,179 @@
+{
+  "restaurant_id": 205195138,
+  "meals": [
+    {
+      "id": 94471,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "98",
+      "menu_title": "Dinner Set",
+      "desc": "SG$98 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 134575,
+        "desc": "For reservations on Fridays & Saturdays, pre-authorisation hold is required to confirm the reservation. The restaurant team will be in touch with you directly after the booking is made.",
+        "description": null,
+        "vat": "9",
+        "service_fee": "10",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2127433,
+            "name": "AMUSE-BOUCHE",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2127435,
+                "desc": "",
+                "name": "Your first taste, and the only dish you can see.",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 798630,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2127437,
+            "name": "APPETIZERS",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2127439,
+                "desc": "",
+                "name": "4 unique chef’s surprise appetizers to awaken your senses.",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 798632,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2127441,
+            "name": "PRELUDE",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2127443,
+                "desc": "",
+                "name": "2 intriguing creations to prepare your senses for the journey ahead.",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 798634,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2127445,
+            "name": "MAINS",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2127447,
+                "desc": "",
+                "name": "4 bold and imaginative chef’s creations — the heart of your culinary journey.",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 798636,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2127449,
+            "name": "DESSERTS",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2127451,
+                "desc": "",
+                "name": "4 delightful sweet surprises to conclude the experience.",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 798638,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

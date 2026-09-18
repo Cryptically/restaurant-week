@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { DiningCityApiClient } from '../docs/js/client.js';
+import { DiningCityApiClient } from '../src/client.js';
 
 const API_KEY = 'cgecegcegcc';
 const BASE_URL = 'https://api.diningcity.asia/public/extras_events/rwsg_autumn_2026';

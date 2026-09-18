@@ -3,14 +3,14 @@
 import { mkdir, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { DiningCityApiClient } from '../docs/js/client.js';
+import { DiningCityApiClient } from '../src/client.js';
 
 const API_KEY = 'cgecegcegcc';
 const CITY = 'singapore';
 const PER_PAGE = 8;
 
 const root = fileURLToPath(new URL('..', import.meta.url));
-const dataDir = join(root, 'docs', 'data');
+const dataDir = join(root, 'public', 'data');
 const restaurantsDir = join(dataDir, 'restaurants');
 const menusDir = join(dataDir, 'menus');
 
@@ -63,10 +63,7 @@ async function main() {
       continue;
     }
 
-    menuRecords.push({
-      restaurant,
-      meals: menu.meals,
-    });
+    menuRecords.push({ restaurant, meals: menu.meals });
     console.log(`Menu ${menuRecords.length}/${restaurants.length}: ${restaurant.name} (${restaurant.id})`);
   }
 
@@ -80,12 +77,17 @@ async function main() {
     `${JSON.stringify(restaurants, null, 2)}\n`,
   );
 
+  const menuIndex = {};
   for (const { restaurant, meals } of menuRecords) {
+    const filename = `${fileSlug(restaurant)}.json`;
+    menuIndex[restaurant.id] = filename;
     await writeFile(
-      join(menusDir, `${fileSlug(restaurant)}.json`),
-      `${JSON.stringify({ restaurant, meals }, null, 2)}\n`,
+      join(menusDir, filename),
+      `${JSON.stringify({ restaurant_id: restaurant.id, meals }, null, 2)}\n`,
     );
   }
+
+  await writeFile(join(menusDir, 'index.json'), `${JSON.stringify(menuIndex, null, 2)}\n`);
 
   await writeFile(
     join(dataDir, 'manifest.json'),

@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f0e8">
+  <meta name="description" content="Explore Singapore restaurants and Restaurant Week menus.">
+  <title>Restaurant Week Singapore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app" v-cloak class="page" :class="selectedRestaurant ? 'has-selection' : 'not-selected'">
+    <header class="topbar">
+      <button class="brand" type="button" aria-label="Back to all restaurants" @click="clearSelection">
+        <span class="brand-mark">RW</span>
+        <span class="brand-copy">
+          <strong>Restaurant Week</strong>
+          <span>Singapore · Autumn 2026</span>
+        </span>
+      </button>
+      <span class="topbar-meta">{{ restaurants.length || '—' }} places</span>
+    </header>
+
+    <section v-if="!selectedRestaurant" class="intro">
+      <div class="intro-grid">
+        <div>
+          <h1>Make a meal of it.</h1>
+          <p class="intro-copy">A considered list of Singapore tables, set menus, and reasons to linger. Find your next reservation by neighbourhood, cuisine, or appetite.</p>
+        </div>
+        <p class="intro-note">Browse the room.<br>Choose your table.</p>
+      </div>
+    </section>
+
+    <main class="workspace">
+      <aside class="directory" aria-label="Restaurant directory">
+        <div class="directory-head">
+          <h2>All restaurants</h2>
+          <span class="count">{{ filteredRestaurants.length }} shown</span>
+        </div>
+
+        <div class="filters">
+          <label class="search-wrap">
+            <span class="search-icon" aria-hidden="true">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="7"></circle>
+                <path d="m20 20-4-4"></path>
+              </svg>
+            </span>
+            <span class="sr-only">Search restaurants</span>
+            <input v-model.trim="query" class="search" type="search" placeholder="Search restaurants" aria-label="Search restaurants">
+          </label>
+          <select v-model="cuisine" class="filter-select" aria-label="Filter by cuisine">
+            <option value="">All cuisines</option>
+            <option v-for="item in cuisineOptions" :key="item" :value="item">{{ item }}</option>
+          </select>
+        </div>
+
+        <div v-if="loading" class="loading-state">Setting the tables…</div>
+        <div v-else-if="loadError" class="error-state">
+          <strong>We couldn’t open the directory.</strong>
+          {{ loadError }}
+        </div>
+        <div v-else-if="!filteredRestaurants.length" class="loading-state">No restaurants match that search.</div>
+        <div v-else class="restaurant-list">
+          <button
+            v-for="restaurant in filteredRestaurants"
+            :key="restaurant.id"
+            class="restaurant-row"
+            :class="{ 'is-selected': selectedRestaurant && selectedRestaurant.id === restaurant.id }"
+            type="button"
+            @click="selectRestaurant(restaurant)"
+          >
+            <img
+              v-if="restaurant.thumb || restaurant.cover"
+              class="restaurant-thumb"
+              :src="restaurant.thumb || restaurant.cover"
+              :alt="restaurant.name"
+              loading="lazy"
+              @error="$event.target.style.display = 'none'"
+            >
+            <span v-else class="restaurant-thumb fallback" aria-hidden="true">{{ initials(restaurant.name) }}</span>
+            <span class="restaurant-info">
+              <span class="restaurant-name">{{ restaurant.name }}</span>
+              <span class="restaurant-meta">
+                <span>{{ primaryCuisine(restaurant) }}</span>
+                <span v-if="restaurant.region_name">· {{ restaurant.region_name }}</span>
+              </span>
+              <span v-if="restaurant.meals_with_price.length" class="restaurant-price-list">
+                <span v-for="meal in restaurant.meals_with_price" :key="meal.meal_type + meal.price" class="restaurant-price-item">
+                  {{ meal.menu_title }} · {{ meal.price }}
+                </span>
+              </span>
+            </span>
+          </button>
+        </div>
+      </aside>
+
+      <section class="detail-panel" aria-live="polite">
+        <div v-if="!selectedRestaurant" class="detail-empty">
+          <div class="detail-empty-inner">
+            <div class="detail-empty-mark" aria-hidden="true">
+              <svg width="58" height="58" viewBox="0 0 58 58" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M13 45 44 14M22 14h22v22"></path>
+              </svg>
+            </div>
+            <p>Select a restaurant to open its menu.</p>
+          </div>
+        </div>
+
+        <transition name="fade" mode="out-in">
+          <div v-if="selectedRestaurant" :key="selectedRestaurant.id">
+            <button class="back-button" type="button" @click="clearSelection">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m15 18-6-6 6-6"></path>
+              </svg>
+              All restaurants
+            </button>
+
+            <div class="detail-hero">
+              <img
+                class="detail-image"
+                :src="selectedRestaurant.cover || selectedRestaurant.thumb"
+                :alt="selectedRestaurant.name"
+                @error="$event.target.style.visibility = 'hidden'"
+              >
+              <div class="detail-copy">
+                <p class="detail-kicker">{{ primaryCuisine(selectedRestaurant) }} · {{ selectedRestaurant.price_level || 'Restaurant Week' }}</p>
+                <h2 class="detail-title">{{ selectedRestaurant.name }}</h2>
+                <p class="detail-address">{{ selectedRestaurant.address || 'Singapore' }}</p>
+                <div class="detail-actions">
+                  <a v-if="selectedRestaurant.detail_in_events_url" class="button button-primary" :href="selectedRestaurant.detail_in_events_url" target="_blank" rel="noopener">
+                    View restaurant
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path d="M7 17 17 7M8 7h9v9"></path>
+                    </svg>
+                  </a>
+                  <span v-if="selectedRestaurant.ratings_avg" class="button button-secondary">Rated {{ selectedRestaurant.ratings_avg }}</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="detail-facts">
+              <div class="fact"><strong>{{ menu ? menu.meals.length : '—' }}</strong><span>Set menus</span></div>
+              <div class="fact"><strong>{{ lowestMealPrice(selectedRestaurant) }}</strong><span>From per guest</span></div>
+              <div class="fact"><strong>{{ selectedRestaurant.region_name || 'Singapore' }}</strong><span>Neighbourhood</span></div>
+              <div class="fact"><strong>{{ primaryCuisine(selectedRestaurant) || 'Dining' }}</strong><span>Cuisine</span></div>
+            </div>
+
+            <div class="menu-heading">
+              <h2>The menu</h2>
+              <span v-if="menu">{{ menu.meals.length }} options</span>
+            </div>
+
+            <div v-if="menuLoading" class="menu-loading">Opening the menu…</div>
+            <div v-else-if="menuError" class="error-state">
+              <strong>Menu unavailable.</strong>
+              {{ menuError }}
+            </div>
+            <div v-else-if="!menu || !menu.meals.length" class="menu-empty">No menu has been published for this restaurant.</div>
+            <div v-else>
+              <article v-for="meal in menu.meals" :key="meal.id || meal.meal_type" class="meal-block">
+                <div class="meal-top">
+                  <div>
+                    <h3>{{ meal.menu_title || meal.meal_type_humanize || meal.meal_type }}</h3>
+                    <p class="meal-desc">{{ meal.desc || meal.terms_conditions || 'Set menu' }}</p>
+                  </div>
+                  <span class="meal-price">{{ meal.desc && meal.desc.startsWith('SG$') ? meal.desc.split(' p.p.')[0] : (meal.price ? `SG$${meal.price}` : '') }}</span>
+                </div>
+
+                <div v-if="meal.extras_menu && meal.extras_menu.course_groups && meal.extras_menu.course_groups.length">
+                  <div v-for="course in meal.extras_menu.course_groups" :key="course.id || course.name" class="course">
+                    <p class="course-name">{{ course.name }}</p>
+                    <ul class="course-items">
+                      <li v-for="item in course.subs" :key="item.id || item.name" class="course-item">
+                        <span class="course-item-name">{{ item.name }}</span>
+                        <span v-if="item.desc" class="course-item-desc">{{ item.desc }}</span>
+                        <span v-if="item.price && item.price !== '0.0'" class="course-item-price">{{ item.currency }}{{ item.price }}</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </transition>
+      </section>
+    </main>
+
+    <footer class="site-footer">Restaurant Week Singapore · Autumn 2026 · Data refreshed from DiningCity</footer>
+  </div>
+
+  <script type="module" src="./main.ts"></script>
+</body>
+</html>

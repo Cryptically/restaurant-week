@@ -1,0 +1,221 @@
+{
+  "restaurant_id": 205180536,
+  "meals": [
+    {
+      "id": 93998,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "28",
+      "menu_title": "Dinner Set",
+      "desc": "SG$28 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133364,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2116406,
+            "name": "Starters",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116408,
+                "desc": "Saveur's Signature Angel Hair Pasta, Truffle oil, Nori Butter and Ebi Sakura Prawns",
+                "name": "SAVEUR PASTA",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854756,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116410,
+                "desc": "Smoke Salmon, Frisee Salad, Feta Cheese",
+                "name": "SMOKED SALMON SALAD",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854758,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116412,
+            "name": "Mains",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116414,
+                "desc": "Saveur's Signature Duck Leg Confit, MAsh Potato, Spinach and Duck Jus",
+                "name": "DUCK CONFIT",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854760,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116416,
+                "desc": "Pan-seared Butterfish with Provencal Tomato Fondue, Zucchini, olives, basil",
+                "name": "BUTTERFISH A LA PROVENCALE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854762,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116418,
+                "desc": "Flat Iron Steak, Bordelaise Sauce and Shoestring Fries",
+                "name": "STEAK FRITES",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 655550,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21304,
+                    "name": "Supplement of $8++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/17563644358d4089ed5903bb6c5d2c1d9ae0cf86aa.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2116420,
+            "name": "Desserts",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116422,
+                "desc": null,
+                "name": "VANILLA ICE CREAM",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854764,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116424,
+                "desc": null,
+                "name": "CHOCOLATE LAVA CAKE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854766,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21280,
+                    "name": "Supplement of $4++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/175636437797d0dd491fa03bb79300b3cd24b42976.png"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

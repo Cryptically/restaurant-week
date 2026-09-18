@@ -4,6 +4,19 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test test/client.test.mjs"
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "node --test test/client.test.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.43"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.9",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.0",
+    "vue-tsc": "^3.3.11"
   }
 }

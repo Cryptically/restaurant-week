@@ -1,0 +1,619 @@
+{
+  "restaurant_id": 205195082,
+  "meals": [
+    {
+      "id": 94248,
+      "meal_type": "lunch",
+      "key_word": "lunch_elite",
+      "price": "29",
+      "menu_title": "Lunch Set",
+      "desc": "SG$29 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133854,
+        "desc": "Please note that credit card authorisation is required to secure the reservation. The restaurant team will be in touch with you directly after the booking is made.",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2123150,
+            "name": "Sides: (Select 1)",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123154,
+                "desc": "Mackerel | Tiger Prawn | Ginger Flower | Kaffir Lime Mayo",
+                "name": "Seafood Otah Croquette (2 Pieces)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857212,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123158,
+                "desc": "Pickled Beets | Yuzu Mayo | Bonito Flakes | Tobiko",
+                "name": "Charred Broccoli",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857216,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123162,
+                "desc": "White Corn | Miso",
+                "name": "Chilled Corn with Miso Cream",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857220,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2123164,
+            "name": "Mains (Select 1)",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123170,
+                "desc": "Slow-Simmered Prawn Bisque | Charred Tiger Prawn | Mentaiko Mayo | Tobiko | Thai Chilli Flakes | Capellini",
+                "name": "Signature Tiger Prawn Capellini",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 3,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 793838,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 3,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 3,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21266,
+                    "name": "Supplement of $5++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/1756364298ff2f5704f57ef82fbb1a1b7501ddaf77.png"
+                  }
+                ]
+              },
+              {
+                "id": 2123174,
+                "desc": "Housemade USDA Beef Patty | Streaky Pork Bacon | Sunny-Sideup Egg | Aged Cheddar | BBQ Mayo | Dijon Mustard | Extra Crispy Shoestring Frites | House Brioche Bun",
+                "name": "Signature Fourth of July Burger",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 5,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 793840,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 5,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 5,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123180,
+                "desc": "Mafaldine | Sarawak Pepper | Parmesan | Puffed Wild Rice",
+                "name": "Smoked Bacon Pepenara",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857228,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123184,
+                "desc": "Swiss Mushroom | Haricot Vert | Potato Puree | Pork Bacon",
+                "name": "Chicken Chasseur",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857232,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123188,
+                "desc": "Crispy Rosti Basket | Sauteed Mix Mushroom | Poached Egg | Hollandaise | Herb Salad",
+                "name": "Rosti Eggs Bene",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857234,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123194,
+                "desc": "Holland Portobello | Black Truffle | Gruyere & Mozzarella | Tomato Basil Soup | House Sourdough",
+                "name": "Grilled Portobello Cheese Toast",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857236,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2123196,
+            "name": "Dessert: (Select 1)",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123200,
+                "desc": "Craquelin Choux | Gula Melaka | Black Sugar Mochi | Coconut Chantilly | White Chocolate",
+                "name": "Chocolate Mint “Mushroom”",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857240,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123204,
+                "desc": "Lemon | Lime Zest",
+                "name": "Lemon Pound Cake",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857244,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 94252,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "49",
+      "menu_title": "Dinner Set",
+      "desc": "SG$49 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133858,
+        "desc": "Please note that credit card authorisation is required to secure the reservation. The restaurant team will be in touch with you directly after the booking is made.",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2123208,
+            "name": "Sides: (Select 1)",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123212,
+                "desc": "Chuck & Kurobuta Pork Sausage | Marinara Sauce | House Sourdough",
+                "name": "Italian Beef Meatballs (1pcs)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857250,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123214,
+                "desc": "White Corn | Smoked Seasoning | Miso Mayo",
+                "name": "Miso Corn Ribs",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857252,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123220,
+                "desc": "House Marinated Chicken Wings | Spicy Mayo",
+                "name": "Prawn Paste Chicken Wings",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857256,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2123224,
+            "name": "Mains (Select 1)",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123226,
+                "desc": "Sweet Potato Puree | Blueberry Compote | Baby Spinach | Purple Potato Chips | Potato Bacon Cabbage Hash | Truffle Sauce",
+                "name": "Duck Confit",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857258,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21266,
+                    "name": "Supplement of $5++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/1756364298ff2f5704f57ef82fbb1a1b7501ddaf77.png"
+                  }
+                ]
+              },
+              {
+                "id": 2123230,
+                "desc": "Whipped Potatoes | Watercress & Onion Salad | Crispy Garlic Crumble",
+                "name": "“Char Siew” Wagyu Short Rib",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857262,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21304,
+                    "name": "Supplement of $8++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/17563644358d4089ed5903bb6c5d2c1d9ae0cf86aa.png"
+                  }
+                ]
+              },
+              {
+                "id": 2123234,
+                "desc": "Norwegian Salmon | Warm Mussels Tartare Sauce | Roasted Leek | Grilled Asparagus | Leek Oil",
+                "name": "Salmon Warm Tartare",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 3,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 793842,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 3,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 3,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123236,
+                "desc": "Slow-cooked Beef Cheek | Arborio Rice | Butternut Mousseline | Grilled Asparagus | Pumpkin Seeds & Oil",
+                "name": "Wagyu Beef Cheek Risotto",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 795484,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21304,
+                    "name": "Supplement of $8++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/17563644358d4089ed5903bb6c5d2c1d9ae0cf86aa.png"
+                  }
+                ]
+              },
+              {
+                "id": 2123238,
+                "desc": "Cashew Nut Pesto | Sautéed Mushrooms | Burrata | Cherry Tomatoes | Fried Chickpeas | Shaved Parmesan",
+                "name": "Burrata Pesto Rigatoni",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 793860,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123240,
+                "desc": "Spicy Lime Aioli | House Apple Slaw | Pickled Cucumber | Fries",
+                "name": "Crispy Chicken Burger",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857266,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2123242,
+            "name": "Dessert: (Select 1)",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123244,
+                "desc": "Lemon Mousse | Hazelnut Frangipane | Gin Jelly",
+                "name": "Yuzu Tart",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857268,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123246,
+                "desc": "contains Alcohol | Espresso-soaked sponge | Mascarpone Cream | Cocoa Nibs | Whiskey",
+                "name": "Tiramisu",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857270,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21310,
+                    "name": "Supplement of $3++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/1756364439e48c841fb0f9c11458a2fc94ce0d25fa.png"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,633 @@
+{
+  "restaurant_id": 205190588,
+  "meals": [
+    {
+      "id": 94020,
+      "meal_type": "lunch",
+      "key_word": "lunch_a",
+      "price": "48",
+      "menu_title": "Lunch Set",
+      "desc": "SG$48 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133396,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2116680,
+            "name": "Menu",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116682,
+                "desc": null,
+                "name": "Seasonal Vegetable",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854846,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116684,
+                "desc": "",
+                "name": "Japanese Oyster",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 2,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 570866,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 2,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 2,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116686,
+                "desc": "Assorted raw fish slices",
+                "name": "Sashimi (5 pieces)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 733227,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116688,
+                "desc": "",
+                "name": "Kani Chawanmushi",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 4,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 570852,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 4,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 4,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116690,
+                "desc": null,
+                "name": "Grilled Seasonal Fish",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854848,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116692,
+                "desc": null,
+                "name": "Rice",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854850,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116694,
+                "desc": "",
+                "name": "Soup",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 570856,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116696,
+                "desc": "",
+                "name": "Dessert",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 594542,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116698,
+            "name": "Optional Add-ons",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116700,
+                "desc": "",
+                "name": "Toro Uni Ikura Don",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 660004,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24689,
+                    "name": "Supplement of $38++ per person",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/17875612560147630854b825f2aaee20016d9e09db.png"
+                  }
+                ]
+              },
+              {
+                "id": 2116702,
+                "desc": null,
+                "name": "Wagyu Don",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 782306,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24689,
+                    "name": "Supplement of $38++ per person",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/17875612560147630854b825f2aaee20016d9e09db.png"
+                  }
+                ]
+              },
+              {
+                "id": 2116704,
+                "desc": null,
+                "name": "Sushi (5 pieces)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 782308,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24689,
+                    "name": "Supplement of $38++ per person",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/17875612560147630854b825f2aaee20016d9e09db.png"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 94022,
+      "meal_type": "dinner",
+      "key_word": "dinner_a",
+      "price": "68",
+      "menu_title": "Dinner Set",
+      "desc": "SG$68 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133398,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2116706,
+            "name": "Menu",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116708,
+                "desc": null,
+                "name": "Seasonal Vegetable",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854846,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116710,
+                "desc": "",
+                "name": "Japanese Oyster",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 2,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 570866,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 2,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 2,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116712,
+                "desc": null,
+                "name": "Uni Tofu",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854852,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116714,
+                "desc": "Assorted raw fish slices",
+                "name": "Sashimi (5 pieces)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 733227,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116716,
+                "desc": "",
+                "name": "Kani Chawanmushi",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 4,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 570852,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 4,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 4,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116718,
+                "desc": null,
+                "name": "Grilled Seasonal Fish",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854848,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116720,
+                "desc": null,
+                "name": "Aburi Engawa, Foie Gras & Ikura Donburi",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854854,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116722,
+                "desc": "",
+                "name": "Soup",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 570856,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116724,
+                "desc": "",
+                "name": "Dessert",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 594542,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116726,
+            "name": "Optional Add-ons",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116728,
+                "desc": "",
+                "name": "Toro Uni Ikura Don",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 660004,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24689,
+                    "name": "Supplement of $38++ per person",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/17875612560147630854b825f2aaee20016d9e09db.png"
+                  }
+                ]
+              },
+              {
+                "id": 2116730,
+                "desc": null,
+                "name": "Wagyu Don",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 782306,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24689,
+                    "name": "Supplement of $38++ per person",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/17875612560147630854b825f2aaee20016d9e09db.png"
+                  }
+                ]
+              },
+              {
+                "id": 2116732,
+                "desc": null,
+                "name": "Sushi (5 pieces)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 782308,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24689,
+                    "name": "Supplement of $38++ per person",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/17875612560147630854b825f2aaee20016d9e09db.png"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
