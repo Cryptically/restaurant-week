@@ -1,0 +1,461 @@
+{
+  "restaurant": {
+    "id": 2055727,
+    "name": "L'Entrecôte The Steak and Fries Bistro (Duxton Hill)",
+    "address": "36 Duxton Hill",
+    "ratings_avg": 8.3,
+    "thumb": "https://static-assets.diningcity.asia/7j09y12j5sjcmzqaoi1wein0irq1_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "B",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8428048,
+    "lat": 1.2784789,
+    "dirname": "l_039_entrecote_the_steak_fries_bistro",
+    "cover": "https://static-assets.diningcity.asia/7j09y12j5sjcmzqaoi1wein0irq1_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$38 L - SG$58 D",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$58 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/l_039_entrecote_the_steak_fries_bistro",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      },
+      {
+        "id": 13499,
+        "name": "Steakhouse",
+        "dir_name": "steakhouse",
+        "restaurants_count": 24
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  "meals": [
+    {
+      "id": 94060,
+      "meal_type": "lunch",
+      "key_word": "lunch_b",
+      "price": "38",
+      "menu_title": "Lunch Set",
+      "desc": "SG$38 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133506,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2117836,
+            "name": "1st Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2117838,
+                "desc": "A Classic Parisian Crunchy Salad with thin slices of cold roast beef, eggs, potatoes, gherkins and heirloom tomatoes",
+                "name": "Salade de Boeuf à la Parisienne",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 855380,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2117840,
+                "desc": "Langoustines Carpaccio with a truffle dressing",
+                "name": "Carpaccio de Langoustines à la truffe",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 855382,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2117842,
+            "name": "2nd Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2117844,
+                "desc": "Creamy Burrata with heirloom cherry tomatoes and basil pesto",
+                "name": "Burrata Artisanale",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "26.0",
+                "up_sell_price": null,
+                "source_id": 765728,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2117846,
+                "desc": "Angus Flat Iron is known for its tender butteriness balanced by great robust beef flavor served with our legendary secret sauce generously poured over sliced steak. Accompanied with golden French fries",
+                "name": "Australian Angus Flat Iron Steak",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 855384,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2117848,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2117850,
+                "desc": "Choux pastry with praline cream",
+                "name": "Paris- Brest",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 794502,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2117852,
+                "desc": "Dark chocolate Mousse",
+                "name": "Mousse au Chocolate",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 794504,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 94062,
+      "meal_type": "dinner",
+      "key_word": "dinner_b",
+      "price": "58",
+      "menu_title": "Dinner Set",
+      "desc": "SG$58 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133508,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2117854,
+            "name": "1st Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2117856,
+                "desc": "A Classic Parisian Crunchy Salad with thin slices of cold roast beef, eggs, potatoes, gherkins and heirloom tomatoes",
+                "name": "Salade de Boeuf à la Parisienne",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 855380,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2117858,
+                "desc": "Six snails prepared with parsley butter and garlic",
+                "name": "Escargots de Bourgogne",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "21.0",
+                "up_sell_price": null,
+                "source_id": 270806,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2117860,
+            "name": "2nd Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2117862,
+                "desc": "Langoustine Tartar, Avruga Caviar, Extra Virgin Olive Oil, Lemon Juice, Lemon Zest",
+                "name": "Tartare de Langoustines",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 855386,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2117864,
+            "name": "3rd Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2117866,
+                "desc": "Creamy Burrata with heirloom cherry tomatoes and basil pesto",
+                "name": "Burrata Artisanale",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "26.0",
+                "up_sell_price": null,
+                "source_id": 765728,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2117868,
+                "desc": "Angus Flat Iron is known for its tender butteriness balanced by great robust beef flavor served with our legendary secret sauce generously poured over sliced steak. Accompanied with golden French fries",
+                "name": "Australian Angus Flat Iron Steak",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 855384,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2117870,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2117872,
+                "desc": "Traditional Vanilla cream with caramelized sugar crackling top",
+                "name": "Creme Brulee",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "16.0",
+                "up_sell_price": null,
+                "source_id": 765998,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2117874,
+                "desc": "Vanilla bean ice cream profiteroles with hot chocolate sauce",
+                "name": "Profiteroles",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 794508,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,715 @@
+{
+  "restaurant": {
+    "id": 205195034,
+    "name": "Stags Head Steakhouse",
+    "address": " 7 Raffles Blvd, Level 3 Pan Pacific Singapore, Singapore 039595",
+    "ratings_avg": 9.5,
+    "thumb": "https://static-assets.diningcity.asia/eqjnqxchor7a36v4dabml8wm7gh1_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8585852,
+    "lat": 1.2924176,
+    "dirname": "stagsheadsteakhouse",
+    "cover": "https://static-assets.diningcity.asia/eqjnqxchor7a36v4dabml8wm7gh1_thumb",
+    "avg_price": 60,
+    "format_avg_price": "S$60",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$52 p.p.",
+      "SG$128 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$52 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$128 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/stagsheadsteakhouse",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13491,
+        "name": "European",
+        "dir_name": "european",
+        "restaurants_count": 87
+      },
+      {
+        "id": 13499,
+        "name": "Steakhouse",
+        "dir_name": "steakhouse",
+        "restaurants_count": 24
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000229,
+        "name": "South West",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  "meals": [
+    {
+      "id": 93966,
+      "meal_type": "lunch",
+      "key_word": "lunch_elite",
+      "price": "52",
+      "menu_title": "Lunch Set",
+      "desc": "SG$52 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133172,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2113268,
+            "name": "First Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2113270,
+                "desc": "“Cock-a-Leekie” Pickled Prune, Leek, Carrot, Thyme",
+                "name": "CHICKEN & BARLEY SOUP",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788782,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113272,
+                "desc": "Fennel & Herb Slaw, Red Currant Glaze",
+                "name": "CONFIT IRISH DUCK LEG",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788784,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21266,
+                    "name": "Supplement of $5++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/1756364298ff2f5704f57ef82fbb1a1b7501ddaf77.png"
+                  }
+                ]
+              },
+              {
+                "id": 2113274,
+                "desc": "Globe Zucchini, Green Goddess Dressing, Lilliput Caper, Wensleydale Cheese",
+                "name": "ASH BAKED COURGETTE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854166,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113276,
+                "desc": "Beetroot Tartare, Pickled Cucumber, Horseradish, Dill",
+                "name": "SMOKED MACKEREL",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854168,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113278,
+                "desc": "Argentinian Prawns, Sucrine Hearts, Creamy Dill Pickle Vinaigrette",
+                "name": "CRISPY PRAWN SALAD",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854170,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2113280,
+            "name": "Second Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2113282,
+                "desc": "Neal’s Yard Cheese, Hazelnut, Jerusalem Artichoke & Parsley Velouté",
+                "name": "ARTICHOKE & OGLESHIELD CHEESE PIE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854172,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113284,
+                "desc": "Wilted Baby Spinach, Trout Roe Beurre Blanc",
+                "name": "RAINBOW TROUT",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854174,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113286,
+                "desc": "Pomme Purée, Grilled Asparagus, Mushroom Velouté",
+                "name": "GRILLED CHICKEN BREAST",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854176,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113288,
+                "desc": "Potato Bun, Tomato Chutney, Pickles, Red Leicester Cheese (Served with Steak Fries or Romaine Hearts)",
+                "name": "STAGS WAGYU CHEESEBURGER",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854178,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113290,
+                "desc": "Beef Tenderloin, Yorkshire Pudding, Carrot & Swede Mash, Beef Dripping Jus",
+                "name": "FILET MIGNON",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 2,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788800,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 2,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 2,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24705,
+                    "name": "Supplement of $8++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/1787561259431cf2b4808ecaf80d8247478e4be3ff.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2113292,
+            "name": "Third Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2113294,
+                "desc": "Choux Doughnut, Candied Pistachio, Strawberry Sorbet",
+                "name": "DONUTS & LEMON POSSET ",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854180,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113296,
+                "desc": "Muscovado Toffee Sauce, Candied Pecan, Clotted Cream",
+                "name": "STICKY TOFFEE PUDDING",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854182,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113298,
+                "desc": "Rum Raisin - Mixed Berry - Salted Caramel Gelato - Rock Melon - Pink Grapefruit - Coconut Sorbet",
+                "name": "DOUBLE SCOOP GELATO or SORBET",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854184,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 93968,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "128",
+      "menu_title": "Dinner Set",
+      "desc": "SG$128 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133174,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2113300,
+            "name": "Starters To Share",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2113302,
+                "desc": "Sweet Pea Purée, Mint, Malt Vinegar",
+                "name": "ROASTED SCALLOPS",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788808,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113304,
+                "desc": "Colston Basset Stilton, Endive, Candied Walnut, Port Vinaigrette",
+                "name": "WILLIAMS PEAR & BLUE CHEESE SALAD",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788810,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113306,
+                "desc": "Fennel & Herb Slaw, Red Currant Glaze",
+                "name": "CONFIT IRISH DUCK LEG",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788784,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2113308,
+            "name": "Main Course To Share",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2113310,
+                "desc": "for 2 – 800g Tomahawk | for 3 – 1kg Tomahawk | for 4 – 1.2kg Tomahawk (Served With Beef Dripping Jus & Stags Mustard) | *For parties of 5 or more, an appropriate combination of the above steak sizes will be served.",
+                "name": "F1 WAGYU TOMAHAWK - Stags Head Signature Bone-In Rib Eye Cut 450-days Grain-Fed, Tajima Blood Line, Australia",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788812,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2113312,
+            "name": "Sides | Choose one side dish per guest",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2113314,
+                "desc": "Malt Vinegar",
+                "name": "BEEF FAT ROAST POTATOES",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788814,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113316,
+                "desc": "Smoked Bacon, Mustard Vinaigrette",
+                "name": "ROASTED BRUSSELS SPROUTS",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788816,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113318,
+                "desc": "Madras, Honey, Thyme",
+                "name": "CURRIED ROASTED CARROTS",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788818,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2127412,
+                "desc": "Baby Spinach, Béchamel",
+                "name": "CREAMED SPINACH",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858844,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2127414,
+                "desc": "Chicken Jus",
+                "name": "POTATO PURÉE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858846,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2127416,
+                "desc": "Tunworth, Montgomery Cheddar, Sourdough  Crumbs",
+                "name": "MAC & CHEESE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858848,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2113320,
+            "name": "Dessert | Served Individually",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2113322,
+                "desc": "Chantilly Cream, Meringue, Almond Tuile, Strawberry Sorbet",
+                "name": "STRAWBERRY PAVLOVA “ETON MESS”",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854186,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

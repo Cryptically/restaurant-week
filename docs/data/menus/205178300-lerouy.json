@@ -1,0 +1,323 @@
+{
+  "restaurant": {
+    "id": 205178300,
+    "name": "Lerouy 3.0",
+    "address": "7 Mohamed Sultan Rd, Singapore 238957",
+    "ratings_avg": 8.9,
+    "thumb": "https://static-assets.diningcity.asia/nizb9ken7w0cyhl4djexed2kf7o9_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.841848,
+    "lat": 1.2939491,
+    "dirname": "Lerouy",
+    "cover": "https://static-assets.diningcity.asia/nizb9ken7w0cyhl4djexed2kf7o9_thumb",
+    "avg_price": 148,
+    "format_avg_price": "S$148",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$88 p.p.",
+      "SG$138 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$88 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$138 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Lerouy",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  "meals": [
+    {
+      "id": 93994,
+      "meal_type": "lunch",
+      "key_word": "lunch_elite",
+      "price": "88",
+      "menu_title": "Lunch Set",
+      "desc": "SG$88 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133352,
+        "desc": "Please note that credit card authorisation is required to secure the reservation. The restaurant team will be in touch with you directly after the booking is made.",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2116300,
+            "name": "1st Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116302,
+                "desc": null,
+                "name": "Let yourself be surprised by the chef",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 9,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788454,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 9,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 9,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116304,
+            "name": "2nd Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116306,
+                "desc": null,
+                "name": "Let yourself be surprised by the chef",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 9,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788454,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 9,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 9,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116308,
+            "name": "3rd Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116310,
+                "desc": null,
+                "name": "Let yourself be surprised by the chef",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 9,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788454,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 9,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 9,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 93996,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "138",
+      "menu_title": "Dinner Set",
+      "desc": "SG$138 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133354,
+        "desc": "Please note that credit card authorisation is required to secure the reservation. The restaurant team will be in touch with you directly after the booking is made.",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2116312,
+            "name": "1st Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116314,
+                "desc": null,
+                "name": "Let yourself be surprised by the chef",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 9,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788454,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 9,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 9,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116316,
+            "name": "2nd Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116318,
+                "desc": null,
+                "name": "Let yourself be surprised by the chef",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 9,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788454,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 9,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 9,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116320,
+            "name": "3rd Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116322,
+                "desc": null,
+                "name": "Let yourself be surprised by the chef",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 9,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788454,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 9,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 9,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116324,
+            "name": "4th Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116326,
+                "desc": null,
+                "name": "Let yourself be surprised by the chef",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 9,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788454,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 9,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 9,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

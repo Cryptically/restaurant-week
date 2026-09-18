@@ -1,0 +1,652 @@
+{
+  "restaurant": {
+    "id": 205180586,
+    "name": "Garibaldi Italian Restaurant & Bar",
+    "address": "36 Purvis St, #01-02, Singapore 188613",
+    "ratings_avg": 9,
+    "thumb": "https://static-assets.diningcity.asia/nh5ixsfvm3jda5qc68mtq1iy72x7_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8549138,
+    "lat": 1.2964499,
+    "dirname": "Garibaldi",
+    "cover": "https://static-assets.diningcity.asia/nh5ixsfvm3jda5qc68mtq1iy72x7_thumb",
+    "avg_price": 198,
+    "format_avg_price": "S$198",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$88 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$88 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Garibaldi",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13465,
+        "name": "Italian",
+        "dir_name": "italian",
+        "restaurants_count": 76
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  "meals": [
+    {
+      "id": 94172,
+      "meal_type": "lunch",
+      "key_word": "lunch_elite",
+      "price": "48",
+      "menu_title": "Lunch Set",
+      "desc": "SG$48 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133752,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2121462,
+            "name": "Starters",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2121464,
+                "desc": "Cold Angel Hair, Snow Crab Meat & Siberian Caviar",
+                "name": "CAPELLINI",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 2,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 732342,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 2,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 2,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24667,
+                    "name": "Supplement of $28++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756125147b82e71b279859a05a15b405626a470.png"
+                  }
+                ]
+              },
+              {
+                "id": 2121466,
+                "desc": "Prawns, Cocktail Sauce & Potato Basket",
+                "name": "GAMBERI",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856482,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2121468,
+                "desc": "Poached Japanese Toretama Egg, Carbonara Cream & Crispy Croutons",
+                "name": "UOVO",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 4,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 732325,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 4,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 4,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2121470,
+            "name": "Soup",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2121472,
+                "desc": "Broccolini Soup & Cured Salmon",
+                "name": "ZUPPA",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 2,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 797788,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 2,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 2,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2121474,
+            "name": "Mains",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2121476,
+                "desc": "Smoked Scamorza Eggplant Ravioli, Olives & San Marzano Tomatoes",
+                "name": "RAVIOLI",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 2,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 732344,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 2,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 2,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2121478,
+                "desc": "Fettuccine Pasta with Angus Beef Meatballs & Tomato Sauce",
+                "name": "FETTUCCINE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 2,
+                "photos_count": 3,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 420326,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 3,
+                  "comments_count": 2
+                },
+                "menu_photos_count": 3,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2121480,
+                "desc": "Seabass with Clams in White Wine & Parsley Broth",
+                "name": "BRANZINO",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 426366,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24611,
+                    "name": "Supplement of $18++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/1787561240fc9b5e0e2e52c09348263f4fe8e8b14c.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2121482,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2121484,
+                "desc": "Vanilla Panna Cotta & Blueberry Yogurt",
+                "name": "DOLCE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 3,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 797796,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 3,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 3,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2121486,
+                "desc": "Choose your Dessert from the A la Carte Menu",
+                "name": "DALLA CARTA",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 426346,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24655,
+                    "name": "Supplement of $10++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/17875612490fbad6a9d0d953168c217db7fcba96f3.png"
+                  }
+                ]
+              },
+              {
+                "id": 2121488,
+                "desc": "Coffee or Tea",
+                "name": "IL SERVIZIO DEL CAFFE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 420334,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 94174,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "88",
+      "menu_title": "Dinner Set",
+      "desc": "SG$88 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133754,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2121490,
+            "name": "Starters",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2121492,
+                "desc": "Cold Angel Hair, Hokkaido Scallops & Siberian Caviar",
+                "name": "CAPELLINI",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 2,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 732342,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 2,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 2,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24611,
+                    "name": "Supplement of $18++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/1787561240fc9b5e0e2e52c09348263f4fe8e8b14c.png"
+                  }
+                ]
+              },
+              {
+                "id": 2121494,
+                "desc": "Cured Sardine, Olives, Tomatoes, Crispy Potato Cake & Dill Sauce",
+                "name": "SARDINE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "32.0",
+                "up_sell_price": null,
+                "source_id": 426408,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2121496,
+                "desc": "Deep-Fried Crab Cake, Pink Pepper Coulis & Granny Smith Salad",
+                "name": "GRANCHIO",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856484,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2121498,
+            "name": "Soup",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2121500,
+                "desc": "Broccolini Soup with Cured Salmon & Croutons",
+                "name": "ZUPPA",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 2,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 797788,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 2,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 2,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2121502,
+            "name": "Mains",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2121504,
+                "desc": "Squid-Ink Spaghetti Vongole, Cherry Tomatoes & White Wine Sauce",
+                "name": "SPAGHETTI",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 797790,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2121506,
+                "desc": "Pumpkin Tortelloni with Shredded Duck Leg Ragout & Pistachio Nuts",
+                "name": "TORTELLONI",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856486,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2121508,
+                "desc": "Grilled Angus Beef ‘Filet Mignon’ & Black Pepper Sauce",
+                "name": "MANZO",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 797822,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24611,
+                    "name": "Supplement of $18++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/1787561240fc9b5e0e2e52c09348263f4fe8e8b14c.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2121510,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2121512,
+                "desc": "Pandan Coconut Mousse Cake & Gula Melaka Caramel",
+                "name": "DOLCE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 3,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 797796,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 3,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 3,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2121514,
+                "desc": "Choose your Dessert from The A la Carte",
+                "name": "DALLA CARTA",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 426346,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24655,
+                    "name": "Supplement of $10++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/17875612490fbad6a9d0d953168c217db7fcba96f3.png"
+                  }
+                ]
+              },
+              {
+                "id": 2121516,
+                "desc": "Coffee or Tea",
+                "name": "IL SERVIZIO DEL CAFFE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 420334,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

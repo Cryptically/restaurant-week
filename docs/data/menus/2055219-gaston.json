@@ -1,0 +1,303 @@
+{
+  "restaurant": {
+    "id": 2055219,
+    "name": "Bistro Gaston",
+    "address": "25 Keong Saik Rd",
+    "ratings_avg": 9.2,
+    "thumb": "https://static-assets.diningcity.asia/restaurantpictures/2020/431b25003159ba9accc2e03369733228.jpeg_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "b",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.84145,
+    "lat": 1.279837,
+    "dirname": "gaston",
+    "cover": "https://static-assets.diningcity.asia/restaurantpictures/2020/431b25003159ba9accc2e03369733228.jpeg_thumb",
+    "avg_price": 38,
+    "format_avg_price": "S$38",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "SG$38 L - SG$58 D",
+    "prices": [
+      "SG$38 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/gaston",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13466,
+        "name": "French",
+        "dir_name": "french",
+        "restaurants_count": 81
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  "meals": [
+    {
+      "id": 93992,
+      "meal_type": "lunch",
+      "key_word": "lunch_b",
+      "price": "38",
+      "menu_title": "Lunch Set",
+      "desc": "SG$38 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133336,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2116166,
+            "name": "Entrée",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116168,
+                "desc": "Butternut squash velouté with beurre noisette, hazelnut & sage",
+                "name": "Velouté de Potimarron (V)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854684,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116170,
+                "desc": "Mackerel rillettes, fennel pollen, green apple & dill",
+                "name": "Rillettes de Maquereau",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788578,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116172,
+                "desc": "Country duck paté, pistachio, quince chutney & cornichons",
+                "name": "Terrine de Canard",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854686,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116174,
+            "name": "Plat De Résistance",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116176,
+                "desc": "Crispy seabass & potato, leek fondue, cider chicken jus",
+                "name": "Bar en Paupiette",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854688,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116178,
+                "desc": "Braised lamb & mash gratin, harissa, arugula & goat cheese",
+                "name": "Parmentier de Canard",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 419732,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116180,
+                "desc": "Pasta risotto style, Hens of the wood's mushrooms, Tomme de Savoie cheese",
+                "name": "Crozets (V)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854690,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116182,
+                "desc": "Wagyu beef patty, fried egg, peppercorn sauce, French fries",
+                "name": "Steak Haché à Cheval",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854692,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116184,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116186,
+                "desc": "Apple tart with whipped crème fraiche & green apple sorbet",
+                "name": "Tarte Tatin",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854694,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116188,
+                "desc": "Traditional French custard cream",
+                "name": "Pot de Crème",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 788590,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

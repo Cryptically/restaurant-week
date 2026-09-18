@@ -1,0 +1,384 @@
+{
+  "restaurant": {
+    "id": 205176024,
+    "name": "The Landing Point",
+    "address": "80 Collyer Quay, Singapore 049326",
+    "ratings_avg": 9,
+    "thumb": "https://static-assets.diningcity.asia/c21axi53we0py872d2uf7u9qf86c_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "special",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8536908,
+    "lat": 1.2839169,
+    "dirname": "the_landing_point",
+    "cover": "https://static-assets.diningcity.asia/c21axi53we0py872d2uf7u9qf86c_thumb",
+    "avg_price": 48,
+    "format_avg_price": "S$48",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "afternoon_tea",
+        "price": "SG$58 p.p.",
+        "menu_title": "Afternoon Tea",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_afternoon_tea.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/the_landing_point",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13485,
+        "name": "International",
+        "dir_name": "international",
+        "restaurants_count": 66
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  "meals": [
+    {
+      "id": 94204,
+      "meal_type": "afternoon_tea",
+      "key_word": "afternoon_tea",
+      "price": "58",
+      "menu_title": "Afternoon Tea",
+      "desc": "SG$58 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Afternoon Tea",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133796,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2128560,
+            "name": "SAVOURY",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2128562,
+                "desc": "",
+                "name": "Norwegian Smoked Trout, Matcha, Cream Cheese, Ikura",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859286,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2128564,
+                "desc": "",
+                "name": "Boston Lobster, Yuzu-Matcha Mayonnaise, Nomad Caviar",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859288,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2128566,
+                "desc": "",
+                "name": "Tuna Tataki, Kohlrabi, Sesame-Matcha Aioli",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859290,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2128568,
+                "desc": "",
+                "name": "Duck Rillettes, Matcha Fig Compote, Cornichon",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859292,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2128570,
+                "desc": "",
+                "name": "Classic Cucumber Sandwich, Cream Cheese (v)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859294,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2128572,
+                "desc": "",
+                "name": "Truffle Egg Salad (v)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859296,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2128574,
+            "name": "SWEET",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2128576,
+                "desc": "Vanilla Chantilly, Strawberry , Matcha Pain de Genes",
+                "name": "Chitose Strawberry Matcha Shortcake",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859298,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2128578,
+                "desc": "Caramelised Pecan Praline, Yuzu Dark Chocolate , Whipped Matcha Ganache",
+                "name": "Matcha Yuzu Pecan",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859300,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2128580,
+                "desc": "Matcha Cream C heese, Graham Crumbs , Matcha Glaze",
+                "name": "Matcha Cheesecake",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859302,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2128582,
+                "desc": "Matcha Crémeux , Raspberry C onfit, Matcha Chiffon Sponge",
+                "name": "Matcha Raspberry",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859304,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2128584,
+                "desc": "Azuki Red Bean , Custard",
+                "name": "Matcha Custard Mochi",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859306,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2128586,
+                "desc": "Green Tea Crème , Yuzu Curd",
+                "name": "Citrus Baba Savarin",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859308,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2128590,
+                "desc": "",
+                "name": "A Glass of Matcha, Warm or Iced | A Serving Coffee or Tea",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859310,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

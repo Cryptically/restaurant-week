@@ -1,0 +1,316 @@
+{
+  "restaurant": {
+    "id": 205178376,
+    "name": "Sol & Ora",
+    "address": "10 Artillery Ave, #07-01, 099951",
+    "ratings_avg": 8.6,
+    "thumb": "https://static-assets.diningcity.asia/5h4h2mz9gve2yrbj7rjj2zb3bsoy_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8203751,
+    "lat": 1.253599,
+    "dirname": "Sol_and_Ora",
+    "cover": "https://static-assets.diningcity.asia/5h4h2mz9gve2yrbj7rjj2zb3bsoy_thumb",
+    "avg_price": 68,
+    "format_avg_price": "S$68",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$52 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "dinner",
+        "price": "SG$52 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/Sol_and_Ora",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13465,
+        "name": "Italian",
+        "dir_name": "italian",
+        "restaurants_count": 76
+      },
+      {
+        "id": 13467,
+        "name": "Greek",
+        "dir_name": "greek",
+        "restaurants_count": 2
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  "meals": [
+    {
+      "id": 94298,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "52",
+      "menu_title": "Dinner Set",
+      "desc": "SG$52 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133910,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2123746,
+            "name": "Sol & Ora Bread Service",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123748,
+                "desc": "Brioche Parker Roll Whipped Maple Butter | Black Olive Tapenade",
+                "name": "Brioche Parker Roll",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857460,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2123750,
+            "name": "Choice Of Appetiser",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123752,
+                "desc": "Roasted Delica Pumpkin | Brown Butter | Candied Walnuts | Pomegranate | Aged Balsamic",
+                "name": "Burrata (V)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857462,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123754,
+                "desc": "House Smoked Duck Breast | Apricot Chutney | Goat Cheese | Baby Rocket | Toasted Pistachio",
+                "name": "Smoked Duck Crostini",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857464,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123756,
+                "desc": "Jerusalem Artichoke Purée | Crispy Chorizo Crumble | Salsa Verde | Smoked Paprika Oil",
+                "name": "Chargrilled Fremantle Octopus",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857466,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2123758,
+            "name": "Choice Of Main",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123760,
+                "desc": "Ricotta Filling | Brown Butter | Crispy Sage | Pecorino | Toasted Pumpkin Seeds | Roasted Pumpkin Cream",
+                "name": "Pumpkin & Sage Ravioli (V)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857468,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123762,
+                "desc": "Chestnut Purée | Roasted Baby Carrots | Brussels Sprouts | Chicken Jus",
+                "name": "Herb-Roasted Corn-fed Chicken",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857470,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123764,
+                "desc": "Celeriac Purée | Charred Broccolini | Roasted Leeks | Lemon Beurre Blanc",
+                "name": "Pan-Seared Barramundi",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857472,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123766,
+                "desc": "Parsnip Purée | Roasted King Oyster Mushroom | Shallot Confit | Red Wine Jus",
+                "name": "Grain-fed Angus Ribeye Steak MB2 (200g)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857474,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2123768,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123770,
+                "desc": "Vanilla Bean Ice Cream | Salted Caramel | Candied Pecans | Cinnamon Crumble | Apple Chutney",
+                "name": "Spiced Apple & Cinnamon Sundae",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857476,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

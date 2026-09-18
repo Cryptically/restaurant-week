@@ -1,0 +1,505 @@
+{
+  "restaurant": {
+    "id": 2055541,
+    "name": "Zorba The Greek Taverna",
+    "address": "#ORA 1  BLK A – CLARKE QUAY  3A RIVER VALLEY ROAD  SINGAPORE 179020",
+    "ratings_avg": 6.9,
+    "thumb": "https://static-assets.diningcity.asia/3v3u4zbwp5o4g677uh1htjeu9p1b_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8448929,
+    "lat": 1.2903646,
+    "dirname": "zorba_the_greek_taverna",
+    "cover": "https://static-assets.diningcity.asia/3v3u4zbwp5o4g677uh1htjeu9p1b_thumb",
+    "avg_price": 28,
+    "format_avg_price": "S$28",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$28 p.p.",
+      "SG$58 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$28 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$58 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/zorba_the_greek_taverna",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13467,
+        "name": "Greek",
+        "dir_name": "greek",
+        "restaurants_count": 2
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  "meals": [
+    {
+      "id": 93962,
+      "meal_type": "lunch",
+      "key_word": "lunch_elite",
+      "price": "28",
+      "menu_title": "Lunch Set",
+      "desc": "SG$28 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133126,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2113082,
+            "name": "Appetiser",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2113084,
+                "desc": "Chicken | Iceberg Lettuce | Cucumbers | Cherry Tomatoes | Onions | Bell Peppers",
+                "name": "Deli-Style Chicken Salad with Thousand Island Dressing",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 659804,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113086,
+                "desc": "Grilled Vegetables | Chimichurri | Smoked Ricotta | Garlic Aioli",
+                "name": "Grilled Vegetables (V)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854034,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113088,
+                "desc": "Iceberg Lettuce | Cherry Tomatoes | Cucumbers | Onions | Burnt Peppers",
+                "name": "Norwegian Cured Salmon Salad with Lemon Dill Yoghurt*",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854036,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24685,
+                    "name": "Supplement of $5++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/1787561255bd4a48dbcf0fc21bda74895d81b08980.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2113090,
+            "name": "Main Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2113092,
+                "desc": "Fresh Ground Angus Beef Grilled in Charcoal Fire | Fresh Herbs | Oven Roasted Potato | Tzatziki Sauce",
+                "name": "Angus Biftteki",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854038,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113094,
+                "desc": "Poached Sea Bass | Tempura Vegetables | Cherry Tomatoes | Lemon Mustard Vinaigrette",
+                "name": "Poached Sea Bass",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 659812,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113096,
+                "desc": "Stuffed Roasted Bell Peppers | Tomato Risotto | Mint Leaves | Onions | Fresh Herbs | Potatoes | Crumbled Feta",
+                "name": "Piperies Gemistes (V)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 659814,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2113098,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2113100,
+                "desc": "Semolina Pie topped with Sweetened Coconut Flakes",
+                "name": "Ravani of Veria",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 659816,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 93964,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "58",
+      "menu_title": "Dinner Set",
+      "desc": "SG$58 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133128,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2113102,
+            "name": "Starter",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2113104,
+                "desc": "Tzatziki | Hummus",
+                "name": "House Special Dips with Pita Bread",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 659818,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2113106,
+            "name": "Appetiser",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2113108,
+                "desc": "Cherry Tomatoes | Onions | Olives | Pine Nuts | Basil Infused Oil | Aged Balsamic Cream",
+                "name": "Mediterranean Burrata Salad (V)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 659820,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113110,
+                "desc": "Chicken | Iceberg Lettuce | Cucumbers | Cherry Tomatoes | Onions | Bell Peppers",
+                "name": "Deli-Style Chicken Salad with Thousand Island Dressing",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 659804,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2113112,
+            "name": "Main Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2113114,
+                "desc": "Oven Baked Stuffed Chicken Thigh with Kefalotyri Cheese | Bell Peppers | Spinach | Garlic Mashed Potato",
+                "name": "Cheesy Chicken Roulade",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 659822,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113116,
+                "desc": "Sea Bass | Vegetable Stewed in Tomato Sauce | Feta Cheese | Chives",
+                "name": "Oven Baked Sea Bass",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 659824,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113118,
+                "desc": "Orzo | Roasted Vegetables | Parmesan Cheese | Mint Leaves",
+                "name": "Orzo Pasta with Roasted Vegetables (V)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 659826,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2113120,
+                "desc": "Grass-Fed Beef Striploin | Rosemary Baby Potatoes | Asparagus| Smoky Sour Cream Sauce",
+                "name": "Silver Fern NZ Beef Striploin Steak 180g*",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854040,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2113122,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2113124,
+                "desc": "Crispy Custard Pie With Honey Lemon Syrup",
+                "name": "Galaktoboureko",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854042,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

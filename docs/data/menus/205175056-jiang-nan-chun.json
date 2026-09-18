@@ -1,0 +1,523 @@
+{
+  "restaurant": {
+    "id": 205175056,
+    "name": "Jiang-Nan Chun",
+    "address": "190 Orchard Blvd, Singapore 248646",
+    "ratings_avg": 9.7,
+    "thumb": "https://static-assets.diningcity.asia/7dheey2yq16iyr201h6zsdzghc9n_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8284188,
+    "lat": 1.3051922,
+    "dirname": "jiang-nan_chun",
+    "cover": "https://static-assets.diningcity.asia/7dheey2yq16iyr201h6zsdzghc9n_thumb",
+    "avg_price": 158,
+    "format_avg_price": "S$158",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$80 p.p.",
+      "SG$190 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$80 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$190 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/jiang-nan_chun",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13478,
+        "name": "Chinese",
+        "dir_name": "chinese",
+        "restaurants_count": 45
+      },
+      {
+        "id": 13498,
+        "name": "Cantonese",
+        "dir_name": "cantonese",
+        "restaurants_count": 14
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  "meals": [
+    {
+      "id": 94286,
+      "meal_type": "lunch",
+      "key_word": "lunch_elite",
+      "price": "80",
+      "menu_title": "Lunch Set",
+      "desc": "SG$80 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133898,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2123612,
+            "name": "Course 1",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123614,
+                "desc": "Steamed Vegetables Dumpling with Dried Scallops and Shrimps, Pan-Fried A5 Wagyu Beef Bun with Black Pepper Sauce, Honey-Glazed Iberico Pork, Steamed Shrimp Dumpling",
+                "name": "Jiang-Nan Platter 江南四拼",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857390,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2123616,
+            "name": "Course 2",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123618,
+                "desc": null,
+                "name": "Daily Special Cantonese Soup 每日精选炖汤",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857392,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2123620,
+            "name": "Course 3",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123622,
+                "desc": null,
+                "name": "Sweet and Sour Pork with Pineapple 凤梨咕噜肉",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857394,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123624,
+                "desc": null,
+                "name": "Steamed Star Garoupa Fillet with Superior Soy Sauce 港式清蒸东星斑",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857396,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 22298,
+                    "name": "Supplement of $48++ per person",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/17581630338b98e1cf51930da8c4c9ad00ec434a81.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2123626,
+            "name": "Course 4",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123628,
+                "desc": null,
+                "name": "Signature Fried Rice with Prawn, Crab Meat and Scallop in Abalone Sauce 招牌鲍汁海鲜瑶柱炒饭",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857398,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123630,
+                "desc": "Braised in Superior Stock or Baked with Cheese",
+                "name": "Braised Ee-Fu Noodles with Pacific Spiny Lobster 本地龙虾焖伊面",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857400,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 22300,
+                    "name": "Supplement of $38++ per person",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/1758163058b942c5deb3e5958d5e251e7fbd0e1851.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2123632,
+            "name": "Course 5",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123634,
+                "desc": null,
+                "name": "Chilled Mango and Sago Cream with Pomelo 杨枝甘露",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857402,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 94288,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "190",
+      "menu_title": "Dinner Set",
+      "desc": "SG$190 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133900,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2123636,
+            "name": "Course 1",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123638,
+                "desc": "昆布清酒麻香一品鲜鲍 拼伊比利蜜汁叉烧",
+                "name": "Chilled Fresh Abalone with Sesame Sauce and Rice Wine, Honey-Glazed Iberico Pork",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857404,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2123640,
+            "name": "Course 2",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123642,
+                "desc": "宫廷浓汤花胶海味羹",
+                "name": "Sea Treasure Broth with Fish Maw, Shredded Sea Cucumber and Conpoy",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 857406,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2123644,
+            "name": "Course 3",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123646,
+                "desc": "蒜蓉粉丝蒸本地龙虾",
+                "name": "Steamed Pacific Spiny Lobster with Glass Noodles and Minced Garlic",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 740046,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2123648,
+            "name": "Course 4",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123650,
+                "desc": "果木挂炉北京片皮鸭",
+                "name": "Signature Jiang-Nan Chun Peking Duck",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "148.0",
+                "up_sell_price": null,
+                "source_id": 172125,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2123652,
+            "name": "Course 5",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123654,
+                "desc": "干炒鸭丝香港生面",
+                "name": "Wok-Fried Hong Kong Noodles with Shredded Duck",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 740050,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2123656,
+                "desc": "X.O. 酱鸭粒炒饭",
+                "name": "Fried Rice with Minced Duck in X.O. Chilli Sauce",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 740052,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2123658,
+            "name": "Course 6",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2123660,
+                "desc": "蛋白杏仁茶",
+                "name": "Hot Almond Cream with Egg White",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 660132,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

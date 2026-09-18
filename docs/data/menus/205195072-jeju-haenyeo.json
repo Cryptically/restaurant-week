@@ -1,0 +1,620 @@
+{
+  "restaurant": {
+    "id": 205195072,
+    "name": "JEJU HAENYEO",
+    "address": "179429, Old Parliament Ln, 1号, The Arts House Annex Building, #01-04",
+    "ratings_avg": 8.1,
+    "thumb": "https://static-assets.diningcity.asia/7acjxrzp2kdalyh7nyhzh7lsg1ec_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8513664,
+    "lat": 1.2885491,
+    "dirname": "JEJU_HAENYEO",
+    "cover": "https://static-assets.diningcity.asia/7acjxrzp2kdalyh7nyhzh7lsg1ec_thumb",
+    "avg_price": 108,
+    "format_avg_price": "S$108",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$43 p.p.",
+      "SG$29 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$43 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$29 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/JEJU_HAENYEO",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13480,
+        "name": "Korean",
+        "dir_name": "korean",
+        "restaurants_count": 6
+      },
+      {
+        "id": 13486,
+        "name": "Asian",
+        "dir_name": "asian",
+        "restaurants_count": 65
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  "meals": [
+    {
+      "id": 94928,
+      "meal_type": "lunch",
+      "key_word": "lunch_elite",
+      "price": "43",
+      "menu_title": "Lunch Set",
+      "desc": "SG$43 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": "20.0",
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 135260,
+        "desc": "Weekday Set Lunch is available from Wednesday to Fridays only.\n\nPre-authorisation hold is required to confirm the reservation.\n\nThe lunch session runs for approximately 1.5 hours.",
+        "description": null,
+        "vat": "9",
+        "service_fee": "10",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2137030,
+            "name": "1st Course - The Opening 죽 粥 Juk",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2137032,
+                "desc": "",
+                "name": "A warm bowl of traditional Korean porridge, gently prepared to soothe the palate the perfect beginning to a nourishing meal.",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800450,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2137034,
+            "name": "2nd Course - The Main 구절판 九折坂 Gujeolpan",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2137036,
+                "desc": "A rare delicacy featuring meticulously prepared ingredients arranged as “nine blessings”",
+                "name": "The Platter of Nine Delicacies",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800454,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2137038,
+                "desc": "A harmonious experience for both the eyes and the palate, offering a balanced and healthy main course",
+                "name": "A Royal Experience",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800466,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2137040,
+                "desc": "The Earth - Seasonal vegetables paired with Barley Rice",
+                "name": "Choose Your Path: The Earth OR The Sea",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800468,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2137042,
+                "desc": "The Sea - Fresh seafood paired with Silky Noodles",
+                "name": "Choose Your Path: The Earth OR The Sea",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800470,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2137044,
+            "name": "3rd Course - The Finale 후식 甜点 Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2137046,
+                "desc": "A light, sweet, and refreshing seasonal treat inspired by the flavors of Jeju Island.",
+                "name": "Jeju-Style Dessert",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800456,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2137048,
+                "desc": "Jeju Milk Ice Cream (Vanilla / Green Tea)",
+                "name": "Change Options",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800636,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24643,
+                    "name": "Supplement of $2.50++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/17875612465a4f9339c51623b4734a594bf57a1f0a.png"
+                  }
+                ]
+              },
+              {
+                "id": 2137050,
+                "desc": "Capsule Coffee & Jeju Citron Tea (Hot/Iced)",
+                "name": "Change Options",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860038,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2137052,
+            "name": "Accompaniments & Upgrades",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2137054,
+                "desc": "",
+                "name": "Jeju Horn Conch Skewer",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800458,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24705,
+                    "name": "Supplement of $8++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/1787561259431cf2b4808ecaf80d8247478e4be3ff.png"
+                  }
+                ]
+              },
+              {
+                "id": 2137056,
+                "desc": "",
+                "name": "Soy-Cured Abalone",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800460,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24627,
+                    "name": "Supplement of $6++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756124384aa69c1bcd16900408e54ac3ea6903e.png"
+                  }
+                ]
+              },
+              {
+                "id": 2137058,
+                "desc": "",
+                "name": "Tot (Jeju seaweed from Haenyeo) Tofu Pancake",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800480,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24657,
+                    "name": "Supplement of $12++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/1787561249db3e0d13eb450b4e6359c12f6d5c2442.png"
+                  }
+                ]
+              },
+              {
+                "id": 2137060,
+                "desc": "",
+                "name": "Jeju Pork Stir-Fry (Gochujang)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800482,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24679,
+                    "name": "Supplement of $15++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756125494289f4f2c6f87a2d651f131d64db091.png"
+                  }
+                ]
+              },
+              {
+                "id": 2137062,
+                "desc": "",
+                "name": "Spicy Horn Conch Salad",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800484,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24866,
+                    "name": "Supplement of $17++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/17895339928bb5c65ca02f64df71a924bb90a44f74.png"
+                  }
+                ]
+              },
+              {
+                "id": 2137064,
+                "desc": "",
+                "name": "Jeju’s finest fish “OKDOM”",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 800486,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24645,
+                    "name": "Supplement of $30++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/17875612479a5e5bf5fd2b964e1f437b7a0f582eea.png"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 94930,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "29",
+      "menu_title": "Dinner Set",
+      "desc": "SG$29 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 2,
+      "minimum_seats": 2,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 2 people",
+      "minimum_seats_humanize": "Min. 2 guests",
+      "extras_menu": {
+        "id": 135262,
+        "desc": "Minimum reservation of 2 guests required. Menu is served sharing-style.\n\nDinner will be served at Jeju Haenyeo’s outdoor pub by the river, offering a relaxed sharing-style dining experience.",
+        "description": null,
+        "vat": "9",
+        "service_fee": "10",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2137066,
+            "name": "1st Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2137074,
+                "desc": "Char-grilled horn conch and vegetables, inspired by the haenyeo bulteok fire.",
+                "name": "Bulteok Skewers",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856942,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2137068,
+            "name": "2nd Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2137076,
+                "desc": "Thinly sliced horn conch and octopus with zucchini in a doenjang-yuzu dressing.",
+                "name": "Horn Conch & Octopus",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856944,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2137070,
+            "name": "3rd Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2137078,
+                "desc": "Gochujang-marinated pork served with fresh lettuce wraps.",
+                "name": "Spicy Pork Wraps",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856946,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2137072,
+            "name": "4th Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2137080,
+                "desc": "Pan-fried crisp with a soy dipping sauce. Choose kimchi or potato.",
+                "name": "Korean Pancake",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860040,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

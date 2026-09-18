@@ -1,0 +1,654 @@
+{
+  "restaurant": {
+    "id": 205196188,
+    "name": "Araya",
+    "address": "Mondrian Singapore Duxton 83 Neil Road, Duxton Hl, #01-08 Access via, Singapore 089813",
+    "ratings_avg": 9.3,
+    "thumb": "https://static-assets.diningcity.asia/xisx33fs5xxyj54ug1xj3pfe7f57_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8419489,
+    "lat": 1.2789527,
+    "dirname": "araya",
+    "cover": "https://static-assets.diningcity.asia/xisx33fs5xxyj54ug1xj3pfe7f57_thumb",
+    "avg_price": 250,
+    "format_avg_price": "S$250",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$48 p.p.",
+      "SG$128 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$48 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$128 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/araya",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13468,
+        "name": "Spanish",
+        "dir_name": "spanish",
+        "restaurants_count": 28
+      },
+      {
+        "id": 13491,
+        "name": "European",
+        "dir_name": "european",
+        "restaurants_count": 87
+      }
+    ],
+    "tags": [],
+    "locations": []
+  },
+  "meals": [
+    {
+      "id": 94446,
+      "meal_type": "lunch",
+      "key_word": "lunch_elite",
+      "price": "48",
+      "menu_title": "Lunch Set",
+      "desc": "SG$48 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 134548,
+        "desc": "Please note that only counter seats are available for Araya's dining experience.",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2126842,
+            "name": "La Panera / Bread",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2126844,
+                "desc": "Classic Chilean bread",
+                "name": "MARRAQUETA",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858602,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2126846,
+                "desc": "Nori roll",
+                "name": "BOCADO DE DAMA ",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858604,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2126848,
+                "desc": "Nori roll",
+                "name": "BOCADO DE DAMA",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858606,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2126850,
+            "name": "Entradas / Starters",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2126852,
+                "desc": "Peach gazpacho",
+                "name": "TOMATO MOUSSE ",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858608,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2126858,
+            "name": "Principales / Mains",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2126860,
+                "desc": " Lamb, aged Ecuadorian cacao sauce",
+                "name": "GRILLED LAMB ECUADORIAN CACAO",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858614,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2126864,
+            "name": "El Postre / Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2126866,
+                "desc": "Chef Fernanda’s house-made orange-custard apple",
+                "name": "PAVLOVA ",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858618,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2126868,
+            "name": "Chef's Favourites (Add-on)",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2126870,
+                "desc": "Smoked eel, Ibérico-yuzu dashi",
+                "name": "FOIE GRAS",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858620,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21286,
+                    "name": "Supplement of $28++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/17563643859ce027e8121247e93138f7bfce690a47.png"
+                  }
+                ]
+              },
+              {
+                "id": 2126872,
+                "desc": "Koshihikari rice, ñora peppers",
+                "name": "CHORIZO ARROZ",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858622,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21276,
+                    "name": "Supplement of $12++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/1756364318112a2964a5054f307bdeb4b8c8c1e9db.png"
+                  }
+                ]
+              },
+              {
+                "id": 2126874,
+                "desc": "Snow crab, grilled corn, merkén",
+                "name": "CHAWANMUSHI",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858624,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21276,
+                    "name": "Supplement of $12++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/1756364318112a2964a5054f307bdeb4b8c8c1e9db.png"
+                  }
+                ]
+              },
+              {
+                "id": 2126876,
+                "desc": "Single-origin house-made chocolates",
+                "name": "CHOCOLATE TROLLEY EXPERIENCE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858626,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 22288,
+                    "name": "Supplement of $30++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/175808658207ba573cb50d3a6377929709d03df8e7.png"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 94448,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "128",
+      "menu_title": "Dinner Set",
+      "desc": "SG$128 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 134550,
+        "desc": "Please note that only counter seats are available for Araya's dining experience.",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2126878,
+            "name": "Snacks",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2126880,
+                "desc": "Tomato meringue",
+                "name": "AMA EBI",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858596,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2126882,
+                "desc": "Fermented tea",
+                "name": "YERBA MATE & CEDRON",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858598,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2126884,
+                "desc": "Choclitos",
+                "name": "CORN FLAN",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858600,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2126886,
+            "name": "La Panera / Bread",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2126888,
+                "desc": "Classic Chilean bread",
+                "name": "MARRAQUETA",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858602,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2126890,
+                "desc": "Sourdough potato bread",
+                "name": "CHAPALELE",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858604,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2126892,
+                "desc": "Nori roll",
+                "name": "BOCADO DE DAMA",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858606,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2126894,
+            "name": "Entradas / Starters",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2126896,
+                "desc": "Hokkaido scallop, oca, daikon, leche de tigre, avocado sorbet",
+                "name": "CEVICHE RAINBOW",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858608,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2126898,
+                "desc": "Mashua, quinoa, huacatay salsa, pickled seaweed",
+                "name": "CORAL",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858610,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2126902,
+            "name": "Principales / Mains",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2126904,
+                "desc": "Slow-cooked seabream, nori, yellow chilli, white kombu",
+                "name": "MADAI",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858614,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2126908,
+            "name": "El Postre / Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2126910,
+                "desc": "Goat’s milk, snow, cinnamon anglaise, Patagonian berries, dulce de leche",
+                "name": "ANTÁRTICA",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858618,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

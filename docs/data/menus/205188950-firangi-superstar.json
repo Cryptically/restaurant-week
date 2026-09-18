@@ -1,0 +1,1002 @@
+{
+  "restaurant": {
+    "id": 205188950,
+    "name": "Firangi Superstar",
+    "address": "20 Craig Rd, #01-03, Singapore 089692",
+    "ratings_avg": 9.5,
+    "thumb": "https://static-assets.diningcity.asia/5866r6np8r6u5zvjnxb4eeha9jv5_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8423541,
+    "lat": 1.2781681,
+    "dirname": "firangi_superstar",
+    "cover": "https://static-assets.diningcity.asia/5866r6np8r6u5zvjnxb4eeha9jv5_thumb",
+    "avg_price": 30,
+    "format_avg_price": "S$30",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$38 p.p.",
+      "SG$68 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "lunch",
+        "price": "SG$38 p.p.",
+        "menu_title": "Lunch Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_lunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$68 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/firangi_superstar",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13487,
+        "name": "Modern",
+        "dir_name": "modern",
+        "restaurants_count": 56
+      },
+      {
+        "id": 13490,
+        "name": "Indian",
+        "dir_name": "indian",
+        "restaurants_count": 26
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000225,
+        "name": "Central Singapore",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  "meals": [
+    {
+      "id": 94008,
+      "meal_type": "lunch",
+      "key_word": "lunch_elite",
+      "price": "38",
+      "menu_title": "Lunch Set",
+      "desc": "SG$38 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133374,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2116492,
+            "name": "Tiny Plates, Big Tastes",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116496,
+                "desc": "Vine Tomato Salad, Simmered Lentils, Rasam Vinaigrette",
+                "name": "ACID TRIP TO CHENNAI",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854792,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116498,
+                "desc": "Malabar Crab Cutlet, Tomato Relish, Kashmiri Chilli",
+                "name": "COASTAL HIGHLANDS?",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 2,
+                "photos_count": 2,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 797732,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 2,
+                  "comments_count": 2
+                },
+                "menu_photos_count": 2,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21266,
+                    "name": "Supplement of $5++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/1756364298ff2f5704f57ef82fbb1a1b7501ddaf77.png"
+                  }
+                ]
+              },
+              {
+                "id": 2116500,
+                "desc": "Savoy Cabbage Cutlet, Tomato Relish, Kashmiri Chilli",
+                "name": "COASTAL HIGHLANDS? (VEG)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854794,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116502,
+                "desc": "Fried Burrata, Manchurian Chilli Sauce, Scallion",
+                "name": "BIG BALLER PEPERONER",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 737658,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21266,
+                    "name": "Supplement of $5++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/1756364298ff2f5704f57ef82fbb1a1b7501ddaf77.png"
+                  }
+                ]
+              },
+              {
+                "id": 2116504,
+                "desc": "Romanesco Cauliflower, Spiced Potato Foam, Cashew-Raisin Vinaigrette",
+                "name": "THIS IS NOT ALOO GOBI",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 3,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 792448,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 3,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 3,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116506,
+            "name": "“Rather Main” They Said...",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116508,
+                "desc": "Baked Halibut, Kasundi Cream, Banana Leaf Oil",
+                "name": "THE BENGAL BAKE-OFF",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 2,
+                "photos_count": 4,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 743534,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 4,
+                  "comments_count": 2
+                },
+                "menu_photos_count": 4,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116510,
+                "desc": "Baked Artichoke Hearts, Kasundi Cream, Banana Leaf Oil",
+                "name": "THE BENGAL BAKE-OFF (VEG)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854796,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116512,
+                "desc": "Tandoori Spiced Lamb, Confit Garlic, Curry Leaf",
+                "name": "BACK IN THE SADDLE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 3,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 737660,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 3,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 3,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21274,
+                    "name": "Supplement of $10++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/17563643146102e61d036bb329c726d78e15ec0094.png"
+                  }
+                ]
+              },
+              {
+                "id": 2116514,
+                "desc": "Tandoori Spiced Eggplant, Dahi Baingan, Curry Leaf",
+                "name": "BACK IN THE SADDLE (VEG)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854798,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116516,
+            "name": "On The Side",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116518,
+                "desc": "",
+                "name": "DHAL MAKHANI",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 5,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 493894,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 5,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 5,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116520,
+                "desc": "",
+                "name": "STEAMED BASMATI RICE",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 2,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 493896,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 2,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 2,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116522,
+                "desc": "",
+                "name": "BLACK GARLIC NAAN",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 493898,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21274,
+                    "name": "Supplement of $10++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/17563643146102e61d036bb329c726d78e15ec0094.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2116524,
+            "name": "Sweet Ending",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116526,
+                "desc": "Banana Mousse, Spiced Chocolate",
+                "name": "BANOFFEE FRITTERS",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 6,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 792454,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 6,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 6,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 94010,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "68",
+      "menu_title": "Dinner Set",
+      "desc": "SG$68 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 133376,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "*All prices subject to 9.0% VAT",
+        "service_fee_text": "All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2116528,
+            "name": "Chutney & Papads",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116530,
+                "desc": null,
+                "name": "CORIANDER MINT CHUTNEY",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854800,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116532,
+                "desc": "",
+                "name": "FIRANGI’S COCONUT CHUTNEY",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 743524,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116534,
+                "desc": "",
+                "name": "SMOKEY TOMATO CHUTNEY",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 743526,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116536,
+                "desc": "",
+                "name": "CASHEW-SESAME CHUTNEY",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 743528,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116538,
+            "name": "Tiny Plates, Big Tastes",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116540,
+                "desc": "Vine Tomato Salad, Simmered Lentils, Rasam Vinaigrette",
+                "name": "ACID TRIP TO CHENNAI",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854792,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116542,
+                "desc": "Malabar Crab Cutlet, Tomato Relish, Kashmiri Chilli",
+                "name": "COASTAL HIGHLANDS?",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 2,
+                "photos_count": 2,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 797732,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 2,
+                  "comments_count": 2
+                },
+                "menu_photos_count": 2,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2127418,
+                "desc": "Savoy Cabbage Cutlet, Tomato Relish, Kashmiri Chilli",
+                "name": "COASTAL HIGHLANDS? (VEG)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854794,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116544,
+                "desc": "Fried Burrata, Manchurian Chilli Sauce, Scallion",
+                "name": "BIG BALLER PEPERONER",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 1,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 737658,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 1,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 1,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116546,
+                "desc": "Romanesco Cauliflower, Spiced Potato Foam, Cashew-Raisin Vinaigrette",
+                "name": "THIS IS ALSO NOT ALOO GOBI",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 2,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 657637,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 2,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 2,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2127420,
+                "desc": "Romanesco Cauliflower, Spiced Potato Foam, Cashew-Raisin Vinaigrette",
+                "name": "THIS IS ALSO NOT ALOO GOBI (VEG)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858850,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116548,
+            "name": "Soup",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116550,
+                "desc": "Truffle Foam, Black Truffle",
+                "name": "WHITE CORN SHORBA",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 792460,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116552,
+            "name": "“Rather Main” They Said...",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116556,
+                "desc": "Baked Halibut, Kasundi Cream, Banana Leaf Oil",
+                "name": "THE BENGAL BAKE-OFF",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 2,
+                "photos_count": 4,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 743534,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 4,
+                  "comments_count": 2
+                },
+                "menu_photos_count": 4,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2127422,
+                "desc": "Baked Artichoke Hearts, Kasundi Cream, Banana Leaf Oil",
+                "name": "THE BENGAL BAKE-OFF (VEG)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854796,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116558,
+                "desc": "Grilled Iberico Pork, Nagaland Chilli, Lotus Chips",
+                "name": "NAGA PLEASE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854804,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2127424,
+                "desc": "Confit Sunchokes, Nagaland Chilli , Lotus Chips",
+                "name": "NAGA PLEASE (VEG)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858852,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116560,
+                "desc": "Tandoori Spiced Lamb, Confit Garlic, Curry Leaf",
+                "name": "BACK IN THE SADDLE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 3,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 737660,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 3,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 3,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24655,
+                    "name": "Supplement of $10++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/17875612490fbad6a9d0d953168c217db7fcba96f3.png"
+                  }
+                ]
+              },
+              {
+                "id": 2127426,
+                "desc": "Tandoori Spiced Eggplant, Dahi Baingan, Curry Leaf",
+                "name": "BACK IN THE SADDLE (VEG)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858854,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2116562,
+            "name": "On The Side",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116564,
+                "desc": "",
+                "name": "DHAL MAKHANI",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 5,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 493894,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 5,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 5,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116566,
+                "desc": "",
+                "name": "SAFFRON LEMON RICE",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 743540,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116568,
+                "desc": "",
+                "name": "BLACK GARLIC NAAN",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 493898,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21274,
+                    "name": "Supplement of $10++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/17563643146102e61d036bb329c726d78e15ec0094.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2116570,
+            "name": "Sweet Ending",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2116572,
+                "desc": "Banana Mousse, Spiced Chocolate",
+                "name": "BANOFFEE FRITTERS",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 1,
+                "photos_count": 6,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 792454,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 6,
+                  "comments_count": 1
+                },
+                "menu_photos_count": 6,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2116574,
+                "desc": "Pistachio, Saffron Ice Cream",
+                "name": "RASMALAI “TRES LECHES”",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 854806,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

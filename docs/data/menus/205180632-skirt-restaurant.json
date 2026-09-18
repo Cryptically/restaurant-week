@@ -1,0 +1,787 @@
+{
+  "restaurant": {
+    "id": 205180632,
+    "name": "SKIRT Restaurant",
+    "address": "21 Ocean Way, 098374",
+    "ratings_avg": 8,
+    "thumb": "https://static-assets.diningcity.asia/dwp2tqi1u054gqqmz4e5e3pjn7th_thumb",
+    "region_name": "Singapore",
+    "meal_group_name": "SPECIAL",
+    "capacity_desc": "more",
+    "capacity_desc_text": "Book now",
+    "lng": 103.8423677,
+    "lat": 1.2461984,
+    "dirname": "SKIRT_Restaurant",
+    "cover": "https://static-assets.diningcity.asia/dwp2tqi1u054gqqmz4e5e3pjn7th_thumb",
+    "avg_price": 40,
+    "format_avg_price": "S$40",
+    "michelin_stars": null,
+    "reservation_type": "booking",
+    "distance_to_restaurant": 0,
+    "courses": [],
+    "price_level": "Elite",
+    "prices": [
+      "SG$88 p.p.",
+      "SG$78 p.p."
+    ],
+    "meals_with_price": [
+      {
+        "meal_type": "brunch",
+        "price": "SG$88 p.p.",
+        "menu_title": "Brunch",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_brunch.svg"
+      },
+      {
+        "meal_type": "dinner",
+        "price": "SG$78 p.p.",
+        "menu_title": "Dinner Set",
+        "icon_url": "https://library.diningcity.asia/icons/meal_type_dinner.svg"
+      }
+    ],
+    "detail_in_events_url": "https://restaurantweek.diningcity.sg/lang/en/cities/singapore/restaurants/SKIRT_Restaurant",
+    "michelin_stars_text": "",
+    "cuisines": [
+      {
+        "id": 13499,
+        "name": "Steakhouse",
+        "dir_name": "steakhouse",
+        "restaurants_count": 24
+      }
+    ],
+    "tags": [],
+    "locations": [
+      {
+        "id": 2000229,
+        "name": "South West",
+        "restaurants_count": 0
+      }
+    ]
+  },
+  "meals": [
+    {
+      "id": 94948,
+      "meal_type": "brunch",
+      "key_word": "brunch",
+      "price": "88",
+      "menu_title": "Brunch",
+      "desc": "SG$88 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Brunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 135368,
+        "desc": "",
+        "description": null,
+        "vat": "9",
+        "service_fee": "10",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2137578,
+            "name": "APPETIZER | Unlimited Indulgence",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2137580,
+                "desc": "Smoked Egg Yolk, Jerusalem Artichoke, Horseradish",
+                "name": "Beef Tartare",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 736018,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2137582,
+                "desc": "Leche De Tigre, Avocado, Burnt Buttermilk",
+                "name": "Dry-aged Hamachi",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858518,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2137584,
+                "desc": "Arugula, Whipped Ricotta, Beetroot Gastrique",
+                "name": "Salt-baked Beetroot",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860296,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2137586,
+            "name": "MAIN COURSE | Choose One Per Person",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2137588,
+                "desc": "Smoked Mash, Chimichurri, Watercress",
+                "name": "Sanchoku Picanha",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858520,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2137590,
+                "desc": "Roasted Cabbage Puree, Fermented Blackberry, Crispy Kale",
+                "name": "Dry-aged Duck",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858524,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2137592,
+                "desc": "Cauliflower Cream ,Fermented Garlic , Salsa Macha",
+                "name": "Roasted Cauliflower Steak (V)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860298,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2137594,
+                "desc": "Canadian Lobster, Ricotta, Uni Sauce",
+                "name": "Lobster Ravioli",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858526,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24645,
+                    "name": "Supplement of $30++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/17875612479a5e5bf5fd2b964e1f437b7a0f582eea.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2137596,
+            "name": "DESSERTS | Choose One Per Person",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2137598,
+                "desc": "Roasted Pineapple, Smoked Whipped Cream",
+                "name": "Smoked Cheesecake",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860300,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2137600,
+                "desc": "Corn Custard with Mixed Nuts, Coconut Sorbet",
+                "name": "Corn Nutty Tart",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858528,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2137602,
+                "desc": "Vanilla, Strawberry, Chocolate, Coffee, Coconut, Lime, Forest Berries",
+                "name": "Ice Cream / Sorbets (Choose two per person)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860302,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2137604,
+            "name": "OPTIONAL ADD-ON | ELEVATE YOUR BRUNCH",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2137606,
+                "desc": "",
+                "name": "A5 Omi Wagyu, Japan | Dry – aged Sirloin 80g",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860304,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 25446,
+                    "name": "Supplement of $100++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/178957254081a51d797ed9a6c2372bfad934bbcca8.png"
+                  }
+                ]
+              },
+              {
+                "id": 2137608,
+                "desc": "",
+                "name": "Oysters | halfdozen",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860306,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 25448,
+                    "name": "Supplement of $66++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/17895725629f54196610377fc0adba89d718f67359.png"
+                  }
+                ]
+              },
+              {
+                "id": 2137610,
+                "desc": "",
+                "name": "Foie Gras (40-60g) | per piece",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860308,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24679,
+                    "name": "Supplement of $15++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756125494289f4f2c6f87a2d651f131d64db091.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2137612,
+            "name": "SIDES",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2137614,
+                "desc": "",
+                "name": "Lobster Mac and Cheese",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860310,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 25452,
+                    "name": "Supplement of $38++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/1789572815d4784df12a107979e821090e83fb4f76.png"
+                  }
+                ]
+              },
+              {
+                "id": 2137616,
+                "desc": "",
+                "name": "Grilled Broccolini",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860312,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24679,
+                    "name": "Supplement of $15++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756125494289f4f2c6f87a2d651f131d64db091.png"
+                  }
+                ]
+              },
+              {
+                "id": 2137618,
+                "desc": "",
+                "name": "Sautéed Mushrooms",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860314,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24679,
+                    "name": "Supplement of $15++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756125494289f4f2c6f87a2d651f131d64db091.png"
+                  }
+                ]
+              },
+              {
+                "id": 2137620,
+                "desc": "",
+                "name": "Smoked Mash Potatoes",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860316,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24679,
+                    "name": "Supplement of $15++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/178756125494289f4f2c6f87a2d651f131d64db091.png"
+                  }
+                ]
+              },
+              {
+                "id": 2137622,
+                "desc": "",
+                "name": "Bacon Fat Potato",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860318,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24611,
+                    "name": "Supplement of $18++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/1787561240fc9b5e0e2e52c09348263f4fe8e8b14c.png"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 94428,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "78",
+      "menu_title": "Dinner Set",
+      "desc": "SG$78 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 134530,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2126620,
+            "name": "Bread",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2126622,
+                "desc": null,
+                "name": "SKIRT's Sourdough and Butter",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858546,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2126624,
+            "name": "Starter",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2126626,
+                "desc": "Smoked Egg Yolk, Jerusalem artichoke, Horseradish",
+                "name": "Beef Tartare",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 663592,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2126628,
+                "desc": "Smoked Tofu, Sesame Glaze, Tahini",
+                "name": "Grilled Padron Peppers",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858548,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2126630,
+            "name": "Main Course",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2126632,
+                "desc": "Orange Gastrique, Burnt Cabbage Purée, Fermented Blackberry Jus",
+                "name": "Dry-Aged Duck",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858524,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2126634,
+                "desc": "Smoked Mash, Watercress Salad, Kampot Pepper Sauce",
+                "name": "Sanchoku Picanha",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858520,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2126636,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2126638,
+                "desc": null,
+                "name": "SKIRT's Basque Burnt Cheesecake",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858550,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2126640,
+                "desc": null,
+                "name": "Pecan Pie with Vanilla Ice Cream",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 858552,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
