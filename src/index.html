@@ -73,31 +73,31 @@
             @click="selectRestaurant(restaurant)"
           >
             <img
-              v-if="restaurant.thumb || restaurant.cover"
+              v-if="restaurant.imageUrl"
               class="restaurant-thumb"
-              :src="restaurant.thumb || restaurant.cover"
+              :src="restaurant.imageUrl"
               :alt="restaurant.name"
               loading="lazy"
               @error="$event.target.style.display = 'none'"
             >
-            <span v-else class="restaurant-thumb fallback" aria-hidden="true">{{ initials(restaurant.name) }}</span>
+            <span v-else class="restaurant-thumb fallback" aria-hidden="true">{{ restaurant.initials }}</span>
             <span class="restaurant-info">
               <span class="restaurant-name-line">
                 <span class="restaurant-name">{{ restaurant.name }}</span>
-                <span v-if="restaurant.ratings_avg" class="restaurant-rating">
+                <span v-if="restaurant.hasRating" class="restaurant-rating">
                   <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                     <path d="m12 3 2.78 5.63 6.22.9-4.5 4.39 1.06 6.2L12 17.2l-5.56 2.92 1.06-6.2L3 9.53l6.22-.9L12 3Z"></path>
                   </svg>
-                  {{ restaurant.ratings_avg }}
+                  {{ restaurant.rating }}
                 </span>
               </span>
               <span class="restaurant-meta">
-                <span>{{ cuisineLabel(restaurant) }}</span>
+                <span>{{ restaurant.cuisineLabel }}</span>
                 <span v-if="restaurant.region_name && restaurant.region_name !== 'Singapore'">· {{ restaurant.region_name }}</span>
               </span>
-              <span v-if="restaurant.meals_with_price.length" class="restaurant-price-list">
-                <span v-for="meal in restaurant.meals_with_price" :key="meal.meal_type + meal.price" class="restaurant-price-item">
-                  {{ meal.menu_title }} · {{ meal.price }}
+              <span v-if="restaurant.priceItems.length" class="restaurant-price-list">
+                <span v-for="meal in restaurant.priceItems" :key="meal.key" class="restaurant-price-item">
+                  {{ mealTabLabel(meal) }} · {{ meal.price }}
                 </span>
               </span>
             </span>
@@ -138,25 +138,30 @@
             <div class="detail-hero">
               <img
                 class="detail-image"
-                :src="selectedRestaurant.cover || selectedRestaurant.thumb"
+                :src="selectedRestaurant.imageUrl"
                 :alt="selectedRestaurant.name"
                 @error="$event.target.style.visibility = 'hidden'"
               >
               <div class="detail-copy">
-                <p class="detail-kicker">{{ cuisineLabel(selectedRestaurant) }} · {{ selectedRestaurant.price_level || 'Restaurant Week' }}</p>
+                <p class="detail-kicker">{{ selectedRestaurant.cuisineLabel }}</p>
                 <h2 id="restaurant-detail-title" class="detail-title">{{ selectedRestaurant.name }}</h2>
-                <p class="detail-address">{{ selectedRestaurant.address || 'Singapore' }}</p>
+                <p class="detail-address">{{ selectedRestaurant.addressLabel }}</p>
                 <div class="detail-actions">
-                  <a v-if="selectedRestaurant.detail_in_events_url" class="button button-primary" :href="selectedRestaurant.detail_in_events_url" target="_blank" rel="noopener">
+                  <a v-if="selectedRestaurant.bookingUrl" class="button button-primary" :href="selectedRestaurant.bookingUrl" target="_blank" rel="noopener">
                     View restaurant
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                       <path d="M7 17 17 7M8 7h9v9"></path>
                     </svg>
                   </a>
-                  <span v-if="selectedRestaurant.ratings_avg" class="button button-secondary">Rated {{ selectedRestaurant.ratings_avg }}</span>
+                <span v-if="selectedRestaurant.hasRating" class="rating-summary">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="m12 3 2.78 5.63 6.22.9-4.5 4.39 1.06 6.2L12 17.2l-5.56 2.92 1.06-6.2L3 9.53l6.22-.9L12 3Z"></path>
+                    </svg>
+                    Rated {{ selectedRestaurant.rating }}
+                  </span>
                 </div>
-                <p v-if="selectedRestaurant.capacity_desc_text" class="availability-note">{{ selectedRestaurant.capacity_desc_text }}</p>
-                <div v-if="selectedRestaurant.tags.length" class="detail-tags" aria-label="Restaurant tags">
+                <p v-if="selectedRestaurant.capacityNote" class="availability-note">{{ selectedRestaurant.capacityNote }}</p>
+                <div v-if="selectedRestaurant.hasTags" class="detail-tags" aria-label="Restaurant tags">
                   <span v-for="tag in selectedRestaurant.tags" :key="tag.id || tag.name" class="detail-tag">{{ tag.name }}</span>
                 </div>
               </div>
@@ -164,15 +169,15 @@
 
             <div class="detail-facts">
               <div class="fact"><strong>{{ menu ? menu.meals.length : '—' }}</strong><span>Set menus</span></div>
-              <div class="fact"><strong>{{ lowestMealPrice(selectedRestaurant) }}</strong><span>From per guest</span></div>
-              <div v-if="selectedRestaurant.format_avg_price" class="fact"><strong>{{ selectedRestaurant.format_avg_price }}</strong><span>Average spend</span></div>
-              <div class="fact"><strong>{{ locationLabel(selectedRestaurant) }}</strong><span>Location</span></div>
-              <div class="fact"><strong>{{ cuisineLabel(selectedRestaurant) }}</strong><span>Cuisine</span></div>
+              <div class="fact"><strong>{{ selectedRestaurant.lowestMealPrice }}</strong><span>From per guest</span></div>
+              <div v-if="selectedRestaurant.hasAveragePrice" class="fact"><strong>{{ selectedRestaurant.averagePriceLabel }}</strong><span>Average spend</span></div>
+              <div class="fact"><strong>{{ selectedRestaurant.locationLabel }}</strong><span>Location</span></div>
+              <div class="fact"><strong>{{ selectedRestaurant.cuisineLabel }}</strong><span>Cuisine</span></div>
             </div>
 
             <div class="menu-heading">
               <h2>The menu</h2>
-              <span v-if="menu">{{ menu.meals.length }} options</span>
+                <span v-if="menu">{{ menu.length }} options</span>
             </div>
 
             <div v-if="menuLoading" class="menu-loading">Opening the menu…</div>
@@ -180,36 +185,62 @@
               <strong>Menu unavailable.</strong>
               {{ menuError }}
             </div>
-            <div v-else-if="!menu || !menu.meals.length" class="menu-empty">No menu has been published for this restaurant.</div>
+            <div v-else-if="!menu || !menu.length" class="menu-empty">No menu has been published for this restaurant.</div>
             <div v-else>
-              <article v-for="meal in menu.meals" :key="meal.id || meal.meal_type" class="meal-block">
+              <div v-if="menu.length > 1" class="menu-tabs-wrap">
+                <div class="menu-tabs" role="tablist" aria-label="Menu options">
+                  <button
+                    v-for="(meal, mealIndex) in menu.meals"
+                    :id="mealTabId(mealIndex)"
+                    :key="meal.id || mealIndex"
+                    class="menu-tab"
+                    :class="{ 'is-active': activeMealIndex === mealIndex }"
+                    type="button"
+                    role="tab"
+                    :aria-selected="activeMealIndex === mealIndex"
+                    :aria-controls="mealPanelId()"
+                    :tabindex="activeMealIndex === mealIndex ? 0 : -1"
+                    @click="selectMeal(mealIndex)"
+                    @keydown.left.prevent="moveMealTab(mealIndex, -1)"
+                    @keydown.right.prevent="moveMealTab(mealIndex, 1)"
+                    @keydown.home.prevent="focusMealTabEdge('first')"
+                    @keydown.end.prevent="focusMealTabEdge('last')"
+                  >
+                    <span>{{ meal.tabLabel }}</span>
+                    <small>{{ meal.priceLabel }}</small>
+                  </button>
+                </div>
+                <p class="menu-tabs-hint">Choose a menu to see its courses</p>
+              </div>
+              <article v-for="meal in [activeMeal]" :key="meal.id || activeMealIndex" class="meal-block" :role="menu.length > 1 ? 'tabpanel' : undefined" :id="mealPanelId()" :aria-labelledby="menu.length > 1 ? mealTabId(activeMealIndex) : undefined" :tabindex="menu.length > 1 ? 0 : undefined">
                 <div class="meal-top">
                   <div>
-                    <h3>{{ meal.menu_title || meal.meal_type_humanize || meal.meal_type }}</h3>
-                    <p class="meal-desc">{{ meal.desc || meal.terms_conditions || 'Set menu' }}</p>
+                    <h3>{{ meal.title }}</h3>
+                    <p v-if="meal.description" class="meal-desc">{{ meal.description }}</p>
                   </div>
-                  <span class="meal-price">{{ mealPriceLabel(meal) }}</span>
+                  <span class="meal-price">{{ meal.priceLabel }}</span>
                 </div>
                 <p v-if="mealBookingDetails(meal).length" class="meal-booking-details">{{ mealBookingDetails(meal).join(' · ') }}</p>
 
-                <p v-if="meal.extras_menu && meal.extras_menu.desc" class="meal-extras-description">{{ meal.extras_menu.desc }}</p>
+                <p v-if="meal.hasExtrasDescription" class="meal-extras-description">{{ meal.extrasDescription }}</p>
 
-                <div v-if="meal.extras_menu && meal.extras_menu.course_groups && meal.extras_menu.course_groups.length">
-                  <div v-for="course in meal.extras_menu.course_groups" :key="course.id || course.name" class="course">
+                <div v-if="meal.hasCourseGroups">
+                  <div v-for="course in meal.courseGroups" :key="course.id || course.name" class="course">
                     <p class="course-name">{{ course.name }}</p>
-                    <ul class="course-items">
-                      <li v-for="item in course.subs" :key="item.id || item.name" class="course-item">
+                    <ul v-if="course.hasItems" class="course-items">
+                      <li v-for="item in course.items" :key="item.id || item.name" class="course-item">
+                        <span v-if="item.showSeparator" class="course-item-separator">{{ item.separator }}</span>
                         <span class="course-item-name">{{ item.name }}</span>
-                        <span v-if="item.desc" class="course-item-desc">{{ item.desc }}</span>
-                        <span v-if="item.price && item.price !== '0.0'" class="course-item-price">{{ item.currency }}{{ item.price }}</span>
-                        <span v-if="item.tags.length" class="item-tags">
+                        <span v-if="item.hasDescription" class="course-item-desc">{{ item.description }}</span>
+                        <span v-if="item.hasPrice" class="course-item-price">{{ item.priceLabel }}</span>
+                        <span v-if="item.hasTags" class="item-tags">
                           <span v-for="tag in item.tags" :key="tag.id || tag.name" class="item-tag">{{ tag.name }}</span>
                         </span>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <p v-if="mealNotice(meal)" class="meal-notice">{{ mealNotice(meal) }}</p>
+                <p v-if="meal.hasNotice" class="meal-notice">{{ meal.notice }}</p>
               </article>
             </div>
           </div>

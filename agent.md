@@ -134,6 +134,34 @@ Preview the production build:
 npm run preview
 ```
 
+## Playwright visual checks
+
+Use the Docker-backed Playwright browser for visual QA of the running app. Start Vite on all interfaces so the browser container can reach the host:
+
+```powershell
+node_modules\.bin\vite --host 0.0.0.0 --port 5175
+```
+
+If port `5175` is busy, choose another port. Find the host machine's LAN IPv4 address with `ipconfig`, then navigate Playwright to the LAN address rather than `localhost`:
+
+```text
+http://<host-ip>:5175/
+```
+
+`host.docker.internal` may be unavailable or rejected by Vite's host checks in this environment. The Docker Playwright workflow is:
+
+1. Navigate to the app URL.
+2. Take a page snapshot to inspect headings, controls, and accessible names.
+3. Take a viewport screenshot at desktop size (`1280x720`).
+4. Click a representative restaurant and inspect its menu.
+5. Resize to mobile (`390x844`) and inspect the detail sheet, menu hierarchy, wrapping, and scroll behavior.
+6. Use page evaluation only for read-only checks such as computed styles, dimensions, scroll state, and responsive state.
+7. Stop the Vite process with `Ctrl+C` after the review.
+
+Useful Playwright operations are `browser_navigate`, `browser_snapshot`, `browser_take_screenshot`, `browser_click`, `browser_resize`, and `browser_evaluate`. For UI changes, verify both the selected and empty states, plus at least one real menu with course groups and `and`/`or` separators.
+
+On Windows, Vite can fail with `spawn EPERM` inside the sandbox. Retry the server or build with elevated process permission when that happens; do not change the application to work around the environment restriction.
+
 The full refresh/build workflow is:
 
 ```powershell

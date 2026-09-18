@@ -1,7 +1,7 @@
 import './styles.css';
 import { computed, createApp, nextTick, onMounted, onUnmounted, ref } from 'vue';
 import { Restaurant, RestaurantMenu } from './client.js';
-
+import { RestaurantMenuViewModel, RestaurantViewModel } from './view-models.js';
 
 createApp({
   setup() {
@@ -9,6 +9,7 @@ createApp({
     const menuFiles = ref({});
     const selectedRestaurant = ref(null);
     const menu = ref(null);
+    const activeMealIndex = ref(0);
     const query = ref('');
     const cuisine = ref('');
     const loading = ref(true);
@@ -25,7 +26,17 @@ createApp({
     }
 
     function updateMobileLayout() {
-      isMobileLayout.value = window.matchMedia('(max-width: 1079px)').matches;
+      const nextIsMobileLayout = window.matchMedia('(max-width: 1079px)').matches;
+
+      if (selectedRestaurant.value && isMobileLayout.value !== nextIsMobileLayout) {
+        if (nextIsMobileLayout) {
+          lockBackgroundScroll();
+        } else {
+          unlockBackgroundScroll();
+        }
+      }
+
+      isMobileLayout.value = nextIsMobileLayout;
     }
 
     function lockBackgroundScroll() {
@@ -43,7 +54,7 @@ createApp({
     const cuisineOptions = computed(() => [
       ...new Set(
         restaurants.value
-          .flatMap((restaurant) => restaurant.cuisines.map((item) => item.name))
+          .flatMap((restaurant) => restaurant.cuisineNames)
           .filter(Boolean),
       ),
     ].sort());
@@ -52,17 +63,8 @@ createApp({
       const term = query.value.toLowerCase();
 
       return restaurants.value.filter((restaurant) => {
-        const searchableText = [
-          restaurant.name,
-          restaurant.address,
-          restaurant.region_name,
-          ...restaurant.cuisines.map((item) => item.name),
-        ].join(' ').toLowerCase();
-
-        const matchesSearch = !term || searchableText.includes(term);
-        const matchesCuisine = !cuisine.value || restaurant.cuisines.some(
-          (item) => item.name === cuisine.value,
-        );
+        const matchesSearch = !term || restaurant.searchableText.includes(term);
+        const matchesCuisine = !cuisine.value || restaurant.cuisineNames.includes(cuisine.value);
 
         return matchesSearch && matchesCuisine;
       });
@@ -101,30 +103,147 @@ createApp({
       return prices.length ? `SG$${Math.min(...prices)}` : '—';
     }
 
-    function mealPriceLabel(meal) {
-      if (meal.desc?.startsWith('SG$')) {
-        return meal.desc.split(' p.p.')[0];
+    function mealTabLabel(meal) {
+      return meal.label || meal.tabLabel || 'Menu';
+    }
+
+    function mealTabId(index) {
+      return `meal-tab-${index}`;
+    }
+
+    function mealPanelId() {
+      return 'meal-panel';
+    }
+
+    const activeMeal = computed(() => menu.value?.meals?.[activeMealIndex.value] || menu.value?.meals?.[0] || null);
+
+    function selectMeal(index, { updateUrl = true } = {}) {
+      if (!menu.value?.meals?.[index]) return;
+
+      if (updateUrl) {
+        updateMealUrl(index);
       }
 
-      return meal.price ? `SG$${meal.price}` : '';
+      activeMealIndex.value = index;
+    }
+
+    function moveMealTab(index, direction) {
+      const mealCount = menu.value?.meals?.length || 0;
+      if (mealCount < 2) return;
+
+      const nextIndex = (index + direction + mealCount) % mealCount;
+      selectMeal(nextIndex);
+      nextTick(() => document.getElementById(mealTabId(nextIndex))?.focus());
+    }
+
+    function focusMealTabEdge(edge) {
+      const mealCount = menu.value?.meals?.length || 0;
+      if (mealCount < 2) return;
+
+      const nextIndex = edge === 'last' ? mealCount - 1 : 0;
+      selectMeal(nextIndex);
+      nextTick(() => document.getElementById(mealTabId(nextIndex))?.focus());
+    }
+
+    function mealPriceLabel(meal) {
+      return meal.priceLabel;
+    }
+
+    function mealDescription(meal) {
+      return meal.description;
     }
 
     function mealBookingDetails(meal) {
-      const details = [meal.minimum_seats_humanize, meal.seats_multiplier_humanize]
-        .filter(Boolean);
-
-      if (meal.deposit_amount != null) {
-        details.push(`Deposit S$${meal.deposit_amount}`);
-      }
-
-      return details;
+      return meal.bookingDetails;
     }
 
     function mealNotice(meal) {
-      const extras = meal.extras_menu;
-      if (!extras) return '';
+      return meal.notice;
+    }
 
-      return [extras.vat_text, extras.service_fee_text].filter(Boolean).join(' · ');
+    function updateRestaurantUrl(restaurantId, replace = false) {
+      const url = new URL(window.location.href);
+
+      if (restaurantId == null) {
+        url.searchParams.delete('restaurant');
+        url.searchParams.delete('menu');
+      } else {
+        url.searchParams.set('restaurant', String(restaurantId));
+        url.searchParams.delete('menu');
+      }
+
+      const nextUrl = `${url.pathname}${url.search}${url.hash}`;
+      const currentUrl = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+
+      if (nextUrl === currentUrl) return;
+
+      const method = replace ? 'replaceState' : 'pushState';
+      window.history[method]({ restaurantId }, '', nextUrl);
+    }
+
+    function mealUrlKey(meal, index) {
+      return meal.id != null ? String(meal.id) : String(index);
+    }
+
+    function updateMealUrl(index, replace = false) {
+      const url = new URL(window.location.href);
+      const meal = menu.value?.meals?.[index];
+
+      if (meal) {
+        url.searchParams.set('menu', mealUrlKey(meal, index));
+      } else {
+        url.searchParams.delete('menu');
+      }
+
+      const nextUrl = `${url.pathname}${url.search}${url.hash}`;
+      const currentUrl = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+
+      if (nextUrl === currentUrl) return;
+
+      const method = replace ? 'replaceState' : 'pushState';
+      window.history[method]({
+        restaurantId: selectedRestaurant.value?.id ?? null,
+        mealId: meal?.id ?? null,
+      }, '', nextUrl);
+    }
+
+    function syncMealFromUrl({ replaceInvalid = false } = {}) {
+      const mealKey = new URL(window.location.href).searchParams.get('menu');
+      if (mealKey == null) {
+        activeMealIndex.value = 0;
+        return;
+      }
+
+      const mealIndex = menu.value?.meals?.findIndex(
+        (meal, index) => mealUrlKey(meal, index) === mealKey,
+      ) ?? -1;
+
+      if (mealIndex < 0) {
+        activeMealIndex.value = 0;
+        updateMealUrl(null, replaceInvalid);
+        return;
+      }
+
+      selectMeal(mealIndex, { updateUrl: false });
+    }
+
+    function restaurantFromUrl() {
+      const restaurantId = new URL(window.location.href).searchParams.get('restaurant');
+      if (!restaurantId) return null;
+
+      return restaurants.value.find((restaurant) => String(restaurant.id) === restaurantId) || null;
+    }
+
+    function handleHistoryChange() {
+      const restaurant = restaurantFromUrl();
+
+      if (restaurant && selectedRestaurant.value?.id === restaurant.id && menu.value) {
+        syncMealFromUrl();
+      } else if (restaurant) {
+        selectRestaurant(restaurant, { updateUrl: false });
+      } else {
+        clearSelection({ updateUrl: false });
+      }
     }
 
     async function loadDirectory() {
@@ -143,8 +262,17 @@ createApp({
           indexResponse.json(),
         ]);
 
-        restaurants.value = restaurantData.map((item) => new Restaurant(item));
+        restaurants.value = restaurantData.map(
+          (item) => new RestaurantViewModel(new Restaurant(item)),
+        );
         menuFiles.value = indexData;
+
+        const deepLinkedRestaurant = restaurantFromUrl();
+        if (deepLinkedRestaurant) {
+          selectRestaurant(deepLinkedRestaurant, { updateUrl: false });
+        } else if (new URL(window.location.href).searchParams.has('restaurant') || new URL(window.location.href).searchParams.has('menu')) {
+          updateRestaurantUrl(null, true);
+        }
       } catch (error) {
         loadError.value = error.message || 'Please try again.';
       } finally {
@@ -152,9 +280,14 @@ createApp({
       }
     }
 
-    async function selectRestaurant(restaurant) {
+    async function selectRestaurant(restaurant, { updateUrl = true } = {}) {
+      if (updateUrl) {
+        updateRestaurantUrl(restaurant.id);
+      }
+
       selectedRestaurant.value = restaurant;
       menu.value = null;
+      activeMealIndex.value = 0;
       menuError.value = '';
       menuLoading.value = true;
       await nextTick();
@@ -178,7 +311,11 @@ createApp({
         }
 
         const data = await response.json();
-        menu.value = new RestaurantMenu(restaurant.id, data.meals || []);
+        menu.value = new RestaurantMenuViewModel(
+          new RestaurantMenu(restaurant.id, data.meals || []),
+        );
+        activeMealIndex.value = 0;
+        syncMealFromUrl({ replaceInvalid: true });
       } catch (error) {
         menuError.value = error.message || 'Please try again.';
       } finally {
@@ -186,19 +323,26 @@ createApp({
       }
     }
 
-    function clearSelection() {
+    function clearSelection({ updateUrl = true } = {}) {
+      if (updateUrl) {
+        updateRestaurantUrl(null);
+      }
+
       selectedRestaurant.value = null;
       menu.value = null;
+      activeMealIndex.value = 0;
       unlockBackgroundScroll();
     }
 
     onMounted(() => {
       updateMobileLayout();
       window.addEventListener('resize', updateMobileLayout);
+      window.addEventListener('popstate', handleHistoryChange);
       loadDirectory();
     });
     onUnmounted(() => {
       window.removeEventListener('resize', updateMobileLayout);
+      window.removeEventListener('popstate', handleHistoryChange);
       unlockBackgroundScroll();
     });
 
@@ -206,6 +350,8 @@ createApp({
       restaurants,
       selectedRestaurant,
       menu,
+      activeMeal,
+      activeMealIndex,
       query,
       cuisine,
       cuisineOptions,
@@ -220,6 +366,13 @@ createApp({
       locationLabel,
       initials,
       lowestMealPrice,
+      mealTabLabel,
+      mealTabId,
+      mealPanelId,
+      mealDescription,
+      selectMeal,
+      moveMealTab,
+      focusMealTabEdge,
       mealPriceLabel,
       mealBookingDetails,
       mealNotice,

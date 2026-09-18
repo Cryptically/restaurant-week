@@ -489,9 +489,13 @@ h1 {
   color: var(--white);
 }
 
-.button-secondary {
-  background: transparent;
-  color: var(--teal);
+.rating-summary {
+  align-items: center;
+  color: var(--orange-dark);
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 700;
+  gap: 5px;
 }
 
 .detail-facts {
@@ -537,6 +541,59 @@ h1 {
 .menu-heading span {
   color: var(--muted);
   font-size: 12px;
+}
+
+.menu-tabs-wrap {
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 2px;
+}
+
+.menu-tabs {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.menu-tab {
+  align-items: center;
+  background: none;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  color: var(--muted);
+  cursor: pointer;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-size: 14px;
+  font-weight: 700;
+  gap: 7px;
+  justify-content: center;
+  min-height: 52px;
+  min-width: 112px;
+  padding: 8px 12px 9px;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.menu-tab:hover,
+.menu-tab.is-active {
+  color: var(--teal);
+}
+
+.menu-tab.is-active {
+  border-bottom-color: var(--orange);
+}
+
+.menu-tab small {
+  color: var(--orange-dark);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.menu-tabs-hint {
+  color: var(--muted);
+  font-size: 11px;
+  margin: 0;
+  padding: 8px 12px 12px;
 }
 
 .menu-loading,
@@ -609,15 +666,16 @@ h1 {
 }
 
 .course {
-  margin-top: 23px;
+  margin-top: 28px;
 }
 
 .course-name {
   color: var(--teal);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.12em;
-  margin-bottom: 8px;
+  letter-spacing: 0.09em;
+  line-height: 1.35;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
@@ -628,8 +686,17 @@ h1 {
 }
 
 .course-item {
-  border-bottom: 1px solid #ebe4da;
   padding: 10px 0;
+}
+
+.course-item-separator {
+  color: var(--orange-dark);
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-bottom: 4px;
+  text-transform: uppercase;
 }
 
 .course-item-name {
@@ -765,7 +832,6 @@ h1 {
   .has-selection .detail-panel {
     display: block;
   }
-
   .mobile-detail-sheet {
     -webkit-overflow-scrolling: touch;
     background: var(--white);
