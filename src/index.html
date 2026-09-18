@@ -82,10 +82,18 @@
             >
             <span v-else class="restaurant-thumb fallback" aria-hidden="true">{{ initials(restaurant.name) }}</span>
             <span class="restaurant-info">
-              <span class="restaurant-name">{{ restaurant.name }}</span>
+              <span class="restaurant-name-line">
+                <span class="restaurant-name">{{ restaurant.name }}</span>
+                <span v-if="restaurant.ratings_avg" class="restaurant-rating">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="m12 3 2.78 5.63 6.22.9-4.5 4.39 1.06 6.2L12 17.2l-5.56 2.92 1.06-6.2L3 9.53l6.22-.9L12 3Z"></path>
+                  </svg>
+                  {{ restaurant.ratings_avg }}
+                </span>
+              </span>
               <span class="restaurant-meta">
-                <span>{{ primaryCuisine(restaurant) }}</span>
-                <span v-if="restaurant.region_name">· {{ restaurant.region_name }}</span>
+                <span>{{ cuisineLabel(restaurant) }}</span>
+                <span v-if="restaurant.region_name && restaurant.region_name !== 'Singapore'">· {{ restaurant.region_name }}</span>
               </span>
               <span v-if="restaurant.meals_with_price.length" class="restaurant-price-list">
                 <span v-for="meal in restaurant.meals_with_price" :key="meal.meal_type + meal.price" class="restaurant-price-item">
@@ -97,7 +105,16 @@
         </div>
       </aside>
 
-      <section class="detail-panel" aria-live="polite">
+      <Teleport to="body" :disabled="!selectedRestaurant || !isMobileLayout">
+      <section
+        class="detail-panel"
+        :class="{ 'mobile-detail-sheet': selectedRestaurant }"
+        :role="selectedRestaurant ? 'dialog' : undefined"
+        :aria-modal="selectedRestaurant ? 'true' : undefined"
+        :aria-labelledby="selectedRestaurant ? 'restaurant-detail-title' : undefined"
+        aria-live="polite"
+        @keydown.esc="clearSelection"
+      >
         <div v-if="!selectedRestaurant" class="detail-empty">
           <div class="detail-empty-inner">
             <div class="detail-empty-mark" aria-hidden="true">
@@ -111,7 +128,7 @@
 
         <transition name="fade" mode="out-in">
           <div v-if="selectedRestaurant" :key="selectedRestaurant.id">
-            <button class="back-button" type="button" @click="clearSelection">
+            <button ref="detailBackButton" class="back-button" type="button" @click="clearSelection">
               <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="m15 18-6-6 6-6"></path>
               </svg>
@@ -126,8 +143,8 @@
                 @error="$event.target.style.visibility = 'hidden'"
               >
               <div class="detail-copy">
-                <p class="detail-kicker">{{ primaryCuisine(selectedRestaurant) }} · {{ selectedRestaurant.price_level || 'Restaurant Week' }}</p>
-                <h2 class="detail-title">{{ selectedRestaurant.name }}</h2>
+                <p class="detail-kicker">{{ cuisineLabel(selectedRestaurant) }} · {{ selectedRestaurant.price_level || 'Restaurant Week' }}</p>
+                <h2 id="restaurant-detail-title" class="detail-title">{{ selectedRestaurant.name }}</h2>
                 <p class="detail-address">{{ selectedRestaurant.address || 'Singapore' }}</p>
                 <div class="detail-actions">
                   <a v-if="selectedRestaurant.detail_in_events_url" class="button button-primary" :href="selectedRestaurant.detail_in_events_url" target="_blank" rel="noopener">
@@ -138,14 +155,19 @@
                   </a>
                   <span v-if="selectedRestaurant.ratings_avg" class="button button-secondary">Rated {{ selectedRestaurant.ratings_avg }}</span>
                 </div>
+                <p v-if="selectedRestaurant.capacity_desc_text" class="availability-note">{{ selectedRestaurant.capacity_desc_text }}</p>
+                <div v-if="selectedRestaurant.tags.length" class="detail-tags" aria-label="Restaurant tags">
+                  <span v-for="tag in selectedRestaurant.tags" :key="tag.id || tag.name" class="detail-tag">{{ tag.name }}</span>
+                </div>
               </div>
             </div>
 
             <div class="detail-facts">
               <div class="fact"><strong>{{ menu ? menu.meals.length : '—' }}</strong><span>Set menus</span></div>
               <div class="fact"><strong>{{ lowestMealPrice(selectedRestaurant) }}</strong><span>From per guest</span></div>
-              <div class="fact"><strong>{{ selectedRestaurant.region_name || 'Singapore' }}</strong><span>Neighbourhood</span></div>
-              <div class="fact"><strong>{{ primaryCuisine(selectedRestaurant) || 'Dining' }}</strong><span>Cuisine</span></div>
+              <div v-if="selectedRestaurant.format_avg_price" class="fact"><strong>{{ selectedRestaurant.format_avg_price }}</strong><span>Average spend</span></div>
+              <div class="fact"><strong>{{ locationLabel(selectedRestaurant) }}</strong><span>Location</span></div>
+              <div class="fact"><strong>{{ cuisineLabel(selectedRestaurant) }}</strong><span>Cuisine</span></div>
             </div>
 
             <div class="menu-heading">
@@ -166,8 +188,11 @@
                     <h3>{{ meal.menu_title || meal.meal_type_humanize || meal.meal_type }}</h3>
                     <p class="meal-desc">{{ meal.desc || meal.terms_conditions || 'Set menu' }}</p>
                   </div>
-                  <span class="meal-price">{{ meal.desc && meal.desc.startsWith('SG$') ? meal.desc.split(' p.p.')[0] : (meal.price ? `SG$${meal.price}` : '') }}</span>
+                  <span class="meal-price">{{ mealPriceLabel(meal) }}</span>
                 </div>
+                <p v-if="mealBookingDetails(meal).length" class="meal-booking-details">{{ mealBookingDetails(meal).join(' · ') }}</p>
+
+                <p v-if="meal.extras_menu && meal.extras_menu.desc" class="meal-extras-description">{{ meal.extras_menu.desc }}</p>
 
                 <div v-if="meal.extras_menu && meal.extras_menu.course_groups && meal.extras_menu.course_groups.length">
                   <div v-for="course in meal.extras_menu.course_groups" :key="course.id || course.name" class="course">
@@ -177,15 +202,20 @@
                         <span class="course-item-name">{{ item.name }}</span>
                         <span v-if="item.desc" class="course-item-desc">{{ item.desc }}</span>
                         <span v-if="item.price && item.price !== '0.0'" class="course-item-price">{{ item.currency }}{{ item.price }}</span>
+                        <span v-if="item.tags.length" class="item-tags">
+                          <span v-for="tag in item.tags" :key="tag.id || tag.name" class="item-tag">{{ tag.name }}</span>
+                        </span>
                       </li>
                     </ul>
                   </div>
                 </div>
+                <p v-if="mealNotice(meal)" class="meal-notice">{{ mealNotice(meal) }}</p>
               </article>
             </div>
           </div>
         </transition>
       </section>
+      </Teleport>
     </main>
 
     <footer class="site-footer">Restaurant Week Singapore · Autumn 2026 · Data refreshed from DiningCity</footer>

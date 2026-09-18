@@ -1,5 +1,5 @@
 import './styles.css';
-import { computed, createApp, onMounted, ref } from 'vue';
+import { computed, createApp, nextTick, onMounted, onUnmounted, ref } from 'vue';
 import { Restaurant, RestaurantMenu } from './client.js';
 
 
@@ -15,6 +15,30 @@ createApp({
     const menuLoading = ref(false);
     const loadError = ref('');
     const menuError = ref('');
+    const detailBackButton = ref(null);
+    const isMobileLayout = ref(false);
+    let pageOverflow = '';
+    let rootOverflow = '';
+
+    function isMobileDetailView() {
+      return isMobileLayout.value;
+    }
+
+    function updateMobileLayout() {
+      isMobileLayout.value = window.matchMedia('(max-width: 1079px)').matches;
+    }
+
+    function lockBackgroundScroll() {
+      pageOverflow = document.body.style.overflow;
+      rootOverflow = document.documentElement.style.overflow;
+      document.body.style.overflow = 'hidden';
+      document.documentElement.style.overflow = 'hidden';
+    }
+
+    function unlockBackgroundScroll() {
+      document.body.style.overflow = pageOverflow;
+      document.documentElement.style.overflow = rootOverflow;
+    }
 
     const cuisineOptions = computed(() => [
       ...new Set(
@@ -44,8 +68,20 @@ createApp({
       });
     });
 
-    function primaryCuisine(restaurant) {
-      return restaurant.cuisines[0]?.name || 'Singapore dining';
+    function cuisineLabel(restaurant) {
+      const names = restaurant.cuisines
+        .map((cuisine) => cuisine.name)
+        .filter(Boolean);
+
+      return names.length ? names.join(' · ') : 'Dining';
+    }
+
+    function locationLabel(restaurant) {
+      const names = restaurant.locations
+        .map((location) => location.name)
+        .filter(Boolean);
+
+      return names.length ? names.join(' · ') : restaurant.region_name || 'Singapore';
     }
 
     function initials(name) {
@@ -63,6 +99,32 @@ createApp({
         .filter(Number.isFinite);
 
       return prices.length ? `SG$${Math.min(...prices)}` : '—';
+    }
+
+    function mealPriceLabel(meal) {
+      if (meal.desc?.startsWith('SG$')) {
+        return meal.desc.split(' p.p.')[0];
+      }
+
+      return meal.price ? `SG$${meal.price}` : '';
+    }
+
+    function mealBookingDetails(meal) {
+      const details = [meal.minimum_seats_humanize, meal.seats_multiplier_humanize]
+        .filter(Boolean);
+
+      if (meal.deposit_amount != null) {
+        details.push(`Deposit S$${meal.deposit_amount}`);
+      }
+
+      return details;
+    }
+
+    function mealNotice(meal) {
+      const extras = meal.extras_menu;
+      if (!extras) return '';
+
+      return [extras.vat_text, extras.service_fee_text].filter(Boolean).join(' · ');
     }
 
     async function loadDirectory() {
@@ -95,7 +157,12 @@ createApp({
       menu.value = null;
       menuError.value = '';
       menuLoading.value = true;
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      await nextTick();
+
+      if (isMobileDetailView()) {
+        lockBackgroundScroll();
+        detailBackButton.value?.focus();
+      }
 
       try {
         const filename = menuFiles.value[restaurant.id];
@@ -122,10 +189,18 @@ createApp({
     function clearSelection() {
       selectedRestaurant.value = null;
       menu.value = null;
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      unlockBackgroundScroll();
     }
 
-    onMounted(loadDirectory);
+    onMounted(() => {
+      updateMobileLayout();
+      window.addEventListener('resize', updateMobileLayout);
+      loadDirectory();
+    });
+    onUnmounted(() => {
+      window.removeEventListener('resize', updateMobileLayout);
+      unlockBackgroundScroll();
+    });
 
     return {
       restaurants,
@@ -139,9 +214,15 @@ createApp({
       menuLoading,
       loadError,
       menuError,
-      primaryCuisine,
+      detailBackButton,
+      isMobileLayout,
+      cuisineLabel,
+      locationLabel,
       initials,
       lowestMealPrice,
+      mealPriceLabel,
+      mealBookingDetails,
+      mealNotice,
       selectRestaurant,
       clearSelection,
     };
