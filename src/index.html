@@ -55,6 +55,30 @@
             <option value="">All cuisines</option>
             <option v-for="item in cuisineOptions" :key="item" :value="item">{{ item }}</option>
           </select>
+          <div class="filter-grid">
+            <select v-model="mealType" class="filter-select" aria-label="Filter by meal type">
+              <option value="">All meal types</option>
+              <option v-for="item in mealTypeOptions" :key="item" :value="item">{{ item }}</option>
+            </select>
+            <select v-model="location" class="filter-select" aria-label="Filter by location">
+              <option value="">All locations</option>
+              <option v-for="item in locationOptions" :key="item" :value="item">{{ item }}</option>
+            </select>
+            <select v-model="tag" class="filter-select" aria-label="Filter by tag">
+              <option value="">All tags</option>
+              <option v-for="item in tagOptions" :key="item" :value="item">{{ item }}</option>
+            </select>
+            <select v-model="priceLevel" class="filter-select" aria-label="Filter by price level">
+              <option value="">All price levels</option>
+              <option v-for="item in priceLevelOptions" :key="item" :value="item">{{ item }}</option>
+            </select>
+          </div>
+          <div class="filter-toolbar">
+            <select v-model="sortBy" class="filter-select" aria-label="Sort restaurants">
+              <option v-for="item in sortOptions" :key="item.value" :value="item.value">{{ item.label }}</option>
+            </select>
+            <button v-if="hasActiveFilters" class="clear-filters" type="button" @click="clearFilters">Clear filters</button>
+          </div>
         </div>
 
         <div v-if="loading" class="loading-state">Setting the tables…</div>
@@ -93,11 +117,20 @@
               </span>
               <span class="restaurant-meta">
                 <span>{{ restaurant.cuisineLabel }}</span>
-                <span v-if="restaurant.region_name && restaurant.region_name !== 'Singapore'">· {{ restaurant.region_name }}</span>
+                <span class="restaurant-location">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                    <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"></path>
+                    <circle cx="12" cy="10" r="2.5"></circle>
+                  </svg>
+                  {{ restaurant.locationLabel }}
+                </span>
+              </span>
+              <span v-if="restaurant.hasTags" class="restaurant-tag-list" aria-label="Restaurant tags">
+                <span v-for="tag in restaurant.tags" :key="tag.id || tag.name" class="restaurant-tag">{{ tag.name }}</span>
               </span>
               <span v-if="restaurant.priceItems.length" class="restaurant-price-list">
                 <span v-for="meal in restaurant.priceItems" :key="meal.key" class="restaurant-price-item">
-                  {{ mealTabLabel(meal) }} · {{ meal.price }}
+                   {{ mealTabLabel(meal) }} · {{ meal.price }}
                 </span>
               </span>
             </span>
@@ -160,24 +193,16 @@
                     Rated {{ selectedRestaurant.rating }}
                   </span>
                 </div>
-                <p v-if="selectedRestaurant.capacityNote" class="availability-note">{{ selectedRestaurant.capacityNote }}</p>
                 <div v-if="selectedRestaurant.hasTags" class="detail-tags" aria-label="Restaurant tags">
                   <span v-for="tag in selectedRestaurant.tags" :key="tag.id || tag.name" class="detail-tag">{{ tag.name }}</span>
                 </div>
               </div>
             </div>
 
-            <div class="detail-facts">
-              <div class="fact"><strong>{{ menu ? menu.meals.length : '—' }}</strong><span>Set menus</span></div>
-              <div class="fact"><strong>{{ selectedRestaurant.lowestMealPrice }}</strong><span>From per guest</span></div>
-              <div v-if="selectedRestaurant.hasAveragePrice" class="fact"><strong>{{ selectedRestaurant.averagePriceLabel }}</strong><span>Average spend</span></div>
-              <div class="fact"><strong>{{ selectedRestaurant.locationLabel }}</strong><span>Location</span></div>
-              <div class="fact"><strong>{{ selectedRestaurant.cuisineLabel }}</strong><span>Cuisine</span></div>
-            </div>
-
             <div class="menu-heading">
               <h2>The menu</h2>
-                <span v-if="menu">{{ menu.length }} options</span>
+              <span v-if="menuScore" class="overall-menu-score">Menu score {{ menuScore.overallScore }}/100</span>
+              <span v-else-if="menu">{{ menu.length }} options</span>
             </div>
 
             <div v-if="menuLoading" class="menu-loading">Opening the menu…</div>
@@ -225,8 +250,18 @@
                 <p v-if="meal.hasExtrasDescription" class="meal-extras-description">{{ meal.extrasDescription }}</p>
 
                 <div v-if="meal.hasCourseGroups">
-                  <div v-for="course in meal.courseGroups" :key="course.id || course.name" class="course">
-                    <p class="course-name">{{ course.name }}</p>
+                  <div v-for="(course, courseIndex) in meal.courseGroups" :key="course.id || course.name" class="course">
+                    <div class="course-heading">
+                      <p class="course-name">{{ course.name }}</p>
+                      <span v-if="scoreForCourse(activeMealIndex, courseIndex)" class="course-score">
+                        {{ scoreForCourse(activeMealIndex, courseIndex).score }}/100
+                      </span>
+                    </div>
+                    <div v-if="scoreForCourse(activeMealIndex, courseIndex)" class="course-score-evidence" aria-label="Course scoring evidence">
+                      <span v-for="(finding, criterionId) in scoreForCourse(activeMealIndex, courseIndex).criteria" :key="criterionId">
+                        <strong>{{ criterionLabel(criterionId) }}:</strong> {{ finding.status }}<q v-if="finding.evidence"> {{ finding.evidence }}</q>
+                      </span>
+                    </div>
                     <ul v-if="course.hasItems" class="course-items">
                       <li v-for="item in course.items" :key="item.id || item.name" class="course-item">
                         <span v-if="item.showSeparator" class="course-item-separator">{{ item.separator }}</span>

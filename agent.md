@@ -7,7 +7,7 @@ Mobile-first Restaurant Week directory for Singapore Autumn 2026. GitHub Pages p
 The application uses Vite, Vue, and TypeScript-compatible source files. There is no backend. DiningCity data is fetched ahead of time and bundled as static JSON.
 
 - `src/` contains editable application source.
-- `public/data/` contains generated source data.
+- `public/data/` contains generated data at stable paths: `restaurants/`, `menus/`, `scores/`, and `manifest.json`. Fetch staging is temporary and outside the served data directory.
 - `dist/` contains temporary Vite production output for GitHub Pages.
 - Vue is installed through npm and bundled by Vite.
 - Vite aliases Vue to `vue/dist/vue.esm-bundler.js` because the app uses the template in `src/index.html` and needs Vue's runtime compiler.
@@ -46,7 +46,7 @@ restaurant-week/
 └── agent.md
 ```
 
-The root `data/` directory is an older export from the initial implementation and is not used by the app. The source-of-truth data is `public/data/`; the published copy is the temporary `dist/data/` build output.
+The root `data/` directory is an older export from the initial implementation and is not used by the app. `public/data/` is the authoritative generated dataset; `dist/data/` is the build output copy. Restaurant records, ID-keyed menus, hashes, scores, and the manifest remain at stable paths between fetches.
 
 ## Source files
 
@@ -56,7 +56,7 @@ Contains semantic markup and Vue directives only. Keep application logic and CSS
 
 ### `src/main.ts`
 
-Bootstraps Vue, imports `styles.css`, loads restaurant/menu JSON, handles search and cuisine filtering, and manages the list/detail SPA state.
+Bootstraps Vue, imports `styles.css`, loads restaurant/menu JSON from fixed `public/data/` paths, handles search and cuisine filtering, and displays a score only when its restaurant ID and menu hash match the current menu.
 
 ### `src/client.js`
 
@@ -76,13 +76,15 @@ Contains all visual styling, responsive layout, typography, colors, focus states
 
 ### `scripts/fetch-diningcity-data.mjs`
 
-Uses `DiningCityApiClient` from `src/client.js` to fetch all restaurant pages and all menus. Every run:
+Uses `DiningCityApiClient` from `src/client.js` to fetch and validate a complete restaurant/menu snapshot in temporary staging. It hashes scoring-relevant menu text, reports added/changed/unchanged/removed IDs, publishes to stable `public/data/` paths, then prunes stale records. `--dry-run` reports changes without writing. A failed or incomplete API fetch never changes published data.
 
-1. Clears `public/data/`.
-2. Fetches all restaurants.
-3. Fetches every restaurant menu.
-4. Fails if any restaurant has zero menu records.
-5. Writes restaurants, menus, `menus/index.json`, and `manifest.json`.
+Menus use stable ID filenames; names and slugs are display text only. `menus/metadata.json` stores SHA-256 `menuHash` and normalization version per restaurant. The index stays compatible with lazy menu loading. Scores are carried forward only for the same ID and matching menu hash.
+
+### Menu scoring pipeline
+
+`config/menu-scoring-rubric.v1.json` defines the current draft rubric and weights. Course scores count the weighted share of criteria explicitly present in menu text; uncertain findings score zero and are shown as uncertain. Meal scores average their courses; the overall score averages all courses. Evidence must quote source menu text.
+
+`npm run score:menus:dry-run` lists the queue without making model calls. `npm run score:menus` runs one isolated Codex CLI task per menu with `gpt-6-luna`, `model_reasoning_effort="high"`, a read-only sandbox, and a JSON output schema. It stores item-level criterion classifications and evidence; it does not calculate course or menu scores. It needs Codex CLI sign-in, not an LLM API key. The runner resumes and skips matching `(restaurant ID, menu hash, rubric version, prompt version, schema version, model, reasoning effort)` results. Do not run full scoring until the user reviews the pilot and the app is updated to display item-level results and on-demand scores. One Wakanui menu pilot found an `ikura`/shellfish classification error; rubric v2 clarifies fish roe is fish, not shellfish.
 
 Do not hand-edit `public/data/` or `dist/data/`; both are generated.
 
@@ -117,7 +119,14 @@ npm test
 Refresh the source data:
 
 ```powershell
-node scripts/fetch-diningcity-data.mjs
+npm run fetch:data -- --dry-run
+npm run fetch:data
+```
+
+Preview the scoring queue without calling an LLM:
+
+```powershell
+npm run score:menus:dry-run
 ```
 
 Build the production site into `dist/`:
@@ -136,27 +145,39 @@ npm run preview
 
 ## Playwright visual checks
 
-Use the Docker-backed Playwright browser for visual QA of the running app. Start Vite on all interfaces so the browser container can reach the host:
+Use the Docker-backed Playwright MCP for browser QA. Vite runs on the Windows host and Playwright runs in the `playwright-mcp` Docker container. Start Vite normally:
 
 ```powershell
-node_modules\.bin\vite --host 0.0.0.0 --port 5175
+npm run dev
 ```
 
-If port `5175` is busy, choose another port. Find the host machine's LAN IPv4 address with `ipconfig`, then navigate Playwright to the LAN address rather than `localhost`:
+The Vite config binds to `0.0.0.0` and allows `host.docker.internal`, so from the Docker browser navigate to:
 
 ```text
-http://<host-ip>:5175/
+http://host.docker.internal:5173/
 ```
 
-`host.docker.internal` may be unavailable or rejected by Vite's host checks in this environment. The Docker Playwright workflow is:
+Do not use `localhost` from the Playwright container: it points back to the container itself, not the Windows host. `localhost:5173` is still the right URL in a browser running directly on the host.
 
-1. Navigate to the app URL.
+Codex's Playwright MCP config runs `/app/cli.js` inside the `playwright-mcp` container and selects the Chromium binary bundled with the image. This avoids fetching a newer MCP package with `npx @latest` or relying on a missing Chromium headless-shell binary. The MCP configuration is in the user's Codex config, not this repository. When updating or recreating the container, reconnect/restart the Playwright MCP if its tools report `Transport closed`.
+
+The Docker Playwright workflow is:
+
+1. Navigate to `http://host.docker.internal:5173/` with `browser_navigate`.
 2. Take a page snapshot to inspect headings, controls, and accessible names.
 3. Take a viewport screenshot at desktop size (`1280x720`).
 4. Click a representative restaurant and inspect its menu.
 5. Resize to mobile (`390x844`) and inspect the detail sheet, menu hierarchy, wrapping, and scroll behavior.
 6. Use page evaluation only for read-only checks such as computed styles, dimensions, scroll state, and responsive state.
 7. Stop the Vite process with `Ctrl+C` after the review.
+
+If navigation fails, check in this order:
+
+- Confirm Vite is running on port `5173` on the host.
+- From inside `playwright-mcp`, check `http://host.docker.internal:5173/` (not `localhost`).
+- A Vite `403` means `host.docker.internal` is missing from `server.allowedHosts` in `vite.config.js`.
+- A connection refusal usually means Vite is bound only to loopback; keep `server.host` set to `0.0.0.0`.
+- A Playwright MCP `Transport closed` error after container recreation means Codex needs to reconnect its MCP process.
 
 Useful Playwright operations are `browser_navigate`, `browser_snapshot`, `browser_take_screenshot`, `browser_click`, `browser_resize`, and `browser_evaluate`. For UI changes, verify both the selected and empty states, plus at least one real menu with course groups and `and`/`or` separators.
 

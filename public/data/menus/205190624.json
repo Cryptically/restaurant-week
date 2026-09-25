@@ -1,0 +1,492 @@
+{
+  "restaurant_id": 205190624,
+  "meals": [
+    {
+      "id": 94978,
+      "meal_type": "lunch",
+      "key_word": "lunch_elite",
+      "price": "48",
+      "menu_title": "Lunch Set",
+      "desc": "SG$48 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 135514,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2138344,
+            "name": "Starter (Choice Of One)",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2138346,
+                "desc": "Confit Tuna, Watercress, Celery & Fennel Salad, Toasted Almon, Shallot Dressing",
+                "name": "Salad of Yellowfin Tuna (GF, LF, N, SC, SF)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860482,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138348,
+                "desc": "Pickled Watermelon Rind, Sawtooth Coriander, Ginger Torch Dressing",
+                "name": "Charcoal-Grilled Indonesian Squid (GF, LF, LS, SF)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860484,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138350,
+                "desc": "Bamboo Heart, Cucumber, Tamarind Dressing",
+                "name": "Salad of Jicama & Pineapple (GF, LF, V)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860486,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2138352,
+            "name": "Main (Choice Of One)",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2138354,
+                "desc": "Nyonya Sweet Potato Leaf Curry, Pickled Shallot Salad",
+                "name": "Dry Aged Murray Cod Fillet (GF, LF, N, SC, SF)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860488,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138356,
+                "desc": "Sour-Spicy Seafood Broth, Ama Ebi, Sea Grape, Grilled Winged Bean",
+                "name": "Asam Pedas Seafood Risotto (GF, SF)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860490,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138358,
+                "desc": "Crispy Rice Cake, Local Achar",
+                "name": "Rendang Braised Short Rib (N)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860492,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138360,
+                "desc": "Charred & Crispy Kailan, Fries",
+                "name": "150g Brown Butter Sambal Wagyu Hanger Steak (GF, LF, SC, SF)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860494,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21274,
+                    "name": "Supplement of $10++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/17563643146102e61d036bb329c726d78e15ec0094.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2138362,
+            "name": "Dessert (Choice Of One)",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2138364,
+                "desc": "Pandan Roll Cake, Caramelised Coconut, Soursop & Kaffir Lime Sorbet",
+                "name": "Fragrant Pandan ( E, VG )",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860496,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138366,
+                "desc": "Sarawak Pineapple Chutney, Pineapple Mint Sorbet",
+                "name": "Soya Milk & Lemongrass Crème Brûlée ( E, VG, GF )",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860498,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138368,
+                "desc": "70% Dark Chocolate Mousse, Gula Melaka Banana Compote, Cocoa Nib Streusel",
+                "name": "Kuantan Chocolate & Pisang Emas (E, VG)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860500,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 94980,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "88",
+      "menu_title": "Dinner Set",
+      "desc": "SG$88 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 135516,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2138370,
+            "name": "Snack",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2138372,
+                "desc": "Roasted Cauliflower, Smoked Butter, Chive, Lime",
+                "name": "Hokkaido Sea Urchin Pie Tee (E, SF)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860502,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2138374,
+            "name": "Starter (Choice Of One)",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2138376,
+                "desc": "Golden Garlic Crumble, Fermented Black Bean, Almond, Dried Chili",
+                "name": "Crispy Garlic Wok Prawn (LF, N, SF)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860504,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138378,
+                "desc": "Green Papaya, Smoked Soy, Confit Egg Yolk Aioli, Crispy Shallot",
+                "name": "Little Joe Grass Fed Beef Tartare (E, LF, SC, SF)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860506,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2138380,
+            "name": "Main (Choice Of One)",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2138382,
+                "desc": "Sweet Soy Sauce, Sambal Embe, Herb Salad",
+                "name": "\"Iga Bakar Kicap\" 72 Hours Wagyu Beef Short Rib (LF)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860508,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138384,
+                "desc": "Onion & Kaffir Lime Salad",
+                "name": "200g Black Sambal Murray Cod",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860490,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2138386,
+            "name": "Dessert (Choice Of One)",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2138388,
+                "desc": "Pandan Roll Cake, Caramelised Coconut, Soursop & Kaffir Lime Sorbet",
+                "name": "Fragrant Pandan (E, VG)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860510,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138390,
+                "desc": "Sarawak Pineapple Chutney, Pineapple Mint Sorbet",
+                "name": "Soya Milk & Lemongrass Crème Brûlée (E, VG, GF)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860512,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

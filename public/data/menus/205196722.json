@@ -1,0 +1,491 @@
+{
+  "restaurant_id": 205196722,
+  "meals": [
+    {
+      "id": 94982,
+      "meal_type": "lunch",
+      "key_word": "lunch_elite",
+      "price": "35",
+      "menu_title": "Lunch Set",
+      "desc": "SG$35 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 135562,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2138598,
+            "name": "Starters - Pick One",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2138600,
+                "desc": "Cherry Tomatoes, Beetroot & Raspberry Vinaigrette",
+                "name": "BURRATA SALAD",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860828,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138602,
+                "desc": "Garlic Chili Sauce & Hazelnuts",
+                "name": "ROASTED CAULIFLOWER",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860830,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138604,
+                "desc": "Mashed Potato & Crispy Eggs",
+                "name": "ORGANIC MUSHROOMS",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860832,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2138606,
+            "name": "Mains - Pick One",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2138608,
+                "desc": "Seabass, Mussels, Clams & Potato",
+                "name": "MEDITERRANEAN SEABASS STEW",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860834,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138610,
+                "desc": "Organic Mushroom & Puttanesca",
+                "name": "CHARCOAL CHICKEN LEG",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860836,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138612,
+                "desc": "Carrots & Caramelized Baby Onions",
+                "name": "CHARCOAL LAMB RACK",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860838,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21274,
+                    "name": "Supplement of $10++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/17563643146102e61d036bb329c726d78e15ec0094.png"
+                  }
+                ]
+              },
+              {
+                "id": 2138614,
+                "desc": null,
+                "name": "SQUID INK PAELLA (min 2pax)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860840,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2138616,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2138618,
+                "desc": null,
+                "name": "CHURROS & COFFEE",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860842,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 94984,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "60",
+      "menu_title": "Dinner Set",
+      "desc": "SG$60 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 2,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 2 guests",
+      "extras_menu": {
+        "id": 135564,
+        "desc": "A minimum reservation of 2 guests is required for the dinner menu.",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2138620,
+            "name": "Starters",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2138622,
+                "desc": null,
+                "name": "MUSHROOM & TRUFFLE CROQUETTES",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860844,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138624,
+                "desc": "Homemade Spicy Sauce, Pickled Cucumber & Spanish Onions",
+                "name": "GRILLED PORK BELLY",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860846,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138626,
+                "desc": "Confit Potatoes & Fried Eggs",
+                "name": "HUEVOS ROTOS' & JAMÓN IBÉRICO",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860848,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138628,
+                "desc": "Brussels Sprouts & Romesco Sauce",
+                "name": "GRILLED BROCCOLINI",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860850,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138630,
+                "desc": "Garlic Oil, Dried Chilli & Hummus",
+                "name": "ROASTED GARLIC PRAWNS",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860852,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2138632,
+            "name": "Mains - Pick One",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2138634,
+                "desc": "Seabass, Mussels, Clams & Potato",
+                "name": "MEDITERRANEAN SEABASS STEW",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860834,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2138636,
+                "desc": "Panadera Potatoes & Mesclun Salad",
+                "name": "AGED BEEF RIB-EYE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860854,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 21304,
+                    "name": "Supplement of $8++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2025/17563644358d4089ed5903bb6c5d2c1d9ae0cf86aa.png"
+                  }
+                ]
+              },
+              {
+                "id": 2138638,
+                "desc": null,
+                "name": "IBÉRICO PORK PAELLA (min 2pax)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860856,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2138640,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2138642,
+                "desc": null,
+                "name": "CHURROS",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860858,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

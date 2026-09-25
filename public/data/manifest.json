@@ -1,7 +1,11 @@
 {
   "event": "rwsg_autumn_2026",
   "city": "singapore",
-  "restaurantCount": 98,
-  "menuCount": 98,
-  "generatedAt": "2026-09-18T18:51:45.275Z"
+  "restaurantCount": 107,
+  "menuCount": 107,
+  "scoredMenuCount": 0,
+  "needsScoringCount": 107,
+  "generatedAt": "2026-09-25T21:30:14.204Z",
+  "classifiedMenuCount": 107,
+  "needsClassificationCount": 0
 }

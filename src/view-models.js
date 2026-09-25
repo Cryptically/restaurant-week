@@ -1,10 +1,11 @@
 const MEAL_TAB_LABELS = Object.freeze({
   brunch: 'Brunch',
   lunch: 'Lunch',
+  afternoon_tea: 'Afternoon Tea',
   dinner: 'Dinner',
 });
 
-const DISPLAY_SEPARATOR = ' 路 ';
+const DISPLAY_SEPARATOR = ' · ';
 
 function initialsFor(name) {
   return (name || 'RW')
@@ -30,6 +31,7 @@ export class RestaurantPriceViewModel {
   }
 
   get price() { return this.model.price || ''; }
+  get mealType() { return String(this.model.meal_type || '').toLowerCase(); }
 }
 
 export class RestaurantViewModel {
@@ -53,9 +55,24 @@ export class RestaurantViewModel {
   get cover() { return this.model.cover; }
   get thumb() { return this.model.thumb; }
   get bookingUrl() { return this.model.detail_in_events_url; }
-  get capacityNote() { return this.model.capacity_desc_text; }
   get tags() { return this.model.tags || []; }
   get hasTags() { return this.tags.length > 0; }
+  get tagNames() { return this.tags.map((tag) => tag.name).filter(Boolean); }
+  get mealTypes() {
+    return [...new Set(this.priceItems.map((item) => item.mealType).filter(Boolean))];
+  }
+  get mealTypeLabels() {
+    return [...new Set(this.priceItems.map((item) => item.label).filter(Boolean))];
+  }
+  get priceLevelLabel() { return this.model.price_level; }
+  get lowestMealPriceValue() {
+    const prices = this.priceItems
+      .map((meal) => Number.parseFloat(String(meal.price).replace(/[^0-9.]/g, '')))
+      .filter(Number.isFinite);
+
+    return prices.length ? Math.min(...prices) : Number.POSITIVE_INFINITY;
+  }
+  get distance() { return this.model.distance_to_restaurant; }
   get cuisineNames() {
     return (this.model.cuisines || []).map((cuisine) => cuisine.name).filter(Boolean);
   }
@@ -71,8 +88,6 @@ export class RestaurantViewModel {
       : this.regionName || 'Singapore';
   }
   get initials() { return initialsFor(this.name); }
-  get averagePriceLabel() { return this.model.format_avg_price; }
-  get hasAveragePrice() { return Boolean(this.averagePriceLabel); }
   get lowestMealPrice() {
     const prices = this.priceItems
       .map((meal) => Number.parseFloat(String(meal.price).replace(/[^0-9.]/g, '')))

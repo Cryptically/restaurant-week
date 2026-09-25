@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "typecheck": "vue-tsc --noEmit",
-    "test": "node --test test/client.test.mjs",
+    "test": "node --test",
+    "fetch:data": "node scripts/fetch-diningcity-data.mjs",
+    "score:menus": "node scripts/score-menu-data.mjs",
+    "score:menus:dry-run": "node scripts/score-menu-data.mjs --dry-run",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -1,0 +1,483 @@
+{
+  "restaurant_id": 205192315,
+  "meals": [
+    {
+      "id": 95070,
+      "meal_type": "lunch",
+      "key_word": "lunch_elite",
+      "price": "38",
+      "menu_title": "Lunch Set",
+      "desc": "SG$38 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 135670,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2156368,
+            "name": "BREAD",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2156370,
+                "desc": "with Sun-Dried Tomato &amp; Olive Tapenade",
+                "name": "HOMEMADE FOCACCIA",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 862160,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2140702,
+            "name": "STARTER",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2140704,
+                "desc": "Prosciutto Ham | Rock Melon | Balsamico | Arugula",
+                "name": "PROCIUSTTO DI PARMA CON MELONE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859988,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2140706,
+                "desc": "Fried Mixed Seafood | Lemon Aioli | Chives",
+                "name": "FRITTO MISTO DI MARE",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859990,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2140708,
+            "name": "MAINS",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2140710,
+                "desc": "Rigatoni Pasta | Beef Ragu | Pecorino Cheese | Crispy Chilli Oil",
+                "name": "RIGATONI AL RAGU DI MANZO",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859992,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2140712,
+                "desc": "Grilled Chicken | Baby Potato | Topinambur Puree",
+                "name": "POLLO ARROSTO CON TOPINAMBUR",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859994,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2140714,
+                "desc": "Slow Cooked Beef Cheek | Mashed Potato | Broccolini | Gremolata",
+                "name": "GUANCIA DI MANZO",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859996,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24705,
+                    "name": "Supplement of $8++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/1787561259431cf2b4808ecaf80d8247478e4be3ff.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2140716,
+            "name": "DESSERTS",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2140718,
+                "desc": "Mango Mousse | Gula Melaka | Tropical Chutney | Passion Fruit Popping Boba",
+                "name": "MOUSSE TROPICALE AL MANGO",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 859998,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2140720,
+                "desc": "Mascarpone| Savoiardi Biscuits| Espresso| Kahlua Liquor",
+                "name": "TIRAMISÙ",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 669406,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 95074,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "68",
+      "menu_title": "Dinner Set",
+      "desc": "SG$68 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 135674,
+        "desc": "",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2140742,
+            "name": "STARTER",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2140744,
+                "desc": "Burrata cheese | Olive Oil Pearl | Passion Fruits | Endive",
+                "name": "BURRATA PUGLIESE (V)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860000,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2140746,
+                "desc": "Beef Carpaccio | Green Herb Sauce | Pickle Shallot | Parmigiano Reggiano",
+                "name": "CARPACCIO DI MANZO",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860002,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2156372,
+            "name": "SOUP",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2156374,
+                "desc": "Creamy Cauliflower Soup | Shrimps | Croutons | Chives",
+                "name": "CREMA DI CAVOLFIORI",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 862164,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2140748,
+            "name": "MAINS",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2140750,
+                "desc": "Acquerello Rice| 24 Months Parmigiano Reggiano | Black Truffle",
+                "name": "RISOTTO AL TARTUFO (V)",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860004,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2140752,
+                "desc": "European Seabass | Fregola | Asparagus | Seafood Bisque",
+                "name": "BRANZINO",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 669394,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2140754,
+                "desc": "48 Hours Braised Short Ribs | Broccolini | Mashed Potato | Salsa Verde",
+                "name": "COSTOLA CORTA",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860006,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": [
+                  {
+                    "id": 24657,
+                    "name": "Supplement of $12++",
+                    "icon_url": "https://static-assets.diningcity.asia/tag/2026/1787561249db3e0d13eb450b4e6359c12f6d5c2442.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2140756,
+            "name": "Desserts",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2140758,
+                "desc": "Mascarpone| Savoiardi Biscuits| Espresso| Kahlua Liquor",
+                "name": "TIRAMISÙ",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 669406,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2140760,
+                "desc": "Raspberry Mousse | Lemon Lychee Curd | Crystal Jelly Ball",
+                "name": "LAMPONE E LITCHI",
+                "separator": "or",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 860008,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -5,6 +5,10 @@ export default defineConfig({
   root: 'src',
   publicDir: '../public',
   base: './',
+  server: {
+    host: '0.0.0.0',
+    allowedHosts: ['host.docker.internal'],
+  },
   plugins: [vue()],
   resolve: {
     alias: {

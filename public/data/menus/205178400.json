@@ -1,0 +1,3750 @@
+{
+  "restaurant_id": 205178400,
+  "meals": [
+    {
+      "id": 95962,
+      "meal_type": "brunch",
+      "key_word": "brunch",
+      "price": "74",
+      "menu_title": "Brunch",
+      "desc": "SG$74 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Brunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 136702,
+        "desc": "Weekend Buffet Brunch is available on Sunday only.",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2158996,
+            "name": "Seafood, Sashimi & Sushi",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158998,
+                "desc": "Japanese Oyster, Boston Lobster, Snow Crab Legs, Wild Caught Australian Spanner Crab, Cold Water Prawn, Australian Yabbies, Black and Green Mussels, Irish Sea Whelk, Half Shell Scallop, Asari Clam, sauces and lemon",
+                "name": "Premium Seafood on Ice",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812922,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159000,
+                "desc": "Norwegian Salmon, Ahi Tuna, Octopus Leg, Daily Selection of Freshly-made Sushi and Maki, Japanese Shoyu, Wasabi, Pickled Ginger, Pickled Radish",
+                "name": "Assorted Sashimi, Sushi and Maki",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856234,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159002,
+            "name": "Salad Bar",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159004,
+                "desc": "Parris Romaine, Cherokee, Red Mizuna, Micro Cress, Cucumber, Shredded Carrot, Cherry Vine Tomato, Marinated Artichoke, Roasted Capsicum, Herbed Feta Cheese, Corn Kernels, Mixed Olives in Oil, Red Onion, Crispy Dough Fritter",
+                "name": "Harvest of the Day",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856238,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159006,
+            "name": "Our Bakers’ Bread Selection",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159008,
+                "desc": "Soft and Hard Rolls, French Baguette, Sourdough Loaf, Lavash, Grissini, Beurre Isigny Sainte-Mere Doux & Demi Sel (Unsalted & Salted)",
+                "name": "Our Bakers' Bread Selection",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856464,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159010,
+            "name": "Italian And French Artisanal Cheeses",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159012,
+                "desc": "Tete de Moine en Girolles, Camembert, Brie De Meaux, Goat Cheese Crottin, Gorgonzola, Taleggio AOP, Provolone, 36-month Aged Parmesan, Smoked Scamorza, Honeycomb, Fig Jam, Champagne Strawberry Jam, Grapes, Assorted Nuts, Crackers",
+                "name": "Italian and French Artisanal Cheeses",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856244,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159014,
+            "name": "Premium Cold Cuts",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159016,
+                "desc": "18-month Dry-cured Prosciutto di Parma, Spianata Romana, Pistachio Mortadella di Bologna, Smoked Virginia Ham, Chambost Salami, Artisanal Pork Terrine, French Duck Rillettes, Pickles, Homemade Vegetables in Oil",
+                "name": "Premium Cold Cuts",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856248,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159018,
+            "name": "Appetisers",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159020,
+                "desc": "Creamy Burrata Cheese, Heirloom Tomato, Roasted Cherry Tomato, Toasted Pistachio, Tomato Tapenade, Mountain Oregano, Extra Virgin Olive Oil",
+                "name": "Italian Burrata Caprese",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856252,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159022,
+                "desc": "Boiled Quail Egg, Fried Beancurd Skin, Green Mango, Long Bean, Crushed Peanut, Carrot, Fresh Cilantro, Vine Tomato, Thai Chili Dressing",
+                "name": "Fried Beancurd Puff and Green Mango Salad",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856256,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159024,
+                "desc": "Cucumber-Herbs Raita, Salmon Ikura, Mini Butter Blinis, Egg Mimosa, Cress",
+                "name": "Smoked Salmon and Marlin Platter",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856260,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159026,
+                "desc": "Tiger Prawn, Taggiasca Olives, Lemon Zest, Celery, Carrot, Fresh Herb Dressing",
+                "name": "Grilled Cuttlefish in Salmoriglio Sauce",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856264,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159028,
+                "desc": "Cage Free Eggs, Prosciutto di Parma, Pecorino Cheese, Bell Pepper — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Parma Ham and Pecorino Egg Frittata",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856268,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159030,
+            "name": "Appetiser Passaround",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159032,
+                "desc": "Marinated Zucchini, Norwegian Salmon, Avruga Caviar, Sriracha Chilli, Capers, Dill",
+                "name": "Spicy Salmon Tartare and Smoked Caviar",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856276,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159034,
+                "desc": "Fresh Yellow Fin Tuna, Marinated Zucchini, Avruga Caviar, Sriracha Chilli, Capers",
+                "name": "Ahi Tuna Tartare and Smoked Caviar",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856422,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159036,
+                "desc": "Farro Salad, Fresh Herbs, Barbequed Eel, Organic Kale",
+                "name": "Japanese BBQ Unagi and Ikura",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856424,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159038,
+                "desc": "Stracciatella Cheese, Cage Free Egg, Fennel Seeds, Pork ‘Nduja, Sun-dried Tomato",
+                "name": "Mini Crostata di ‘Nduja Piccante",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856280,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159040,
+            "name": "Soup",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159042,
+                "desc": "Traditional Italian Soup served with Parmesan Cheese, Garlic Croutons",
+                "name": "La Zuppa di Legumi della Nonna",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856284,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159044,
+                "desc": "Free Range Pork Ribs, Water Cress, Chinese Almond, Red Date",
+                "name": "Double-boiled Pork Rib Soup",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856288,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159046,
+            "name": "D.i.y. Station",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159048,
+                "desc": "Baby Abalone, Tiger Prawn, Shredded Chicken, Fish Cake, Beansprout, Quail Egg, Rice Noodle, Tau Pok, Fragrant Laksa Coconut Broth",
+                "name": "Frasers House Signature Laksa",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856292,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159050,
+            "name": "Live Station",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159052,
+                "desc": "Choice of Pasta: Trofie, Cheese Ravioli, Rigatoni; Choice of Sauce: Guanciale Carbonara, Beef Bolognese",
+                "name": "Pasta Patate e Provola tossed in Parmesan Cheese Wheel",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856426,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159054,
+                "desc": "Green Asparagus, Vine Tomato, Brandy-Rosemary Sauce, Selection of Mustard",
+                "name": "Brandy and Mustard Marinated Angus Beef Striploin and Open Flame Bone Marrow with Parmesan",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856428,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159056,
+                "desc": "Bell Pepper Piperade, Fresh Herbs",
+                "name": "Roasted Free Range Whole Chicken stuffed with Truffle Butter",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856430,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159058,
+                "desc": "Australian Pork Ribs, Homemade Barbeque Sauce, Grilled Pineapple",
+                "name": "Barbequed Baby Back Ribs",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856432,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159060,
+                "desc": "Australian Lamb, Tandoori Spices, Greek Yoghurt, Rosemary, Mint-Cucumber Salad — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Oven-roasted Spices-Yoghurt Marinated Lamb Leg",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856434,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159062,
+            "name": "Pinsa",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159064,
+                "desc": "House-made Tomato Sauce, Buffalo Mozzarella, Confit Heirloom Tomato, Basil, Italian Oregano",
+                "name": "La Bufala e Pomodorini",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856438,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159066,
+                "desc": "Black Truffle-Mushroom Cream, Smoked Scamorza, Fior di Latte",
+                "name": "La Tartufata",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 654506,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159068,
+                "desc": "Homemade Tomato Sauce, Spanish Chorizo, Burrata Cheese, Sun-dried Tomato, Fior di Latte",
+                "name": "Chorizo E Burrata",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856304,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159070,
+                "desc": "Homemade Tomato Sauce, Chinese Sausage, Fior di Latte, Gorgonzola Cream, Pork Floss, Mountain Oregano",
+                "name": "Chinese Pork Sausage e Gorgonzola Dolce",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856308,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159072,
+                "desc": "Salted Egg Sauce, Tiger Prawn, Bonito Flakes, Smoked Scamorza, Curry Leaves — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Salted Egg e Gamberi",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856312,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159074,
+            "name": "Italian Ties",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159080,
+                "desc": "Oven-baked Sustainably-sourced Whole Barramundi with Russet Potato, Capers, Cherry Tomato, Kalamata Olives, Garlic, Red Onion and a splash of Italian White Wine",
+                "name": "Sicilian Style Whole Branzino",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856326,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159082,
+                "desc": "Stuffed Cuttlefish with Bread, Lemon Zest, Taggiasca Olives, Zucchini, Baked and Poached in Light Tomato Sauce",
+                "name": "Seppioline Ripiene All’ Amalfitana",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856444,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159084,
+                "desc": "Half Shell Black Mussels, Baked with Breadcrumbs, Cheese, White Pepper, Garlic and Parsley — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Le Cozze Gratinate alla Tarantina",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856446,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159076,
+                "desc": "Durum Wheat Pasta in Traditional Roman Style Ox Tail Slow Cooked Ragout, Bacon, Herbs, Red Wine, Pecorino Cheese",
+                "name": "Rigatoni con Ragu di Coda alla Vaccinara",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856440,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159078,
+                "desc": "Durum Wheat Pasta Sauteed with rich Medley of Scampi, Squids, Black Mussels, Clams, Fresh parsley, Garlic, Tomato Fillet",
+                "name": "Gli Scialatelli allo Scoglio",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856442,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159086,
+            "name": "Asian Delights",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159088,
+                "desc": "Tiger Prawn, Shimeji Mushroom, Green Asparagus, Celery, Premium XO Sauce",
+                "name": "Stir-fried Prawns with XO Sauce",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856346,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159090,
+                "desc": "Sustainably-sourced Barramundi, Mixed Capsicum, Ginger, Preserved Black Bean Sauce",
+                "name": "Braised Barramundi with Bitter Gourd and Black Bean Sauce",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856348,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159092,
+                "desc": "Boneless Chicken Thigh, Turmeric, Coconut Milk, Homemade Rempah, Potato",
+                "name": "Ayam Masak Lemak",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856350,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159094,
+                "desc": "Australian Lamb Shank, Malay Spices, Tomato Sauce, Chilli Paste",
+                "name": "Sup Tulang Merah",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 596420,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159096,
+                "desc": "Crate Free Pork, Superior Soy Sauce, Star Anise, Cinnamon, Spring Onion — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Stir-fried Minced Pork with Mapo Tofu",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856352,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159098,
+            "name": "Dim Sum And Snacks Corner",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159100,
+                "desc": "Chicken Siew Mai with Tobiko, Prawn Har Gow with Black Truffle, Chilli Crab Bun",
+                "name": "Dim Sum Selection",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 654546,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159102,
+                "desc": null,
+                "name": "Golden Fried Breaded Prawns",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856364,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159104,
+                "desc": "Sweet Pineapple, Rice Lontong, Cucumber, Red Onion",
+                "name": "Grilled Chicken and Beef Satay Panggang",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856366,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159106,
+                "desc": null,
+                "name": "Crispy Chicken Karaage",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856368,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159108,
+                "desc": null,
+                "name": "Potato Curry Puff",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856370,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159110,
+            "name": "Indian Kitchen",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159112,
+                "desc": "Premium Basmati rice, Mixed Vegetables, Ghee, Indian Spices",
+                "name": "Mixed Vegetable Biryani",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856372,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159114,
+                "desc": "Potato, Brinjal, Kashmiri Chilli Powder, Garam Masala, Coriander Powder",
+                "name": "Aloo Baigan Masala",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856374,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159116,
+                "desc": "Dried Fenugreek Leaves, Spiced Tomato-Onion Gravy, Fish Fillet",
+                "name": "Fish Methi",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856376,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159118,
+                "desc": "Boneless Chicken, Buttery Cashew Nut-Tomato Gravy, Garlic-Ginger Paste",
+                "name": "Traditional Butter Chicken",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856378,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159120,
+                "desc": null,
+                "name": "Vegetable Curry Samosa",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856380,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159122,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159124,
+                "desc": "Mascarpone Cheese, Espresso Coffee, Lady Finger, Cocoa Feuilletine",
+                "name": "LUCE-misu",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 342452,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159126,
+                "desc": "Coconut Sponge, Blue Pea Coconut Mousse",
+                "name": "Coconut and Butterfly Pea Cake",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856382,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159128,
+                "desc": "Valrhona Manjari Ganache, Chocolate Pearl, Chocolate Shavings",
+                "name": "Chocolate Fudge Cake",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 605914,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159130,
+                "desc": "Japanese Matcha Layered Cake, Matcha-Wasabi Mousseline",
+                "name": "Matcha Wasabi Mousse Cake",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856384,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159132,
+                "desc": "Valrhona Chocolate Sponge, Orange Chantilly, Jivara Mousse — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Orange Jivara Chocolate Cake",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856454,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 95960,
+      "meal_type": "lunch",
+      "key_word": "lunch_elite",
+      "price": "55",
+      "menu_title": "Lunch Set",
+      "desc": "SG$55 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Lunch",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 136700,
+        "desc": "Monday to Friday Lunch Buffet - $45++\nSaturday Lunch Buffet - $55++",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2158862,
+            "name": "Seafood, Sashimi & Sushi",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158864,
+                "desc": "Cold Water Prawn (S), Australian Yabbies (S), Black and Green Mussels (S), Irish Sea Whelk (S), Half Shell Scallop (S), Asari Clam (S), Mignonette Sauce (V), Spicy Garlic & Ginger Sauce (G, Soy), Yuzu & Ginger Sauce (G, Soy), Tabasco, Le...",
+                "name": "Premium Seafood on Ice",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812922,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158866,
+                "desc": "Norwegian Salmon, Ahi Tuna (S), Daily Selection of Freshly-made Sushi and Maki (D, F, G, Soy), Japanese Shoyu (G), Wasabi, Pickled Ginger, Edamame",
+                "name": "Assorted Sashimi, Sushi and Maki",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856234,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158868,
+            "name": "Salad Bar",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158870,
+                "desc": "Parris Romaine, Cherokee, Red Mizuna, Micro Cress, Cucumber, Shredded Carrot, Cherry Vine Tomato, Marinated Artichoke, Roasted Capsicum, Herbed Feta Cheese, Corn Kernels, Mixed Olives, Red Onion, Crispy Dough Fritter, Dressings",
+                "name": "Harvest of the Day (V)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812926,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158872,
+            "name": "Our Bakers’ Bread Selection",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158874,
+                "desc": "Beurre Isigny Sainte-Mere Doux & Demi Sel (Unsalted & Salted)",
+                "name": "Soft and Hard Rolls, French Baguette, Sourdough Loaf, Lavash, Grissini (D, G, N, V)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856466,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158876,
+            "name": "Italian And French Artisanal Cheeses",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158878,
+                "desc": "Honeycomb (V), Fig Jam (V), Champagne Strawberry Jam (A, V), Grapes (V), Assorted Nuts (N), Crackers (G)",
+                "name": "Tete de Moine en Girolles (D), Camembert (D), Goat Cheese Crottin (D), Gorgonzola (D), Provolone (D), 36-month Aged Parmesan (D)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 862538,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158880,
+            "name": "Premium Cold Cuts",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158882,
+                "desc": "Pickles (V): Guindillas Pepper, Caperberries, Cornichon, Pepper Drops. Homemade Vegetables in Oil (V): Roasted Eggplant, Peperonata, Zucchini Scapece",
+                "name": "Spianata Romana (P), Pistachio Mortadella di Bologna (N, P), Smoked Virginia Ham (P), Chambost Salami (P)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813098,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158884,
+            "name": "Appetisers",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158886,
+                "desc": "Creamy Burrata Cheese, Heirloom Tomato, Roasted Cherry Tomato, Toasted Pistachio, Tomato Tapenade, Mountain Oregano, Extra Virgin Olive Oil",
+                "name": "Italian Burrata Caprese (D, N, V)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812932,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158888,
+                "desc": "Boiled Quail Egg, Fried Beancurd Skin, Green Mango, Long Bean, Crushed Peanut, Carrot, Fresh Cilantro, Vine Tomato, Thai Chili Dressing",
+                "name": "Fried Beancurd Puff and Green Mango Salad (E, G, N, V)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812934,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158890,
+                "desc": "Cucumber-Herbs Raita, Salmon Ikura, Mini Butter Blinis, Egg Mimosa, Cress",
+                "name": "Smoked Salmon and Marlin Platter (D, E, F, G)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812936,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158892,
+                "desc": "Tiger Prawn, Taggiasca Olives, Lemon Zest, Celery, Carrot, Fresh Herb Dressing",
+                "name": "Grilled Cuttlefish in Salmoriglio Sauce (S)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812938,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158894,
+                "desc": "Cage Free Eggs, Prosciutto di Parma, Pecorino Cheese, Bell Pepper — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Parma Ham and Pecorino Egg Frittata (D, E, P)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812940,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158896,
+            "name": "Appetiser Passaround",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158898,
+                "desc": "Marinated Zucchini, Norwegian Salmon, Avruga Caviar, Sriracha Chilli, Capers, Dill",
+                "name": "Spicy Salmon Tartare and Smoked Caviar (D, E, F)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812946,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158900,
+                "desc": "Stracciatella Cheese, Cage Free Egg, Fennel Seeds, Pork ‘Nduja, Sun-dried Tomato",
+                "name": "Mini Crostata di ‘Nduja Piccante (D, E, G, P)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812952,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158902,
+            "name": "Soup",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158904,
+                "desc": "Traditional Italian Soup served with Parmesan Cheese, Garlic Croutons",
+                "name": "La Zuppa di Legumi della Nonna (D, G, V)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812954,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158906,
+                "desc": "Free Range Pork Ribs, Water Cress, Chinese Almond, Red Date",
+                "name": "Double-boiled Pork Rib Soup (N, P)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812956,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158908,
+            "name": "D.i.y. Station",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158910,
+                "desc": "Baby Abalone, Tiger Prawn, Shredded Chicken, Fish Cake, Beansprout, Quail Egg, Rice Noodle, Tau Pok, Fragrant Laksa Coconut Broth",
+                "name": "Frasers House Signature Laksa (E, F, G, N, S)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812958,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158912,
+            "name": "Live Station",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158914,
+                "desc": "Choice of Pasta: Trofie (G), Cheese Ravioli (D, G), Rigatoni (G). Choice of Sauce: Guanciale Carbonara (D, E, P), Beef Bolognese",
+                "name": "Homemade Squid Ink Tagliolini with Mixed Seafood and Kaffir Crustacean Bisque, tossed in Parmesan Cheese Wheel (D, F, G, S)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856472,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158916,
+            "name": "Pinsa",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158918,
+                "desc": "Homemade Tomato Sauce, Stracciatella Cheese, Confit Heirloom Tomato, Basil",
+                "name": "Stracciatella e Pomodori Confit (D, G, V)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812972,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158920,
+                "desc": "Black Truffle-Mushroom Cream, Smoked Scamorza, Fior di Latte",
+                "name": "La Tartufata (D, G, V)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812974,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158922,
+                "desc": "Homemade Tomato Sauce, Spanish Chorizo, Burrata Cheese, Sun-dried Tomato, Fior di Latte",
+                "name": "Chorizo E Burrata (D, G, P)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812976,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158924,
+                "desc": "Homemade Tomato Sauce, Chinese Sausage, Fior di Latte, Gorgonzola Cream, Pork Floss, Mountain Oregano",
+                "name": "Chinese Pork Sausage e Gorgonzola Dolce (D, G, P)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812978,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158926,
+                "desc": "Salted Egg Sauce, Tiger Prawn, Bonito Flakes, Smoked Scamorza, Curry Leaves — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Salted Egg e Gamberi (D, F, G, S)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812980,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158928,
+            "name": "Italian Ties",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158930,
+                "desc": "Durum Wheat Pasta cooked with Braised Angus Beef, Pink Garlic and Fresh Herbs",
+                "name": "Fusili Giganti, Ragout alla Genovese (A, G)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812984,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158932,
+                "desc": "Durum Wheat Pasta, Chilli Crab Sauce, Tiger Prawns, Egg White, Coriander, Fried Straw Mushroom",
+                "name": "Penne al Granchio Piccante con Funghi Fritti (E, G, S)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812986,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158934,
+                "desc": "Oven-baked Sustainably-sourced Whole Barramundi with Russet Potato, Capers, Cherry Tomato, Kalamata Olives, Garlic, Red Onion and a splash of Italian White Wine",
+                "name": "Sicilian Style Whole Branzino (A, F)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812988,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158936,
+                "desc": "Stewed Tiger Prawn, Octopus, Squid, Fish-of-the-day and Mussels in a rich crustacean broth and finished with fresh herbs",
+                "name": "Il Ciambotto di Mare alla Barese (F, G, S)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812990,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158938,
+                "desc": "Crate Free Pork Meatball cooked in Homemade Basil Tomato Marinara, finish with Parmesan Cheese and Fresh Herbs — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Le Polpette della Nonna (D, P)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812992,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158940,
+            "name": "Asian Delights",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158942,
+                "desc": "Tiger Prawn, Shimeji Mushroom, Green Asparagus, Celery, Premium XO Sauce",
+                "name": "Stir-fried Prawns with XO Sauce (G, P, Soy)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813010,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158944,
+                "desc": "Sustainably-sourced Barramundi, Mixed Capsicum, Ginger, Preserved Black Bean Sauce",
+                "name": "Braised Barramundi with Bitter Gourd and Black Bean Sauce (A, G, Soy)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813012,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158946,
+                "desc": "Boneless Chicken Thigh, Turmeric, Coconut Milk, Homemade Rempah, Potato",
+                "name": "Ayam Masak Lemak (N)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813014,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158948,
+                "desc": "Crate Free Pork, Superior Soy Sauce, Star Anise, Cinnamon, Spring Onion",
+                "name": "Stir-fried Minced Pork with Mapo Tofu (A, G, P, Soy)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813018,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158950,
+                "desc": "Spanish Batallé Pork, Quail Egg, Dried Shitake Mushroom, Wood Ear Fungus, Star Anise — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Soy Sauce Braised Pork Belly with Shitake Mushroom (E, G, P, Soy)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813020,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158952,
+            "name": "Dim Sum And Snacks Corner",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158954,
+                "desc": "Chicken Siew Mai with Tobiko (G, S, Soy), Prawn Har Gow with Black Truffle (G, S, Soy), Chilli Crab Bun (G, S, Soy)",
+                "name": "Dim Sum Selection",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 654546,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158956,
+                "desc": "",
+                "name": "Golden Fried Breaded Prawns (G, S)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813030,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158958,
+                "desc": "Sweet Pineapple, Rice Lontong, Cucumber, Red Onion",
+                "name": "Grilled Chicken and Beef Satay Panggang (G, N)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813032,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158960,
+                "desc": null,
+                "name": "Crispy Chicken Karaage (G)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856474,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158962,
+                "desc": "Condiments: Wasabi Mayonnaise (D), Sweet Chili Sauce, Pickled Green Chilli, Mayonnaise (D), Peanut Sauce (N), Soy Sauce (G, Soy)",
+                "name": "Potato Curry Puff (D, G, V)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813036,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158964,
+            "name": "Indian Kitchen",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158972,
+                "desc": "Boneless Chicken, Buttery Cashew Nut-Tomato Gravy, Garlic-Ginger Paste",
+                "name": "Traditional Butter Chicken (D, N)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813046,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158974,
+                "desc": "Condiments: Papadum (G), Indian Pickles, Cucumber Raita, Mint-Cilantro Chutney (D)",
+                "name": "Vegetable Curry Samosa (G, V)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813048,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158966,
+                "desc": "Premium Basmati rice, Mixed Vegetables, Ghee, Indian Spices",
+                "name": "Mixed Vegetable Biryani (D, N, V)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813040,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158968,
+                "desc": "Potato, Brinjal, Kashmiri Chilli Powder, Garam Masala, Coriander Powder",
+                "name": "Aloo Baigan Masala (V)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813042,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158970,
+                "desc": "Dried Fenugreek Leaves, Spiced Tomato-Onion Gravy, Fish Fillet",
+                "name": "Fish Methi (D, F)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813044,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2158976,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2158978,
+                "desc": "Mascarpone Cheese, Espresso Coffee, Lady Finger, Cocoa Feuilletine",
+                "name": "LUCE-misu (A, D, E, F, G, N)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813052,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158980,
+                "desc": "Coconut Sponge, Blue Pea Coconut Mousse",
+                "name": "Coconut and Butterfly Pea Cake (D, E, G, F)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813054,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158982,
+                "desc": "Valrhona Manjari Ganache, Chocolate Pearl, Chocolate Shavings",
+                "name": "Chocolate Fudge Cake (D, E, G, N, V)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813056,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158984,
+                "desc": "Japanese Matcha Layered Cake, Matcha-Wasabi Mousseline",
+                "name": "Matcha Wasabi Mousse Cake (D, E, F, G, N)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813058,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2158986,
+                "desc": "Candied Lemon Zest, Lemon Pound Cake — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Lemon Drizzle Butter Cake (D, E, G, V)",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 813062,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 95964,
+      "meal_type": "dinner",
+      "key_word": "dinner_elite",
+      "price": "74",
+      "menu_title": "Dinner Set",
+      "desc": "SG$74 p.p.",
+      "show_signature": false,
+      "signature_text": null,
+      "terms_conditions": "",
+      "meal_type_humanize": "Dinner",
+      "seats_multiplier": 1,
+      "minimum_seats": 1,
+      "deposit_amount": null,
+      "seats_multiplier_humanize": "Set menu for 1",
+      "minimum_seats_humanize": "Min. 1 guest",
+      "extras_menu": {
+        "id": 136704,
+        "desc": "Monday to Thursday Dinner Buffet- $60++ \nFriday Dinner Buffet - $69++\nSaturday Dinner Buffet - $74++\nSunday Dinner - $66++",
+        "description": null,
+        "vat": "9.0",
+        "service_fee": "10.0",
+        "offer_wine_pairing": null,
+        "vat_text": "* All prices subject to 9.0% VAT",
+        "service_fee_text": "* All prices subject to 10% service charge",
+        "course_groups": [
+          {
+            "id": 2159134,
+            "name": "Seafood, Sashimi & Sushi",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159136,
+                "desc": "Japanese Oysters, Wild Caught Australian Spanner Crab, Cold Water Prawn, Australian Yabbies, Black and Green Mussels, Irish Sea Whelk, Half Shell Scallop, Asari Clam",
+                "name": "Premium Seafood on Ice",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 812922,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159138,
+                "desc": "Norwegian Salmon, Ahi Tuna, Octopus Leg, Daily Selection of Freshly-made Sushi and Maki",
+                "name": "Assorted Sashimi, Sushi and Maki",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856234,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159140,
+            "name": "Salad Bar",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159142,
+                "desc": "Parris Romaine, Cherokee, Red Mizuna, Micro Cress, Cucumber, Shredded Carrot, Cherry Vine Tomato, Marinated Artichoke, Roasted Capsicum, Herbed Feta Cheese, Corn Kernels, Mixed Olives, Red Onion, Crispy Dough Fritter",
+                "name": "Harvest of the Day",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856238,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159144,
+            "name": "Our Bakers’ Bread Selection",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159146,
+                "desc": "Soft and Hard Rolls, French Baguette, Sourdough Loaf, Lavash, Grissini served with Beurre Isigny Sainte-Mere Doux & Demi Sel (Unsalted & Salted)",
+                "name": "Our Bakers' Bread Selection",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856464,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159148,
+            "name": "Italian And French Artisanal Cheeses",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159150,
+                "desc": "Tete de Moine en Girolles, Camembert, Goat Cheese Crottin, Gorgonzola, Taleggio AOP, Provolone, 36-month Aged Parmesan with Honeycomb, Fig Jam, Champagne Strawberry Jam, Grapes, Assorted Nuts, Crackers",
+                "name": "Italian and French Artisanal Cheeses",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856244,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159152,
+            "name": "Premium Cold Cuts",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159154,
+                "desc": "18-month Dry-cured Prosciutto di Parma, Spianata Romana, Pistachio Mortadella di Bologna, Smoked Virginia Ham, Chambost Salami, Artisanal Pork Terrine, Pickles, Homemade Vegetables in Oil",
+                "name": "Premium Cold Cuts",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856248,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159156,
+            "name": "Appetisers",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159158,
+                "desc": "Creamy Burrata Cheese, Heirloom Tomato, Roasted Cherry Tomato, Toasted Pistachio, Tomato Tapenade, Mountain Oregano, Extra Virgin Olive Oil",
+                "name": "Italian Burrata Caprese",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856252,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159160,
+                "desc": "Boiled Quail Egg, Fried Beancurd Skin, Green Mango, Long Bean, Crushed Peanut, Carrot, Fresh Cilantro, Vine Tomato, Thai Chili Dressing",
+                "name": "Fried Beancurd Puff and Green Mango Salad",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856256,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159162,
+                "desc": "Cucumber-Herbs Raita, Salmon Ikura, Mini Butter Blinis, Egg Mimosa, Cress",
+                "name": "Smoked Salmon and Marlin Platter",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856260,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159164,
+                "desc": "Tiger Prawn, Taggiasca Olives, Lemon Zest, Celery, Carrot, Fresh Herb Dressing",
+                "name": "Grilled Cuttlefish in Salmoriglio Sauce",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856264,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159166,
+                "desc": "Cage Free Eggs, Prosciutto di Parma, Pecorino Cheese, Bell Pepper — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Parma Ham and Pecorino Egg Frittata",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856268,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159168,
+            "name": "Appetiser Passaround",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159170,
+                "desc": "Marinated Zucchini, Norwegian Salmon, Avruga Caviar, Sriracha Chilli, Capers, Dill",
+                "name": "Spicy Salmon Tartare and Smoked Caviar",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856276,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159172,
+                "desc": "Farro Salad, Fresh Herbs, Barbequed Eel, Organic Kale",
+                "name": "Japanese BBQ Unagi and Ikura",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856424,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159174,
+                "desc": "Stracciatella Cheese, Cage Free Egg, Fennel Seeds, Pork ‘Nduja, Sun-dried Tomato",
+                "name": "Mini Crostata di ‘Nduja Piccante",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856280,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159176,
+            "name": "Soup",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159178,
+                "desc": "Traditional Italian Soup served with Parmesan Cheese, Garlic Croutons",
+                "name": "La Zuppa di Legumi della Nonna",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856284,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159180,
+                "desc": "Free Range Pork Ribs, Water Cress, Chinese Almond, Red Date",
+                "name": "Double-boiled Pork Rib Soup",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856288,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159182,
+            "name": "D.i.y. Station",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159184,
+                "desc": "Baby Abalone, Tiger Prawn, Shredded Chicken, Fish Cake, Beansprout, Quail Egg, Rice Noodle, Tau Pok, Fragrant Laksa Coconut Broth",
+                "name": "Frasers House Signature Laksa",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856292,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159186,
+            "name": "Live Station",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159188,
+                "desc": "Choice of Pasta: Trofie, Cheese Ravioli, Rigatoni; Choice of Sauce: Guanciale Carbonara, Beef Bolognese",
+                "name": "Homemade Squid Ink Tagliolini with Mixed Seafood and Kaffir Crustacean Bisque, tossed in Parmesan Cheese Wheel",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856296,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159190,
+                "desc": "Green Asparagus, Vine Tomato, Brandy-Rosemary Sauce, Selection of Mustard",
+                "name": "Brandy and Mustard Marinated Angus Beef Striploin and Open Flame Bone Marrow with Parmesan",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856428,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159192,
+                "desc": "Bell Pepper Piperade, Fresh Herbs",
+                "name": "Roasted Free Range Whole Chicken stuffed with Truffle Butter",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856430,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159194,
+                "desc": "Australian Pork Ribs, Homemade Barbeque Sauce, Grilled Pineapple",
+                "name": "Barbequed Baby Back Ribs",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856432,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159196,
+            "name": "Pinsa",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159198,
+                "desc": "Homemade Tomato Sauce, Stracciatella Cheese, Confit Heirloom Tomato, Basil",
+                "name": "Stracciatella e Pomodori Confit",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856298,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159200,
+                "desc": "Black Truffle-Mushroom Cream, Smoked Scamorza, Fior di Latte",
+                "name": "La Tartufata",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 654506,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159202,
+                "desc": "Homemade Tomato Sauce, Spanish Chorizo, Burrata Cheese, Sun-dried Tomato, Fior di Latte",
+                "name": "Chorizo E Burrata",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856304,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159204,
+                "desc": "Homemade Tomato Sauce, Chinese Sausage, Fior di Latte, Gorgonzola Cream, Pork Floss, Mountain Oregano",
+                "name": "Chinese Pork Sausage e Gorgonzola Dolce",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856308,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159206,
+                "desc": "Salted Egg Sauce, Tiger Prawn, Bonito Flakes, Smoked Scamorza, Curry Leaves — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Salted Egg e Gamberi",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856312,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159208,
+            "name": "Italian Ties",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159210,
+                "desc": "Durum Wheat Pasta cooked with Braised Angus Beef, Pink Garlic and Fresh Herbs",
+                "name": "Fusili Giganti, Ragout alla Genovese",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856320,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159212,
+                "desc": "Durum Wheat Pasta, Chilli Crab Sauce, Tiger Prawns, Egg White, Coriander, Fried Straw Mushroom",
+                "name": "Penne al Granchio Piccante con Funghi Fritti",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856324,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159214,
+                "desc": "Oven-baked Sustainably-sourced Whole Barramundi with Russet Potato, Capers, Cherry Tomato, Kalamata Olives, Garlic, Red Onion and a splash of Italian White Wine",
+                "name": "Sicilian Style Whole Branzino",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856326,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159216,
+                "desc": "Stewed Tiger Prawn, Octopus, Squid, Fish-of-the-day and Mussels in a rich crustacean broth and finished with fresh herbs",
+                "name": "Il Ciambotto di Mare alla Barese",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856328,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159218,
+                "desc": "Crate Free Pork Meatball cooked in Homemade Basil Tomato Marinara, finish with Parmesan Cheese and Fresh Herbs — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Le Polpette della Nonna",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856330,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159220,
+            "name": "Asian Delights",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159222,
+                "desc": "Tiger Prawn, Shimeji Mushroom, Green Asparagus, Celery, Premium XO Sauce",
+                "name": "Stir-fried Prawns with XO Sauce",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856346,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159224,
+                "desc": "Sustainably-sourced Barramundi, Mixed Capsicum, Ginger, Preserved Black Bean Sauce",
+                "name": "Braised Barramundi with Bitter Gourd and Black Bean Sauce",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856348,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159226,
+                "desc": "Boneless Chicken Thigh, Turmeric, Coconut Milk, Homemade Rempah, Potato",
+                "name": "Ayam Masak Lemak",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856350,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159228,
+                "desc": "Australian Lamb Shank, Malay Spices, Tomato Sauce, Chilli Paste",
+                "name": "Sup Tulang Merah",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 596420,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159230,
+                "desc": "Crate Free Pork, Superior Soy Sauce, Star Anise, Cinnamon, Spring Onion — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Stir-fried Minced Pork with Mapo Tofu",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856352,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159232,
+            "name": "Dim Sum And Snacks Corner",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159234,
+                "desc": "Chicken Siew Mai with Tobiko, Prawn Har Gow with Black Truffle, Chilli Crab Bun",
+                "name": "Dim Sum Selection",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 654546,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159236,
+                "desc": null,
+                "name": "Golden Fried Breaded Prawns",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856364,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159238,
+                "desc": "Sweet Pineapple, Rice Lontong, Cucumber, Red Onion",
+                "name": "Grilled Chicken and Beef Satay Panggang",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856366,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159240,
+                "desc": null,
+                "name": "Crispy Chicken Karaage",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856368,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159242,
+                "desc": "Served with Wasabi Mayonnaise, Sweet Chili Sauce, Pickled Green Chilli, Mayonnaise, Peanut Sauce, Soy Sauce",
+                "name": "Potato Curry Puff",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856370,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159244,
+            "name": "Indian Kitchen",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159246,
+                "desc": "Premium Basmati rice, Mixed Vegetables, Ghee, Indian Spices",
+                "name": "Mixed Vegetable Biryani",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856372,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159248,
+                "desc": "Potato, Brinjal, Kashmiri Chilli Powder, Garam Masala, Coriander Powder",
+                "name": "Aloo Baigan Masala",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856374,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159250,
+                "desc": "Dried Fenugreek Leaves, Spiced Tomato-Onion Gravy, Fish Fillet",
+                "name": "Fish Methi",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856376,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159252,
+                "desc": "Boneless Chicken, Buttery Cashew Nut-Tomato Gravy, Garlic-Ginger Paste",
+                "name": "Traditional Butter Chicken",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856378,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159254,
+                "desc": "Served with Papadum, Indian Pickles, Cucumber Raita, Mint-Cilantro Chutney",
+                "name": "Vegetable Curry Samosa",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856380,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": 2159256,
+            "name": "Dessert",
+            "optional_desc": null,
+            "subs": [
+              {
+                "id": 2159258,
+                "desc": "Mascarpone Cheese, Espresso Coffee, Lady Finger, Cocoa Feuilletine",
+                "name": "LUCE-misu",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 342452,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159260,
+                "desc": "Coconut Sponge, Blue Pea Coconut Mousse",
+                "name": "Coconut and Butterfly Pea Cake",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856382,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159262,
+                "desc": "Valrhona Manjari Ganache, Chocolate Pearl, Chocolate Shavings",
+                "name": "Chocolate Fudge Cake",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 605914,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159264,
+                "desc": "Japanese Matcha Layered Cake, Matcha-Wasabi Mousseline",
+                "name": "Matcha Wasabi Mousse Cake",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856384,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              },
+              {
+                "id": 2159266,
+                "desc": "Valrhona Chocolate Sponge, Orange Chantilly, Jivara Mousse — More buffet dishes are available to view on the restaurant's website.",
+                "name": "Orange Jivara Chocolate Cake",
+                "separator": "and",
+                "is_signature": false,
+                "comments_count": 0,
+                "photos_count": 0,
+                "price": "0.0",
+                "up_sell_price": null,
+                "source_id": 856454,
+                "currency": "S$",
+                "price_desc": null,
+                "menu": {
+                  "photos_count": 0,
+                  "comments_count": 0
+                },
+                "menu_photos_count": 0,
+                "photo_cover": null,
+                "menu_photos": [],
+                "tags": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

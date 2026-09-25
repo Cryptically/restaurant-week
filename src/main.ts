@@ -7,11 +7,20 @@ createApp({
   setup() {
     const restaurants = ref([]);
     const menuFiles = ref({});
+    const menuDataBase = ref('./data/');
+    const menuHashes = ref({});
+    const scoreEntries = ref({});
     const selectedRestaurant = ref(null);
     const menu = ref(null);
+    const menuScore = ref(null);
     const activeMealIndex = ref(0);
     const query = ref('');
     const cuisine = ref('');
+    const mealType = ref('');
+    const location = ref('');
+    const tag = ref('');
+    const priceLevel = ref('');
+    const sortBy = ref('featured');
     const loading = ref(true);
     const menuLoading = ref(false);
     const loadError = ref('');
@@ -59,16 +68,91 @@ createApp({
       ),
     ].sort());
 
+    const mealTypeOptions = computed(() => [
+      ...new Set(restaurants.value.flatMap((restaurant) => restaurant.mealTypeLabels)),
+    ].sort());
+
+    const locationOptions = computed(() => [
+      ...new Set(restaurants.value.flatMap((restaurant) => restaurant.locationNames)),
+    ].sort());
+
+    const tagOptions = computed(() => [
+      ...new Set(restaurants.value.flatMap((restaurant) => restaurant.tagNames)),
+    ].sort());
+
+    const priceLevelOptions = computed(() => [
+      ...new Set(
+        restaurants.value
+          .map((restaurant) => restaurant.priceLevelLabel)
+          .filter(Boolean),
+      ),
+    ]);
+
+    const sortOptions = [
+      { value: 'featured', label: 'Featured' },
+      { value: 'rating', label: 'Rating' },
+      { value: 'price-low', label: 'Price: low to high' },
+      { value: 'price-high', label: 'Price: high to low' },
+      { value: 'name-asc', label: 'Name: A–Z' },
+      { value: 'name-desc', label: 'Name: Z–A' },
+    ];
+
+    const hasActiveFilters = computed(() => Boolean(
+      query.value
+      || cuisine.value
+      || mealType.value
+      || location.value
+      || tag.value
+      || priceLevel.value
+      || sortBy.value !== 'featured'
+    ));
+
     const filteredRestaurants = computed(() => {
       const term = query.value.toLowerCase();
 
       return restaurants.value.filter((restaurant) => {
         const matchesSearch = !term || restaurant.searchableText.includes(term);
         const matchesCuisine = !cuisine.value || restaurant.cuisineNames.includes(cuisine.value);
+        const matchesMealType = !mealType.value || restaurant.mealTypeLabels.includes(mealType.value);
+        const matchesLocation = !location.value || restaurant.locationNames.includes(location.value);
+        const matchesTag = !tag.value || restaurant.tagNames.includes(tag.value);
+        const matchesPriceLevel = !priceLevel.value || restaurant.priceLevelLabel === priceLevel.value;
 
-        return matchesSearch && matchesCuisine;
+        return matchesSearch
+          && matchesCuisine
+          && matchesMealType
+          && matchesLocation
+          && matchesTag
+          && matchesPriceLevel;
+      }).sort((left, right) => {
+        if (sortBy.value === 'rating') {
+          return (right.rating || -Infinity) - (left.rating || -Infinity);
+        }
+        if (sortBy.value === 'price-low') {
+          return left.lowestMealPriceValue - right.lowestMealPriceValue;
+        }
+        if (sortBy.value === 'price-high') {
+          return right.lowestMealPriceValue - left.lowestMealPriceValue;
+        }
+        if (sortBy.value === 'name-asc') {
+          return left.name.localeCompare(right.name);
+        }
+        if (sortBy.value === 'name-desc') {
+          return right.name.localeCompare(left.name);
+        }
+        return 0;
       });
     });
+
+    function clearFilters() {
+      query.value = '';
+      cuisine.value = '';
+      mealType.value = '';
+      location.value = '';
+      tag.value = '';
+      priceLevel.value = '';
+      sortBy.value = 'featured';
+    }
 
     function cuisineLabel(restaurant) {
       const names = restaurant.cuisines
@@ -116,6 +200,14 @@ createApp({
     }
 
     const activeMeal = computed(() => menu.value?.meals?.[activeMealIndex.value] || menu.value?.meals?.[0] || null);
+
+    function scoreForCourse(mealIndex, courseIndex) {
+      return menuScore.value?.meals?.[mealIndex]?.courses?.[courseIndex] ?? null;
+    }
+
+    function criterionLabel(id) {
+      return ({ fish: 'Fish', shellfish: 'Shellfish', beef: 'Beef', pork: 'Pork', poultry: 'Poultry', lamb_goat: 'Lamb or goat', vegetarian: 'Vegetarian' })[id] || id;
+    }
 
     function selectMeal(index, { updateUrl = true } = {}) {
       if (!menu.value?.meals?.[index]) return;
@@ -248,24 +340,33 @@ createApp({
 
     async function loadDirectory() {
       try {
-        const [restaurantResponse, indexResponse] = await Promise.all([
-          fetch('./data/restaurants/restaurants.json'),
-          fetch('./data/menus/index.json'),
+        const [restaurantResponse, indexResponse, metadataResponse, scoreIndexResponse] = await Promise.all([
+          fetch(`${menuDataBase.value}restaurants/restaurants.json`),
+          fetch(`${menuDataBase.value}menus/index.json`),
+          fetch(`${menuDataBase.value}menus/metadata.json`),
+          fetch(`${menuDataBase.value}scores/index.json`),
         ]);
 
         if (!restaurantResponse.ok || !indexResponse.ok) {
           throw new Error('The published data files could not be found.');
         }
 
-        const [restaurantData, indexData] = await Promise.all([
+        const [restaurantData, indexData, metadataData, scoreIndexData] = await Promise.all([
           restaurantResponse.json(),
           indexResponse.json(),
+          metadataResponse.ok ? metadataResponse.json() : Promise.resolve({ menus: {} }),
+          scoreIndexResponse.ok ? scoreIndexResponse.json() : Promise.resolve({ byRestaurantId: {} }),
         ]);
 
         restaurants.value = restaurantData.map(
           (item) => new RestaurantViewModel(new Restaurant(item)),
         );
         menuFiles.value = indexData;
+        const menuMetadata = metadataData.menus || {};
+        menuHashes.value = Object.fromEntries(
+          Object.entries(menuMetadata as Record<string, { menuHash: string }>).map(([id, item]) => [id, item.menuHash]),
+        );
+        scoreEntries.value = scoreIndexData.byRestaurantId || {};
 
         const deepLinkedRestaurant = restaurantFromUrl();
         if (deepLinkedRestaurant) {
@@ -280,6 +381,27 @@ createApp({
       }
     }
 
+    async function loadRestaurantScore(restaurant) {
+      const id = String(restaurant.id);
+      const scoreEntry = scoreEntries.value[id];
+      if (!scoreEntry || typeof scoreEntry.scoreFile !== 'string' || scoreEntry.menuHash !== menuHashes.value[id]) return;
+
+      try {
+        const response = await fetch(`${menuDataBase.value}scores/${encodeURIComponent(scoreEntry.scoreFile)}`);
+        if (!response.ok) return;
+        const candidate = await response.json();
+        if (String(selectedRestaurant.value?.id) !== id) return;
+        if (String(candidate.restaurantId) === id
+          && candidate.menuHash === scoreEntry.menuHash
+          && candidate.rubricVersion === scoreEntry.rubricVersion
+          && candidate.promptVersion === scoreEntry.promptVersion) {
+          menuScore.value = candidate;
+        }
+      } catch {
+        // Scores are optional; a missing or unreadable score must not block menus.
+      }
+    }
+
     async function selectRestaurant(restaurant, { updateUrl = true } = {}) {
       if (updateUrl) {
         updateRestaurantUrl(restaurant.id);
@@ -287,6 +409,7 @@ createApp({
 
       selectedRestaurant.value = restaurant;
       menu.value = null;
+      menuScore.value = null;
       activeMealIndex.value = 0;
       menuError.value = '';
       menuLoading.value = true;
@@ -304,7 +427,7 @@ createApp({
           throw new Error('No menu file is available for this restaurant.');
         }
 
-        const response = await fetch(`./data/menus/${encodeURIComponent(filename)}`);
+        const response = await fetch(`${menuDataBase.value}menus/${encodeURIComponent(filename)}`);
 
         if (!response.ok) {
           throw new Error('The menu file could not be opened.');
@@ -314,6 +437,7 @@ createApp({
         menu.value = new RestaurantMenuViewModel(
           new RestaurantMenu(restaurant.id, data.meals || []),
         );
+        void loadRestaurantScore(restaurant);
         activeMealIndex.value = 0;
         syncMealFromUrl({ replaceInvalid: true });
       } catch (error) {
@@ -351,10 +475,24 @@ createApp({
       selectedRestaurant,
       menu,
       activeMeal,
+      menuScore,
       activeMealIndex,
       query,
       cuisine,
+      mealType,
+      location,
+      tag,
+      priceLevel,
+      sortBy,
       cuisineOptions,
+      mealTypeOptions,
+      criterionLabel,
+      locationOptions,
+      tagOptions,
+      priceLevelOptions,
+      scoreForCourse,
+      sortOptions,
+      hasActiveFilters,
       filteredRestaurants,
       loading,
       menuLoading,
@@ -376,6 +514,7 @@ createApp({
       mealPriceLabel,
       mealBookingDetails,
       mealNotice,
+      clearFilters,
       selectRestaurant,
       clearSelection,
     };
