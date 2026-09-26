@@ -17,7 +17,9 @@ The runner sends at most 40 items per call. The model returns one compact row pe
 {"items":[[0,[[0,"salmon"],[3,"bacon"]]],[1,[]]]}
 ```
 
-Criterion indexes follow the rubric order above. The example means item 0 has fish and pork; item 1 has no supported criteria. The runner checks every row index, criterion index, and evidence quote. If Codex repeats a positive criterion with valid evidence, the runner keeps its first quote. For a vegetarian item explicitly marked with `V` in parentheses or `[V]`, the runner can replace an invalid model quote with that exact source marker. It fills in all omitted criteria as `absent`, then rebuilds the original meal/section/item structure and stores the expanded classification at `public/data/scores/classification-<restaurant-id>.json`. The UI reads that expanded file, not the compact model response.
+Criterion indexes follow the rubric order above. The example means item 0 has fish and pork; item 1 has no supported criteria. The runner checks every row index, criterion index, and evidence quote. If Codex repeats a positive criterion with valid evidence, the runner keeps its first quote. For a vegetarian item explicitly marked with `V` in parentheses or `[V]`, the runner can replace an invalid model quote with that exact source marker. It fills in all omitted criteria as `absent`, then rebuilds the original meal/section/item structure and stores the expanded classification at `public/data/scores/classification-<restaurant-id>.json`. The UI reads that expanded file for item details, not the compact model response.
+
+`scripts/build-score-summary.mjs` derives `public/data/scores/summary.json` from the saved classifications. It runs after data fetches and classification runs, and before local development or production builds. The directory uses this compact file for restaurant and course matches; full classifications are fetched only for an opened restaurant's item details. Keep the summary generator and deploy validator aligned if the saved classification shape changes.
 
 ## Cache and running
 

@@ -21,12 +21,16 @@ const restaurants = readJson('restaurants/restaurants.json');
 const menuIndex = readJson('menus/index.json');
 const menuMetadata = readJson('menus/metadata.json');
 const scoreIndex = readJson('scores/index.json');
+const scoreSummary = readJson('scores/summary.json');
 const manifest = readJson('manifest.json');
 
 assert.ok(Array.isArray(restaurants), 'Restaurant data must be a JSON array.');
 assert.ok(menuIndex && typeof menuIndex === 'object', 'Menu index must be an object.');
 assert.ok(menuMetadata?.menus && typeof menuMetadata.menus === 'object', 'Menu metadata must include a menus object.');
 assert.ok(scoreIndex?.byRestaurantId && typeof scoreIndex.byRestaurantId === 'object', 'Score index must include byRestaurantId.');
+assert.equal(scoreSummary?.schemaVersion, 1, 'Score summary schema version is wrong.');
+assert.deepEqual(scoreSummary.criteria, rubric.criteria.map(({ id }) => id), 'Score summary criteria do not match the rubric.');
+assert.deepEqual(Object.keys(scoreSummary.byRestaurantId || {}).sort(), Object.keys(scoreIndex.byRestaurantId).sort(), 'Score summary does not match the score index.');
 assert.ok(!('scoredMenuCount' in manifest) && !('needsScoringCount' in manifest), 'Manifest contains obsolete aggregate-score counts.');
 assert.equal(manifest.restaurantCount, restaurants.length, 'Manifest restaurant count does not match the data.');
 assert.equal(manifest.menuCount, restaurants.length, 'Manifest menu count does not match the data.');
@@ -66,6 +70,11 @@ for (const [id, entry] of Object.entries(scoreIndex.byRestaurantId)) {
   assert.equal(classification.menuHash, menuMetadata.menus[id]?.menuHash, `Classification is stale for restaurant ${id}.`);
   assert.equal(classification.rubricVersion, entry.rubricVersion, `Classification rubric version mismatch for restaurant ${id}.`);
   assert.equal(classification.promptVersion, entry.promptVersion, `Classification prompt version mismatch for restaurant ${id}.`);
+  const summary = scoreSummary.byRestaurantId[id];
+  assert.equal(summary.menuHash, entry.menuHash, `Score summary hash mismatch for restaurant ${id}.`);
+  assert.equal(summary.rubricVersion, entry.rubricVersion, `Score summary rubric mismatch for restaurant ${id}.`);
+  assert.equal(summary.promptVersion, entry.promptVersion, `Score summary prompt mismatch for restaurant ${id}.`);
+  assert.equal(summary.meals.length, classification.meals.length, `Score summary meal count mismatch for restaurant ${id}.`);
 }
 
 assert.equal(manifest.rubricVersion, rubric.version, 'Manifest rubric version is not current.');

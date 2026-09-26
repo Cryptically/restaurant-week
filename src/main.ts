@@ -11,6 +11,7 @@ createApp({
     const selectedRestaurant = ref(null);
     const menu = ref(null);
     const scoreEntries = ref({});
+    const scoreSummary = ref(null);
     const classificationsByRestaurantId = ref({});
     const activeMealIndex = ref(0);
     const selectedCriteria = ref([]);
@@ -26,7 +27,6 @@ createApp({
     const loadError = ref('');
     const menuError = ref('');
     const scoreLoading = ref(false);
-    const scoreLoadProgress = ref(0);
     const scoreError = ref('');
     const detailBackButton = ref(null);
     const isMobileLayout = ref(false);
@@ -34,7 +34,7 @@ createApp({
     let rootOverflow = '';
     let restoringFiltersFromUrl = false;
     const classificationLoads = new Map();
-    let allClassificationsLoad = null;
+    let summaryLoad = null;
     const readableRubricVersions = new Set(['menu-food-variety-v3', 'menu-food-variety-v4']);
     const readablePromptVersions = new Set(['menu-item-classifier-v3', 'menu-item-classifier-v4']);
 
@@ -110,9 +110,10 @@ createApp({
     ]);
 
     const restaurantMatchScores = computed(() => Object.fromEntries(
-      Object.entries(classificationsByRestaurantId.value as Record<string, any>).map(([restaurantId, classification]) => {
+      Object.entries((scoreSummary.value?.byRestaurantId || {}) as Record<string, any>).map(([restaurantId, classification]) => {
+        if (!validSummaryEntry(restaurantId, classification)) return [restaurantId, null];
         const meals = (classification.meals || [])
-          .map((meal) => ({ meal, match: matchForMealData(meal) }))
+          .map((meal) => ({ meal, match: matchForSummaryMeal(meal) }))
           .filter((entry) => entry.match != null)
           .sort((left, right) => right.match.score - left.match.score || right.match.matched - left.match.matched);
         const best = meals[0];
@@ -126,12 +127,15 @@ createApp({
     const activeClassificationMeal = computed(() => (
       classificationsByRestaurantId.value[String(selectedRestaurant.value?.id)]?.meals?.[activeMealIndex.value] ?? null
     ));
-    const activeMealMatch = computed(() => matchForMealData(activeClassificationMeal.value));
+    const activeMealMatch = computed(() => {
+      const id = String(selectedRestaurant.value?.id);
+      const summary = scoreSummary.value?.byRestaurantId?.[id];
+      return validSummaryEntry(id, summary) ? matchForSummaryMeal(summary.meals?.[activeMealIndex.value]) : null;
+    });
     const activeMealMatchScore = computed(() => activeMealMatch.value?.score ?? null);
     const activeMealMatchSummary = computed(() => activeMealMatch.value
       ? `${activeMealMatch.value.matched}/${activeMealMatch.value.total} courses`
       : 'Match unavailable');
-    const scoreEntryCount = computed(() => Object.keys(scoreEntries.value).length);
 
     const sortOptions = computed(() => [
       { value: 'featured', label: 'Featured' },
@@ -147,7 +151,8 @@ createApp({
       if (restoringFiltersFromUrl) return;
       if (count) {
         if (!previousCount) sortBy.value = 'match-high';
-        loadAllClassifications();
+        loadScoreSummary();
+        if (selectedRestaurant.value) loadClassification(selectedRestaurant.value.id).catch(() => {});
       } else if (sortBy.value === 'match-high') {
         sortBy.value = 'featured';
       }
@@ -289,30 +294,49 @@ createApp({
       return statuses.includes('present');
     }
 
-    function matchForSectionData(section) {
-      if (!selectedCriteria.value.length || !section?.items?.length) return null;
-      const itemMatches = section.items.map((item) => matchForFindings(item.classifications));
-      if (itemMatches.some((match) => match == null)) return null;
-      return itemMatches.includes(true);
+    function validSummaryEntry(id, classification) {
+      const entry = scoreEntries.value[id];
+      return entry && classification?.menuHash === entry.menuHash
+        && classification.rubricVersion === entry.rubricVersion
+        && classification.promptVersion === entry.promptVersion
+        && readableRubricVersions.has(entry.rubricVersion)
+        && readablePromptVersions.has(entry.promptVersion);
     }
 
-    function matchForMealData(meal) {
-      if (!meal?.sections?.length) return null;
-      const sectionMatches = meal.sections.map(matchForSectionData);
-      if (sectionMatches.some((match) => match == null)) return null;
-      const matched = sectionMatches.filter(Boolean).length;
-      const total = sectionMatches.length;
+    function selectedFoodMask() {
+      if (!selectedCriteria.value.length || !scoreSummary.value?.criteria) return null;
+      let selectedMask = 0;
+      for (const id of selectedCriteria.value) {
+        const index = scoreSummary.value.criteria.indexOf(id);
+        if (index < 0) return null;
+        selectedMask |= 1 << index;
+      }
+      return selectedMask;
+    }
+
+    function matchForSummaryMeal(meal) {
+      const selectedMask = selectedFoodMask();
+      if (selectedMask == null || !meal?.sections?.length) return null;
+      if (meal.sections.some((mask) => !Number.isInteger(mask))) return null;
+      const matched = meal.sections.filter((mask) => (mask & selectedMask) !== 0).length;
+      const total = meal.sections.length;
       return { matched, total, score: Number((matched / total * 100).toFixed(1)) };
     }
 
     function mealMatchScore(mealIndex) {
-      const meal = classificationsByRestaurantId.value[String(selectedRestaurant.value?.id)]?.meals?.[mealIndex];
-      return matchForMealData(meal)?.score ?? null;
+      const id = String(selectedRestaurant.value?.id);
+      const summary = scoreSummary.value?.byRestaurantId?.[id];
+      return validSummaryEntry(id, summary)
+        ? matchForSummaryMeal(summary.meals?.[mealIndex])?.score ?? null : null;
     }
 
     function sectionMatchScore(sectionIndex) {
-      const match = matchForSectionData(activeClassificationMeal.value?.sections?.[sectionIndex]);
-      return match == null ? null : match ? 100 : 0;
+      const id = String(selectedRestaurant.value?.id);
+      const summary = scoreSummary.value?.byRestaurantId?.[id];
+      if (!validSummaryEntry(id, summary)) return null;
+      const mask = summary.meals?.[activeMealIndex.value]?.sections?.[sectionIndex];
+      const selectedMask = selectedFoodMask();
+      return Number.isInteger(mask) && selectedMask != null ? (mask & selectedMask) !== 0 ? 100 : 0 : null;
     }
 
     function itemClassification(sectionIndex, itemIndex) {
@@ -534,7 +558,10 @@ createApp({
 
     function handleHistoryChange() {
       syncFiltersFromUrl();
-      if (selectedCriteria.value.length) loadAllClassifications();
+      if (selectedCriteria.value.length) {
+        loadScoreSummary();
+        if (selectedRestaurant.value) loadClassification(selectedRestaurant.value.id).catch(() => {});
+      }
       const restaurant = restaurantFromUrl();
 
       if (restaurant && selectedRestaurant.value?.id === restaurant.id && menu.value) {
@@ -569,7 +596,7 @@ createApp({
         );
         menuFiles.value = indexData;
         scoreEntries.value = scoreIndexData.byRestaurantId || {};
-        if (selectedCriteria.value.length) loadAllClassifications();
+        if (selectedCriteria.value.length) loadScoreSummary();
 
         const deepLinkedRestaurant = restaurantFromUrl();
         if (deepLinkedRestaurant) {
@@ -631,50 +658,29 @@ createApp({
       }
     }
 
-    async function loadAllClassifications() {
-      if (allClassificationsLoad) return allClassificationsLoad;
-
-      allClassificationsLoad = (async () => {
-        const ids = Object.keys(scoreEntries.value);
-        if (!ids.length) {
-          scoreError.value = 'Menu classifications are not available.';
-          return;
+    async function loadScoreSummary() {
+      if (scoreSummary.value) return scoreSummary.value;
+      if (summaryLoad) return summaryLoad;
+      scoreLoading.value = true;
+      scoreError.value = '';
+      summaryLoad = (async () => {
+        const response = await fetch(`${menuDataBase.value}scores/summary.json`);
+        if (!response.ok) throw new Error(`Could not load menu matches (${response.status}).`);
+        const summary = await response.json();
+        if (summary?.schemaVersion !== 1 || !Array.isArray(summary.criteria)
+          || !summary.byRestaurantId || typeof summary.byRestaurantId !== 'object') {
+          throw new Error('The menu match summary is invalid.');
         }
-
-        scoreLoading.value = true;
-        scoreLoadProgress.value = 0;
-        scoreError.value = '';
-        const failedIds = [];
-        let staleCount = 0;
-        let nextIndex = 0;
-        const workerCount = Math.min(8, ids.length);
-
-        await Promise.all(Array.from({ length: workerCount }, async () => {
-          while (nextIndex < ids.length) {
-            const id = ids[nextIndex];
-            nextIndex += 1;
-            try {
-              await loadClassification(id);
-            } catch (error) {
-              failedIds.push(id);
-              if (error.name === 'StaleClassificationError') staleCount += 1;
-            } finally {
-              scoreLoadProgress.value += 1;
-            }
-          }
-        }));
-
-        if (failedIds.length) {
-          scoreError.value = staleCount
-            ? `Saved menu scores need refreshing for the current rubric (${staleCount} menu${staleCount === 1 ? '' : 's'}).`
-            : `Could not load scores for ${failedIds.length} menu${failedIds.length === 1 ? '' : 's'}.`;
-        }
+        scoreSummary.value = summary;
+        return summary;
       })();
-
       try {
-        await allClassificationsLoad;
+        return await summaryLoad;
+      } catch (error) {
+        scoreError.value = error.message || 'Could not load menu matches.';
+        return null;
       } finally {
-        allClassificationsLoad = null;
+        summaryLoad = null;
         scoreLoading.value = false;
       }
     }
@@ -685,6 +691,7 @@ createApp({
       }
 
       selectedRestaurant.value = restaurant;
+      if (selectedCriteria.value.length) loadClassification(restaurant.id).catch(() => {});
       menu.value = null;
       activeMealIndex.value = 0;
       menuError.value = '';
@@ -762,10 +769,8 @@ createApp({
       foodCriteria,
       selectedCriteria,
       scoreLoading,
-      scoreLoadProgress,
       scoreError,
       scoreEntries,
-      scoreEntryCount,
       classificationsByRestaurantId,
       restaurantMatch,
       activeMealMatchScore,

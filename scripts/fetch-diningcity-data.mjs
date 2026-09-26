@@ -7,6 +7,7 @@ import { tmpdir } from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { DiningCityApiClient } from '../src/client.js';
 import { hashMenuForScoring } from './menu-hash.mjs';
+import { buildScoreSummary } from './build-score-summary.mjs';
 import { PROMPT_VERSION } from './menu-scoring-version.mjs';
 
 const API_KEY = 'cgecegcegcc';
@@ -294,6 +295,7 @@ async function main() {
   }
 
   await writeSnapshot(restaurants, menuRecords, report, previousScores, previousScoresDir);
+  await buildScoreSummary();
 }
 
 main().catch((error) => {

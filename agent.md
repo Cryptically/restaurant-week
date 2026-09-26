@@ -83,7 +83,7 @@ Menus use stable ID filenames; names and slugs are display text only. `menus/met
 
 ### Menu scoring pipeline
 
-See `SCORING_CLASSIFIER.md` for Codex classification, versions, caching, and run commands. See `UI_SCORING.md` for the selected-food match calculation. The scorer, data fetcher, and deploy validator import their prompt version from `scripts/menu-scoring-version.mjs`; update that shared constant and regenerated scoring data together when changing the classifier. Do not start a new Codex classification run unless the user asks.
+See `SCORING_CLASSIFIER.md` for Codex classification, versions, caching, and run commands. See `UI_SCORING.md` for the selected-food match calculation. The scorer, data fetcher, and deploy validator import their prompt version from `scripts/menu-scoring-version.mjs`; update that shared constant and regenerated scoring data together when changing the classifier. `scripts/build-score-summary.mjs` generates the compact course summary used by the restaurant list; fetch, scoring, dev, and build refresh it. Do not start a new Codex classification run unless the user asks.
 
 Do not hand-edit `public/data/` or `dist/data/`; both are generated.
 
@@ -144,11 +144,7 @@ npm run preview
 
 ## Playwright visual checks
 
-Use the Docker-backed Playwright MCP for browser QA. Vite runs on the Windows host and Playwright runs in the `playwright-mcp` Docker container. Start Vite normally:
-
-```powershell
-npm run dev
-```
+Use the Docker-backed Playwright MCP for browser QA. The user keeps Vite running on the Windows host and Playwright runs in the `playwright-mcp` Docker container. **Never start or stop a server for browser QA; use the existing server.**
 
 The Vite config binds to `0.0.0.0` and allows `host.docker.internal`, so from the Docker browser navigate to:
 
@@ -168,7 +164,7 @@ The Docker Playwright workflow is:
 4. Click a representative restaurant and inspect its menu.
 5. Resize to mobile (`390x844`) and inspect the detail sheet, menu hierarchy, wrapping, and scroll behavior.
 6. Use page evaluation only for read-only checks such as computed styles, dimensions, scroll state, and responsive state.
-7. Stop the Vite process with `Ctrl+C` after the review.
+7. Leave the user's running Vite process untouched after the review.
 
 If navigation fails, check in this order:
 
@@ -180,7 +176,7 @@ If navigation fails, check in this order:
 
 Useful Playwright operations are `browser_navigate`, `browser_snapshot`, `browser_take_screenshot`, `browser_click`, `browser_resize`, and `browser_evaluate`. For UI changes, verify both the selected and empty states, plus at least one real menu with course groups and `and`/`or` separators.
 
-On Windows, Vite can fail with `spawn EPERM` inside the sandbox. Retry the server or build with elevated process permission when that happens; do not change the application to work around the environment restriction.
+Do not start a substitute static server or Vite preview to work around browser access; use the existing Vite server through Playwright MCP.
 
 The full refresh/build workflow is:
 

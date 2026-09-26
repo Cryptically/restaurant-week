@@ -1,6 +1,6 @@
 # UI menu matching
 
-The UI calculates matches locally from saved item classifications. Selecting foods does not call Codex. Selected foods are alternatives: fish + pork means **fish or pork**.
+The UI calculates matches locally from saved item classifications. Selecting foods does not call Codex. Selected foods are alternatives: fish + pork means **fish or pork**. The restaurant list loads one compact `scores/summary.json` containing a bitmask of present foods for each course. Opening a restaurant loads only that restaurant's full classification file for item-level evidence. The summary is generated from the saved classifications, not from a second model call.
 
 ## Calculation
 

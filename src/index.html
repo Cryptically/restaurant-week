@@ -82,7 +82,7 @@
               </label>
             </div>
             <p v-if="!selectedCriteria.length" class="score-filter-note">Select one or more to show menu match scores.</p>
-            <p v-else-if="scoreLoading" class="score-filter-note" role="status">Loading saved classifications ({{ scoreLoadProgress }}/{{ scoreEntryCount }})…</p>
+            <p v-else-if="scoreLoading" class="score-filter-note" role="status">Loading menu matches…</p>
             <p v-else-if="scoreError" class="score-filter-note score-load-error" role="status">{{ scoreError }}</p>
             <p v-else class="score-filter-note">Only menu-listed foods count. The menu shows how many courses have a matching item.</p>
           </fieldset>
@@ -137,7 +137,7 @@
                   <span class="score-badge" :class="scoreTone(restaurantMatch(restaurant.id).score)">{{ formatScore(restaurantMatch(restaurant.id).score) }}</span>
                   <span class="restaurant-match-detail">{{ restaurantMatch(restaurant.id).matched }}/{{ restaurantMatch(restaurant.id).total }} courses · {{ restaurantMatch(restaurant.id).mealLabel }}</span>
                 </template>
-                <span v-else class="match-pending">{{ scoreLoading ? 'Scoring menu…' : 'No saved score' }}</span>
+                <span v-else class="match-pending">{{ scoreLoading ? 'Loading menu matches…' : 'No saved score' }}</span>
               </span>
               <span v-if="restaurant.hasTags" class="restaurant-tag-list" aria-label="Restaurant tags">
                 <span v-for="tag in restaurant.tags" :key="tag.id || tag.name" class="restaurant-tag">{{ tag.name }}</span>

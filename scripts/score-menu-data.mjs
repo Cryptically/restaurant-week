@@ -6,6 +6,7 @@ import { dirname, join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { buildClassificationInput } from './menu-scoring-input.mjs';
+import { buildScoreSummary } from './build-score-summary.mjs';
 import { PROMPT_VERSION } from './menu-scoring-version.mjs';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
@@ -440,6 +441,7 @@ async function main() {
   manifest.needsClassificationCount = Math.max(0, Object.keys(metadata.menus).length - manifest.classifiedMenuCount);
   manifest.generatedAt = new Date().toISOString();
   await writeJsonAtomic(manifestPath, manifest);
+  await buildScoreSummary();
   console.log(`Completed ${completed}/${selected.length} menu classifications; ${modelFailures.length} failed. Model: ${CODEX_MODEL}, reasoning effort: ${REASONING_EFFORT}.`);
   if (modelFailures.length > 0) process.exitCode = 1;
 }

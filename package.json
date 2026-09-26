@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "predev": "node scripts/build-score-summary.mjs",
     "dev": "vite",
+    "prebuild": "node scripts/build-score-summary.mjs",
     "build": "vite build",
     "typecheck": "vue-tsc --noEmit",
     "test": "node --test",
