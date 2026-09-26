@@ -2,10 +2,10 @@ import assert from 'node:assert/strict';
 import { existsSync, readFileSync } from 'node:fs';
 import { basename, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { PROMPT_VERSION } from './menu-scoring-version.mjs';
 
 const dataDirectory = resolve(process.argv[2] || 'public/data');
 const rubric = JSON.parse(readFileSync(fileURLToPath(new URL('../config/menu-scoring-rubric.json', import.meta.url)), 'utf8'));
-const promptVersion = 'menu-item-classifier-v3';
 
 function readJson(relativePath) {
   const filePath = join(dataDirectory, relativePath);
@@ -50,7 +50,7 @@ for (const restaurant of restaurants) {
 
   const scoreEntry = scoreIndex.byRestaurantId[id];
   const hasCurrentClassification = scoreEntry?.rubricVersion === rubric.version
-    && scoreEntry?.promptVersion === promptVersion;
+    && scoreEntry?.promptVersion === PROMPT_VERSION;
   assert.equal(metadata.analysisStatus, hasCurrentClassification ? 'classified' : 'pending', `Menu analysis status is wrong for restaurant ${id}.`);
   if (hasCurrentClassification) currentClassificationCount += 1;
 }
@@ -69,7 +69,7 @@ for (const [id, entry] of Object.entries(scoreIndex.byRestaurantId)) {
 }
 
 assert.equal(manifest.rubricVersion, rubric.version, 'Manifest rubric version is not current.');
-assert.equal(manifest.promptVersion, promptVersion, 'Manifest prompt version is not current.');
+assert.equal(manifest.promptVersion, PROMPT_VERSION, 'Manifest prompt version is not current.');
 assert.equal(manifest.classifiedMenuCount, currentClassificationCount, 'Manifest current classification count does not match the score index.');
 assert.equal(manifest.needsClassificationCount, restaurants.length - currentClassificationCount, 'Manifest pending classification count does not match the score index.');
 

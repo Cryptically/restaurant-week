@@ -34,3 +34,9 @@ npm run score:menus
 Use the direct `node` command for `--only`. This npm version consumes `--only` as its own option, which would otherwise run the full menu queue.
 
 The dry run makes no Codex calls or data changes. The v4 run is complete: all 107 menus and 2,902 items have current binary classifications, and a dry run queues zero menus. The UI still accepts valid v3 results for compatibility, but the current index points entirely to v4 results. Run the classifier again only when menus or classifier settings change; changing selected foods in the UI makes no model calls.
+
+## Changing classifier versions
+
+`scripts/menu-scoring-version.mjs` is the single prompt-version constant used by the scorer, the DiningCity fetch script, and the published-data validator. Do not add separate prompt-version literals to those scripts. Rubric version comes from `config/menu-scoring-rubric.json`.
+
+When the classifier prompt or its interpretation changes, update the prompt and this shared version, then rerun the classifier and publish its updated scores, menu metadata, score index, and manifest together. Check `src/main.ts` if the UI should read the new version while retaining older saved results. A version bump without regenerated data correctly makes the deployment validator fail; it must not be fixed by marking old scores as current. Before pushing, build and validate the published artifact with `npm run build` and `node scripts/validate-published-data.mjs dist/data`.

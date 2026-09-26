@@ -7,12 +7,12 @@ import { tmpdir } from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { DiningCityApiClient } from '../src/client.js';
 import { hashMenuForScoring } from './menu-hash.mjs';
+import { PROMPT_VERSION } from './menu-scoring-version.mjs';
 
 const API_KEY = 'cgecegcegcc';
 const CITY = 'singapore';
 const PER_PAGE = 8;
 const MENU_CONCURRENCY = 4;
-const PROMPT_VERSION = 'menu-item-classifier-v3';
 const args = new Set(process.argv.slice(2));
 const dryRun = args.has('--dry-run');
 const root = fileURLToPath(new URL('..', import.meta.url));

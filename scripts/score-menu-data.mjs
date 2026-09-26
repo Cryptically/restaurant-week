@@ -6,12 +6,12 @@ import { dirname, join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { buildClassificationInput } from './menu-scoring-input.mjs';
+import { PROMPT_VERSION } from './menu-scoring-version.mjs';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 const dataDir = join(root, 'public', 'data');
 const rubricPath = join(root, 'config', 'menu-scoring-rubric.json');
 const RESULT_SCHEMA_VERSION = 'menu-item-classification-v2';
-const PROMPT_VERSION = 'menu-item-classifier-v4';
 const CODEX_MODEL = 'gpt-6-luna';
 const REASONING_EFFORT = process.env.CODEX_SCORE_REASONING_EFFORT ?? 'medium';
 const DEFAULT_CONCURRENCY = 8;

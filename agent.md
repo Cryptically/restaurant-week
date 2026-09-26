@@ -83,7 +83,7 @@ Menus use stable ID filenames; names and slugs are display text only. `menus/met
 
 ### Menu scoring pipeline
 
-See `SCORING_CLASSIFIER.md` for Codex classification, versions, caching, and run commands. See `UI_SCORING.md` for the selected-food match calculation. Do not start a new Codex classification run unless the user asks.
+See `SCORING_CLASSIFIER.md` for Codex classification, versions, caching, and run commands. See `UI_SCORING.md` for the selected-food match calculation. The scorer, data fetcher, and deploy validator import their prompt version from `scripts/menu-scoring-version.mjs`; update that shared constant and regenerated scoring data together when changing the classifier. Do not start a new Codex classification run unless the user asks.
 
 Do not hand-edit `public/data/` or `dist/data/`; both are generated.
 
