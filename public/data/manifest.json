@@ -3,9 +3,9 @@
   "city": "singapore",
   "restaurantCount": 107,
   "menuCount": 107,
-  "scoredMenuCount": 0,
-  "needsScoringCount": 107,
-  "generatedAt": "2026-09-25T21:30:14.204Z",
+  "generatedAt": "2026-09-26T08:55:30.468Z",
+  "rubricVersion": "menu-food-variety-v4",
+  "promptVersion": "menu-item-classifier-v4",
   "classifiedMenuCount": 107,
   "needsClassificationCount": 0
 }

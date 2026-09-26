@@ -1,0 +1,475 @@
+{
+  "schemaVersion": "menu-item-classification-v2",
+  "analysisType": "menu-item-classifications",
+  "restaurantId": 205176024,
+  "menuHash": "9c28a15aae38fc3d9619d407dcb8ba15858ef958ad638809522e1e4bdd23147c",
+  "hashVersion": "menu-score-input-v2",
+  "rubricVersion": "menu-food-variety-v4",
+  "promptVersion": "menu-item-classifier-v4",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "medium",
+  "generatedAt": "2026-09-26T08:46:59.357Z",
+  "meals": [
+    {
+      "mealIndex": 0,
+      "mealType": "afternoon_tea",
+      "title": "Afternoon Tea",
+      "sections": [
+        {
+          "sectionIndex": 0,
+          "name": "SAVOURY",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2128562",
+              "classifications": {
+                "fish": {
+                  "status": "present",
+                  "evidence": "Smoked Trout"
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2128564",
+              "classifications": {
+                "fish": {
+                  "status": "present",
+                  "evidence": "Nomad Caviar"
+                },
+                "shellfish": {
+                  "status": "present",
+                  "evidence": "Boston Lobster"
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2128566",
+              "classifications": {
+                "fish": {
+                  "status": "present",
+                  "evidence": "Tuna"
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 3,
+              "sourceItemId": "2128568",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "present",
+                  "evidence": "Duck"
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 4,
+              "sourceItemId": "2128570",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "(v)"
+                }
+              }
+            },
+            {
+              "itemIndex": 5,
+              "sourceItemId": "2128572",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "(v)"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 1,
+          "name": "SWEET",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2128576",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Vanilla Chantilly, Strawberry , Matcha Pain de Genes"
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2128578",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Caramelised Pecan Praline, Yuzu Dark Chocolate , Whipped Matcha Ganache"
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2128580",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Matcha Cream C heese, Graham Crumbs , Matcha Glaze"
+                }
+              }
+            },
+            {
+              "itemIndex": 3,
+              "sourceItemId": "2128582",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Matcha Crémeux , Raspberry C onfit, Matcha Chiffon Sponge"
+                }
+              }
+            },
+            {
+              "itemIndex": 4,
+              "sourceItemId": "2128584",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Azuki Red Bean , Custard"
+                }
+              }
+            },
+            {
+              "itemIndex": 5,
+              "sourceItemId": "2128586",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Green Tea Crème , Yuzu Curd"
+                }
+              }
+            },
+            {
+              "itemIndex": 6,
+              "sourceItemId": "2128590",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "A Glass of Matcha, Warm or Iced | A Serving Coffee or Tea"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -12,6 +12,7 @@ const API_KEY = 'cgecegcegcc';
 const CITY = 'singapore';
 const PER_PAGE = 8;
 const MENU_CONCURRENCY = 4;
+const PROMPT_VERSION = 'menu-item-classifier-v3';
 const args = new Set(process.argv.slice(2));
 const dryRun = args.has('--dry-run');
 const root = fileURLToPath(new URL('..', import.meta.url));
@@ -153,6 +154,8 @@ function compareSnapshot(restaurants, menuRecords, previousMetadata) {
 }
 
 async function writeSnapshot(restaurants, menuRecords, report, previousScores, previousScoresDir) {
+  const scoringRubric = await readJson(join(root, 'config', 'menu-scoring-rubric.json'), null);
+  if (!scoringRubric?.version) throw new Error('The current menu scoring rubric is missing or invalid.');
   const stagingDir = join(tmpdir(), `restaurant-week-data-stage-${process.pid}-${randomUUID()}`);
   const stageRestaurantsDir = join(stagingDir, 'restaurants');
   const stageMenusDir = join(stagingDir, 'menus');
@@ -178,7 +181,7 @@ async function writeSnapshot(restaurants, menuRecords, report, previousScores, p
     for (const record of menuRecords) {
       const filename = `${record.key}.json`;
       const analysisRecord = previousScores.byRestaurantId?.[record.key];
-      const resultFile = analysisRecord?.classificationFile ?? analysisRecord?.scoreFile;
+      const resultFile = analysisRecord?.classificationFile;
       const keepsAnalysis = analysisRecord?.menuHash === record.menuHash
         && typeof resultFile === 'string'
         && !resultFile.includes('..')
@@ -192,11 +195,14 @@ async function writeSnapshot(restaurants, menuRecords, report, previousScores, p
         menuHash: record.menuHash,
         hashAlgorithm: record.hashAlgorithm,
         hashVersion: record.hashVersion,
-        analysisStatus: keepsAnalysis ? (analysisRecord.classificationFile ? 'classified' : 'scored') : 'pending',
+        analysisStatus: keepsAnalysis
+          && analysisRecord.rubricVersion === scoringRubric.version
+          && analysisRecord.promptVersion === PROMPT_VERSION
+          ? 'classified'
+          : 'pending',
         rubricVersion: keepsAnalysis ? analysisRecord.rubricVersion : null,
         promptVersion: keepsAnalysis ? analysisRecord.promptVersion : null,
         classificationFile: keepsAnalysis ? analysisRecord.classificationFile ?? null : null,
-        scoreFile: keepsAnalysis ? analysisRecord.scoreFile ?? null : null,
       };
 
       await writeFile(join(stageMenusDir, filename), json({ restaurant_id: record.restaurant.id, meals: record.meals }));
@@ -212,7 +218,6 @@ async function writeSnapshot(restaurants, menuRecords, report, previousScores, p
           metadata.menus[record.key].analysisStatus = 'pending';
           metadata.menus[record.key].rubricVersion = null;
           metadata.menus[record.key].classificationFile = null;
-          metadata.menus[record.key].scoreFile = null;
         }
       }
     }
@@ -230,13 +235,18 @@ async function writeSnapshot(restaurants, menuRecords, report, previousScores, p
       dataChanged = (await publishDirectory(join(stagingDir, name), join(dataDir, name))) || dataChanged;
     }
     const previousManifest = await readJson(join(dataDir, 'manifest.json'), {});
+    const classifiedMenuCount = Object.values(nextScores.byRestaurantId).filter((entry) => (
+      entry.rubricVersion === scoringRubric.version && entry.promptVersion === PROMPT_VERSION
+    )).length;
     const manifest = {
       event: 'rwsg_autumn_2026',
       city: CITY,
       restaurantCount: restaurants.length,
       menuCount: menuRecords.length,
-      classifiedMenuCount: Object.keys(nextScores.byRestaurantId).length,
-      needsClassificationCount: menuRecords.length - Object.keys(nextScores.byRestaurantId).length,
+      rubricVersion: scoringRubric.version,
+      promptVersion: PROMPT_VERSION,
+      classifiedMenuCount,
+      needsClassificationCount: menuRecords.length - classifiedMenuCount,
       generatedAt: dataChanged || !previousManifest.generatedAt ? new Date().toISOString() : previousManifest.generatedAt,
     };
     const stagedManifestPath = join(stagingDir, 'manifest.json');

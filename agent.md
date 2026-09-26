@@ -42,7 +42,8 @@ restaurant-week/
 ├── package-lock.json
 ├── vite.config.js
 ├── tsconfig.json
-├── plan.md
+├── SCORING_CLASSIFIER.md
+├── UI_SCORING.md
 └── agent.md
 ```
 
@@ -82,9 +83,7 @@ Menus use stable ID filenames; names and slugs are display text only. `menus/met
 
 ### Menu scoring pipeline
 
-`config/menu-scoring-rubric.v1.json` defines the current draft rubric and weights. Course scores count the weighted share of criteria explicitly present in menu text; uncertain findings score zero and are shown as uncertain. Meal scores average their courses; the overall score averages all courses. Evidence must quote source menu text.
-
-`npm run score:menus:dry-run` lists the queue without making model calls. `npm run score:menus` runs one isolated Codex CLI task per menu with `gpt-6-luna`, `model_reasoning_effort="high"`, a read-only sandbox, and a JSON output schema. It stores item-level criterion classifications and evidence; it does not calculate course or menu scores. It needs Codex CLI sign-in, not an LLM API key. The runner resumes and skips matching `(restaurant ID, menu hash, rubric version, prompt version, schema version, model, reasoning effort)` results. Do not run full scoring until the user reviews the pilot and the app is updated to display item-level results and on-demand scores. One Wakanui menu pilot found an `ikura`/shellfish classification error; rubric v2 clarifies fish roe is fish, not shellfish.
+See `SCORING_CLASSIFIER.md` for Codex classification, versions, caching, and run commands. See `UI_SCORING.md` for the selected-food match calculation. Do not start a new Codex classification run unless the user asks.
 
 Do not hand-edit `public/data/` or `dist/data/`; both are generated.
 

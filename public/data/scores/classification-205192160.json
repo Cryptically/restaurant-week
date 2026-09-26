@@ -1,0 +1,3865 @@
+{
+  "schemaVersion": "menu-item-classification-v2",
+  "analysisType": "menu-item-classifications",
+  "restaurantId": 205192160,
+  "menuHash": "6a060e0462350ce40c7fd97bec014fbf9570e2c80a6d5f490caf89279e7a3f2c",
+  "hashVersion": "menu-score-input-v2",
+  "rubricVersion": "menu-food-variety-v4",
+  "promptVersion": "menu-item-classifier-v4",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "medium",
+  "generatedAt": "2026-09-26T08:49:18.979Z",
+  "meals": [
+    {
+      "mealIndex": 0,
+      "mealType": "brunch",
+      "title": "Brunch",
+      "sections": [
+        {
+          "sectionIndex": 0,
+          "name": "Finger Sandwiches",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127140",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Cucumber"
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127142",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Egg Salad and Watercress"
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127144",
+              "classifications": {
+                "fish": {
+                  "status": "present",
+                  "evidence": "Smoked Salmon"
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 3,
+              "sourceItemId": "2127146",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Tomato Pie"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 1,
+          "name": "Salads",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127150",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Roasted Heritage Beetroot, Soft Goat Cheese, Toasted Walnuts, Baby Rocket, Orange Segments"
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127152",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "present",
+                  "evidence": "Chicken"
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127154",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "present",
+                  "evidence": "Tiger Prawns"
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 2,
+          "name": "Grazing Board",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127158",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 3,
+          "name": "Gravlax Bar",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127162",
+              "classifications": {
+                "fish": {
+                  "status": "present",
+                  "evidence": "Gravlax"
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127164",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Focaccia and Rolls with Two Types of Dips"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 4,
+          "name": "Passed-around",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127168",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "present",
+                  "evidence": "Pork"
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 5,
+          "name": "Live Station",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127172",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "present",
+                  "evidence": "Beef Striploin"
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127174",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "present",
+                  "evidence": "Pork Belly"
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127176",
+              "classifications": {
+                "fish": {
+                  "status": "present",
+                  "evidence": "Fish Stock"
+                },
+                "shellfish": {
+                  "status": "present",
+                  "evidence": "Sea Prawns"
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "present",
+                  "evidence": "Pulled Chicken"
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 6,
+          "name": "Hot Buffet",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127180",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "present",
+                  "evidence": "Prawn"
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "present",
+                  "evidence": "Pork Meat Ball"
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127182",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "present",
+                  "evidence": "Ayam Satay Skewer"
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127184",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "present",
+                  "evidence": "Chicken Wing"
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 3,
+              "sourceItemId": "2127186",
+              "classifications": {
+                "fish": {
+                  "status": "present",
+                  "evidence": "Salmon"
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 4,
+              "sourceItemId": "2127188",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "present",
+                  "evidence": "Braised Chicken"
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 5,
+              "sourceItemId": "2127190",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Impossible Meat Shephard’s Pie"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 7,
+          "name": "Quiche",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127194",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Leeks and Cheddar Quiche"
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127196",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "present",
+                  "evidence": "Bacon"
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 8,
+          "name": "Signature Scones",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127200",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127202",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 9,
+          "name": "Selection Of Homemade British Biscuits",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127206",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127208",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127210",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 3,
+              "sourceItemId": "2127212",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 4,
+              "sourceItemId": "2127214",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 10,
+          "name": "Sweet",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127232",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127234",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127236",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 3,
+              "sourceItemId": "2127238",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Seasonal Fruits"
+                }
+              }
+            },
+            {
+              "itemIndex": 4,
+              "sourceItemId": "2127218",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Cocoa Tart Shell, Earl Grey Infused Chocolate Cream, Bitter Orange"
+                }
+              }
+            },
+            {
+              "itemIndex": 5,
+              "sourceItemId": "2127220",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Raspberry Mousse, Rhubarb Compote, Vanilla Sponge"
+                }
+              }
+            },
+            {
+              "itemIndex": 6,
+              "sourceItemId": "2127222",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Madagascan Vanilla Cream, Granny Smith Apple Compote, Almond Biscuit"
+                }
+              }
+            },
+            {
+              "itemIndex": 7,
+              "sourceItemId": "2127224",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Traditional Victoria Sponge, Vanilla Mousseline, Strawberry Veil"
+                }
+              }
+            },
+            {
+              "itemIndex": 8,
+              "sourceItemId": "2127226",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Elderflower Cream, Citrus Compote, Lemon Cream"
+                }
+              }
+            },
+            {
+              "itemIndex": 9,
+              "sourceItemId": "2127228",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 10,
+              "sourceItemId": "2127230",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 11,
+          "name": "Free Flow",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127242",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127244",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mealIndex": 1,
+      "mealType": "lunch",
+      "title": "Lunch Set",
+      "sections": [
+        {
+          "sectionIndex": 0,
+          "name": "Essence Of India - Accompaniments",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2126984",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127006",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 1,
+          "name": "Essence Of India - Non - Vegetarian",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2126988",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "present",
+                  "evidence": "Chicken Thigh"
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2126990",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "present",
+                  "evidence": "Lamb Shoulder"
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2126992",
+              "classifications": {
+                "fish": {
+                  "status": "present",
+                  "evidence": "Seabass"
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 2,
+          "name": "Essence Of India - Vegetables, Dal And Rice",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2126996",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Mixed Vegetables"
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2126998",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Black Lentils"
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127000",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 3,
+              "sourceItemId": "2127014",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Mixed Vegetables"
+                }
+              }
+            },
+            {
+              "itemIndex": 4,
+              "sourceItemId": "2127016",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Black Lentils"
+                }
+              }
+            },
+            {
+              "itemIndex": 5,
+              "sourceItemId": "2127018",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 3,
+          "name": "Essence Of India - Dessert",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127004",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Milk"
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127020",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Milk"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 4,
+          "name": "Essence Of India - Vegetarian",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127010",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Baby Potatoes"
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127012",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Fresh Cottage Cheese"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 5,
+          "name": "Flavors Of Northern India - Accompaniments",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127024",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127046",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 6,
+          "name": "Flavors Of Northern India - Non - Vegetarian",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127028",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "present",
+                  "evidence": "Chicken Tikka"
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127030",
+              "classifications": {
+                "fish": {
+                  "status": "present",
+                  "evidence": "Fish"
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127032",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "present",
+                  "evidence": "Lamb"
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 7,
+          "name": "Flavors Of Northern India - Vegetables, Dal And Rice",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127036",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "[V]"
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127038",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "[V]"
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127040",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "[V]"
+                }
+              }
+            },
+            {
+              "itemIndex": 3,
+              "sourceItemId": "2127054",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "[V]"
+                }
+              }
+            },
+            {
+              "itemIndex": 4,
+              "sourceItemId": "2127056",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "[V]"
+                }
+              }
+            },
+            {
+              "itemIndex": 5,
+              "sourceItemId": "2127060",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "[V]"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 8,
+          "name": "Flavors Of Northern India - Dessert",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127044",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Warm Carrot Pudding"
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127064",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Warm Carrot Pudding"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 9,
+          "name": "Flavors Of Northern India - Vegetarian",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127050",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Cottage Cheese"
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127052",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Chickpeas"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 10,
+          "name": "Ala Carte - To Start",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127070",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "present",
+                  "evidence": "Prawn"
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "present",
+                  "evidence": "Fried Bean Curd"
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127074",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "(V)"
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127080",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "(V)"
+                }
+              }
+            },
+            {
+              "itemIndex": 3,
+              "sourceItemId": "2127086",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Reblochon"
+                }
+              }
+            },
+            {
+              "itemIndex": 4,
+              "sourceItemId": "2127090",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "(V)"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 11,
+          "name": "Ala Carte - Noodles And Broths",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127098",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "present",
+                  "evidence": "Prawns"
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "present",
+                  "evidence": "Pork Belly"
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127102",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "present",
+                  "evidence": "Prawns"
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127106",
+              "classifications": {
+                "fish": {
+                  "status": "present",
+                  "evidence": "Fish Cake"
+                },
+                "shellfish": {
+                  "status": "present",
+                  "evidence": "Prawn"
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "present",
+                  "evidence": "Sliced Chicken"
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 3,
+              "sourceItemId": "2127110",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "present",
+                  "evidence": "BEEF"
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 12,
+          "name": "Sweet",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127128",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127132",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Black Sesame Glutinous Ball, Pandan Ginger Broth"
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127134",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Fresh Raspberries, Rose Lychee Compote, Strawberry Rolls"
+                }
+              }
+            },
+            {
+              "itemIndex": 3,
+              "sourceItemId": "2127136",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 4,
+              "sourceItemId": "2127118",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mealIndex": 2,
+      "mealType": "afternoon_tea",
+      "title": "Afternoon Tea",
+      "sections": [
+        {
+          "sectionIndex": 0,
+          "name": "Finger Sandwiches",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127248",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127250",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Watercress"
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127252",
+              "classifications": {
+                "fish": {
+                  "status": "present",
+                  "evidence": "Salmon"
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 3,
+              "sourceItemId": "2127254",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 1,
+          "name": "Sweet",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127258",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Cocoa Tart Shell, Earl Grey Infused Chocolate Cream, Bitter Orange"
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127260",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Raspberry Mousse, Rhubarb Compote, Vanilla Sponge"
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127262",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Madagascan Vanilla Cream, Granny Smith Apple Compote, Almond Biscuit"
+                }
+              }
+            },
+            {
+              "itemIndex": 3,
+              "sourceItemId": "2127264",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Traditional Victoria Sponge, Vanilla Mousseline, Strawberry Veil"
+                }
+              }
+            },
+            {
+              "itemIndex": 4,
+              "sourceItemId": "2127266",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Elderflower Cream, Citrus Compote, Lemon Cream"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 2,
+          "name": "Signature Scones",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127270",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127272",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 3,
+          "name": "Selection Of Housemade British Biscuits",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127276",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127278",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 2,
+              "sourceItemId": "2127280",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 3,
+              "sourceItemId": "2127282",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 4,
+              "sourceItemId": "2127284",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 5,
+              "sourceItemId": "2127286",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 4,
+          "name": "A La Minute",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127290",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 5,
+          "name": "Tea Infusion",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127294",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "present",
+                  "evidence": "Personalise your own tea blend"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sectionIndex": 6,
+          "name": "Free Flow",
+          "items": [
+            {
+              "itemIndex": 0,
+              "sourceItemId": "2127298",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            },
+            {
+              "itemIndex": 1,
+              "sourceItemId": "2127300",
+              "classifications": {
+                "fish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "shellfish": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "beef": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "pork": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "poultry": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "lamb_goat": {
+                  "status": "absent",
+                  "evidence": null
+                },
+                "vegetarian": {
+                  "status": "absent",
+                  "evidence": null
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

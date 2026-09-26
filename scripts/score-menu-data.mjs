@@ -5,17 +5,19 @@ import { access, mkdir, mkdtemp, readFile, rename, rm, writeFile } from 'node:fs
 import { dirname, join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { fileURLToPath } from 'node:url';
+import { buildClassificationInput } from './menu-scoring-input.mjs';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 const dataDir = join(root, 'public', 'data');
-const rubricPath = join(root, 'config', 'menu-scoring-rubric.v1.json');
-const RESULT_SCHEMA_VERSION = 'menu-item-classification-v1';
-const PROMPT_VERSION = 'menu-item-classifier-v2';
+const rubricPath = join(root, 'config', 'menu-scoring-rubric.json');
+const RESULT_SCHEMA_VERSION = 'menu-item-classification-v2';
+const PROMPT_VERSION = 'menu-item-classifier-v4';
 const CODEX_MODEL = 'gpt-6-luna';
-const REASONING_EFFORT = 'high';
-const DEFAULT_CONCURRENCY = 10;
+const REASONING_EFFORT = process.env.CODEX_SCORE_REASONING_EFFORT ?? 'medium';
+const DEFAULT_CONCURRENCY = 8;
 const MAX_ATTEMPTS = 3;
 const CODEX_TIMEOUT_MS = 5 * 60 * 1000;
+const MAX_ITEMS_PER_CALL = 40;
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
 const limitArg = args.find((arg) => arg.startsWith('--limit='));
@@ -55,167 +57,96 @@ function validateArgs() {
   if (onlyArg && !/^[A-Za-z0-9_-]+$/.test(onlyId ?? '')) {
     throw new Error('--only must contain a valid restaurant ID');
   }
-  if (!Number.isInteger(concurrency) || concurrency < 1 || concurrency > 10) {
-    throw new Error('CODEX_SCORE_CONCURRENCY must be an integer from 1 to 10');
+  if (!Number.isInteger(concurrency) || concurrency < 1 || concurrency > 25) {
+    throw new Error('CODEX_SCORE_CONCURRENCY must be an integer from 1 to 25');
+  }
+  if (!['low', 'medium', 'high'].includes(REASONING_EFFORT)) {
+    throw new Error('CODEX_SCORE_REASONING_EFFORT must be low, medium, or high');
   }
 }
 
-function buildClassificationInput(restaurantId, menuHash, rubric, menu) {
-  return {
-    restaurantId,
-    menuHash,
-    rubricVersion: rubric.version,
-    criteria: rubric.criteria.map(({ id, label, description }) => ({ id, label, description })),
-    meals: menu.meals.map((meal, mealIndex) => ({
-      mealIndex,
-      mealType: String(meal.meal_type ?? ''),
-      title: String(meal.menu_title ?? ''),
-      sections: (meal.extras_menu?.course_groups ?? []).map((section, sectionIndex) => ({
-        sectionIndex,
-        name: String(section.name ?? ''),
-        items: (section.subs ?? []).map((item, itemIndex) => ({
-          itemIndex,
-          sourceItemId: String(item.id ?? item.source_id ?? `${mealIndex}-${sectionIndex}-${itemIndex}`),
-          name: String(item.name ?? ''),
-          description: String(item.desc ?? ''),
-          tags: Array.isArray(item.tags) ? item.tags.map(String) : [],
-        })),
-      })),
-    })),
+function buildPrompt(items, criteria) {
+  const payload = {
+    criteria: criteria.map(({ id, description }, i) => ({ i, id, description })),
+    items: items.map((item, i) => ({ i, name: item.name, description: item.description, tags: item.tags })),
   };
-}
-
-function buildPrompt(input) {
   return [
-    'Classify food categories for each individual menu item. Return one JSON object matching the output schema.',
-    'Use only the supplied item name, description, and tags. Do not infer ingredients from cuisine or likely recipes.',
-    'Classify every item independently for every criterion. An item may match several criteria.',
-    'Use present only when supported by the supplied text. Use uncertain when the wording is insufficient. Use absent only when the available item text clearly rules out that criterion.',
-    'For present, evidence must be an exact substring of that same item name, description, or tag. For absent and uncertain, evidence must be null.',
-    'Ikura and other fish roe count as fish, never shellfish. Shellfish means crustaceans or molluscs only. Fish and fish roe are separate from shellfish.',
-    'Vegetarian means the menu explicitly marks the item vegetarian or its listed ingredients clearly support a complete vegetarian dish. A side, sauce, or garnish alone is insufficient.',
-    'Preserve every meal, section, and item exactly once and in source order. Copy every index, section name, and source item ID exactly. Do not return any scores or aggregates.',
-    'Menu input as JSON:',
-    JSON.stringify(input),
+    'Classify each menu item independently against every numbered food criterion. The result is binary: a criterion is present only when this item supports it; otherwise it is absent. There is no uncertain status.',
+    'Read each item name and description together as one dish. Tags are part of that same item. Use only the supplied item text; do not infer ingredients from cuisine or likely recipes.',
+    'Return one row for every input item, in order. A row is [item index, positive findings]. A positive finding is [criterion index, exact evidence quote]. List each present criterion at most once per item, even when multiple ingredients match it. Use an empty findings array when no criterion is present. Do not return absent findings, menu structure, scores, or explanations.',
+    'Each evidence quote must be an exact substring of that same item name, description, or tag and must clearly identify the ingredient or vegetarian mark. Do not quote a partial word or combine text from separate fields or items.',
+    'Ikura and other fish roe count as fish, never shellfish. Shellfish means crustaceans or molluscs only.',
+    'The literal phrase "catch of the day" counts as fish even when the species is not named. Use that phrase as evidence. It is not shellfish unless a crustacean or mollusc is also named.',
+    'Vegetarian is present only when the item is explicitly marked vegetarian or its listed ingredients clearly support a complete vegetarian dish. A side, sauce, or garnish alone is insufficient.',
+    'Return JSON matching the output schema. Example shape: {"items":[[0,[[0,"salmon"],[3,"bacon"]]],[1,[]]]}. The example is structural only; classify the actual input below.',
+    'Input JSON:',
+    JSON.stringify(payload),
   ].join('\n\n');
 }
 
-function buildOutputSchema(input) {
-  const criteriaIds = input.criteria.map((criterion) => criterion.id);
-  const findingSchema = {
-    type: 'object',
-    additionalProperties: false,
-    required: ['status', 'evidence'],
-    properties: {
-      status: { type: 'string', enum: ['present', 'absent', 'uncertain'] },
-      evidence: { anyOf: [{ type: 'string' }, { type: 'null' }] },
-    },
-  };
-  const itemSchema = {
-    type: 'object',
-    additionalProperties: false,
-    required: ['itemIndex', 'sourceItemId', 'classifications'],
-    properties: {
-      itemIndex: { type: 'integer' },
-      sourceItemId: { type: 'string' },
-      classifications: {
-        type: 'object',
-        additionalProperties: false,
-        required: criteriaIds,
-        properties: Object.fromEntries(criteriaIds.map((id) => [id, findingSchema])),
-      },
-    },
-  };
-  const sectionSchema = {
-    type: 'object',
-    additionalProperties: false,
-    required: ['sectionIndex', 'name', 'items'],
-    properties: {
-      sectionIndex: { type: 'integer' },
-      name: { type: 'string' },
-      items: { type: 'array', items: itemSchema },
-    },
-  };
-  const mealSchema = {
-    type: 'object',
-    additionalProperties: false,
-    required: ['mealIndex', 'mealType', 'sections'],
-    properties: {
-      mealIndex: { type: 'integer' },
-      mealType: { type: 'string' },
-      sections: { type: 'array', items: sectionSchema },
-    },
-  };
-
+function buildOutputSchema() {
   return {
     type: 'object',
     additionalProperties: false,
-    required: ['restaurantId', 'menuHash', 'rubricVersion', 'meals'],
+    required: ['items'],
     properties: {
-      restaurantId: { type: 'string' },
-      menuHash: { type: 'string' },
-      rubricVersion: { type: 'string' },
-      meals: { type: 'array', items: mealSchema },
+      items: {
+        type: 'array',
+        items: {
+          type: 'array',
+          items: {
+            anyOf: [
+              { type: 'integer' },
+              { type: 'array', items: { type: 'array', items: { anyOf: [{ type: 'integer' }, { type: 'string' }] } } },
+            ],
+          },
+        },
+      },
     },
   };
 }
 
-function validateClassification(output, input) {
-  if (output?.restaurantId !== input.restaurantId || output?.menuHash !== input.menuHash || output?.rubricVersion !== input.rubricVersion) {
-    throw new TypeError('LLM output restaurant ID, menu hash, or rubric version did not match the input');
-  }
-  if (!Array.isArray(output.meals) || output.meals.length !== input.meals.length) {
-    throw new TypeError(`Expected ${input.meals.length} classified meals`);
+function validateClassification(output, items, criteria) {
+  if (!output || Object.keys(output).length !== 1 || !Array.isArray(output.items) || output.items.length !== items.length) {
+    throw new TypeError(`Expected exactly ${items.length} classified item rows`);
   }
 
-  const expectedCriteria = input.criteria.map(({ id }) => id).sort();
-  for (const [mealPosition, sourceMeal] of input.meals.entries()) {
-    const resultMeal = output.meals[mealPosition];
-    if (resultMeal?.mealIndex !== sourceMeal.mealIndex || resultMeal.mealType !== sourceMeal.mealType) {
-      throw new TypeError(`Meal ${sourceMeal.mealIndex} identity did not match the menu`);
+  return output.items.map((row, itemIndex) => {
+    if (!Array.isArray(row) || row.length !== 2 || row[0] !== itemIndex || !Array.isArray(row[1])) {
+      throw new TypeError(`Item row ${itemIndex} is missing, out of order, or malformed`);
     }
-    if (!Array.isArray(resultMeal.sections) || resultMeal.sections.length !== sourceMeal.sections.length) {
-      throw new TypeError(`Expected ${sourceMeal.sections.length} sections for meal ${sourceMeal.mealIndex}`);
-    }
-
-    for (const [sectionPosition, sourceSection] of sourceMeal.sections.entries()) {
-      const resultSection = resultMeal.sections[sectionPosition];
-      if (resultSection?.sectionIndex !== sourceSection.sectionIndex || resultSection.name !== sourceSection.name) {
-        throw new TypeError(`Section ${sourceMeal.mealIndex}/${sourceSection.sectionIndex} identity did not match the menu`);
+    const item = items[itemIndex];
+    const sourceText = [item.name, item.description, ...item.tags].filter(Boolean).join('\n').toLocaleLowerCase();
+    const classifications = Object.fromEntries(criteria.map(({ id }) => [id, { status: 'absent', evidence: null }]));
+    const seen = new Set();
+    for (const finding of row[1]) {
+      if (!Array.isArray(finding) || finding.length !== 2) {
+        throw new TypeError(`Item ${itemIndex} has a malformed positive finding`);
       }
-      if (!Array.isArray(resultSection.items) || resultSection.items.length !== sourceSection.items.length) {
-        throw new TypeError(`Expected ${sourceSection.items.length} items for section ${sourceMeal.mealIndex}/${sourceSection.sectionIndex}`);
+      const [criterionIndex, rawEvidence] = finding;
+      if (!Number.isInteger(criterionIndex) || criterionIndex < 0 || criterionIndex >= criteria.length) {
+        throw new TypeError(`Item ${itemIndex} has an invalid criterion index: ${JSON.stringify(finding).slice(0, 160)}`);
       }
-
-      for (const [itemPosition, sourceItem] of sourceSection.items.entries()) {
-        const resultItem = resultSection.items[itemPosition];
-        if (resultItem?.itemIndex !== sourceItem.itemIndex || resultItem.sourceItemId !== sourceItem.sourceItemId) {
-          throw new TypeError(`Item ${sourceMeal.mealIndex}/${sourceSection.sectionIndex}/${sourceItem.itemIndex} identity did not match the menu`);
-        }
-        const classifications = resultItem.classifications;
-        const receivedCriteria = Object.keys(classifications ?? {}).sort();
-        if (JSON.stringify(receivedCriteria) !== JSON.stringify(expectedCriteria)) {
-          throw new TypeError(`Item ${sourceMeal.mealIndex}/${sourceSection.sectionIndex}/${sourceItem.itemIndex} has an invalid criterion set`);
-        }
-
-        const sourceText = [sourceItem.name, sourceItem.description, ...sourceItem.tags].filter(Boolean).join('\n').toLocaleLowerCase();
-        for (const criterionId of expectedCriteria) {
-          const finding = classifications[criterionId];
-          if (!['present', 'absent', 'uncertain'].includes(finding?.status)) {
-            throw new TypeError(`Invalid status for ${criterionId} on item ${sourceMeal.mealIndex}/${sourceSection.sectionIndex}/${sourceItem.itemIndex}`);
-          }
-          const evidence = finding.evidence == null ? null : String(finding.evidence).trim();
-          if (finding.status === 'present' && (!evidence || !sourceText.includes(evidence.toLocaleLowerCase()))) {
-            throw new TypeError(`Evidence for ${criterionId} is missing or not quoted from that menu item`);
-          }
-          if (finding.status !== 'present' && evidence !== null) {
-            throw new TypeError(`Only present classifications may include evidence (${criterionId})`);
-          }
-        }
+      if (typeof rawEvidence !== 'string' || !rawEvidence.trim()) {
+        throw new TypeError(`Item ${itemIndex} has evidence missing from its own text for ${criteria[criterionIndex].id}`);
+      }
+      let evidence = rawEvidence.trim();
+      if (!sourceText.includes(evidence.toLocaleLowerCase()) && criteria[criterionIndex].id === 'vegetarian') {
+        const marker = [item.name, item.description, ...item.tags]
+          .map((field) => field.match(/\([^)]*\bV\b[^)]*\)|\[\s*V\s*\]|\bvegetarian\b/i)?.[0])
+          .find(Boolean);
+        if (marker) evidence = marker;
+      }
+      if (!sourceText.includes(evidence.toLocaleLowerCase())) {
+        throw new TypeError(`Item ${itemIndex} has evidence missing from its own text for ${criteria[criterionIndex].id}`);
+      }
+      if (!seen.has(criterionIndex)) {
+        seen.add(criterionIndex);
+        classifications[criteria[criterionIndex].id] = { status: 'present', evidence };
       }
     }
-  }
-  return output;
+    return classifications;
+  });
 }
 
 function parseModelResponse(content) {
@@ -285,44 +216,94 @@ async function runCodex(prompt, schema, timeoutMs = CODEX_TIMEOUT_MS) {
   }
 }
 
-async function classifyInput(input) {
-  const prompt = buildPrompt(input);
-  const schema = buildOutputSchema(input);
+async function classifyInput(items, criteria, restaurantId, batchNumber, batchCount) {
+  const prompt = buildPrompt(items, criteria);
+  const schema = buildOutputSchema();
   let lastError;
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
+    const startedAt = Date.now();
     try {
       const rawOutput = await runCodex(prompt, schema);
-      return validateClassification(rawOutput, input);
+      validateClassification(rawOutput, items, criteria);
+      return rawOutput;
     } catch (error) {
       lastError = error;
+      const seconds = Math.round((Date.now() - startedAt) / 1000);
       if (attempt < MAX_ATTEMPTS) {
-        console.warn(`Codex attempt ${attempt}/${MAX_ATTEMPTS} failed for ${input.restaurantId}: ${error.message}`);
+        console.warn(`Codex attempt ${attempt}/${MAX_ATTEMPTS} failed for ${restaurantId}, batch ${batchNumber}/${batchCount} after ${seconds}s: ${error.message}`);
         await sleep(1000 * 2 ** (attempt - 1));
       }
     }
   }
-  throw lastError;
+  throw new Error(`Batch ${batchNumber}/${batchCount} failed for ${restaurantId}: ${lastError.message}`);
 }
 
-async function classifyMenu(input) {
-  const itemCount = input.meals.reduce((mealTotal, meal) => (
-    mealTotal + meal.sections.reduce((sectionTotal, section) => sectionTotal + section.items.length, 0)
-  ), 0);
-  const inputs = itemCount > 120
-    ? input.meals.map((meal) => ({ ...input, meals: [meal] }))
-    : [input];
-
-  if (inputs.length > 1) {
-    console.log(`Splitting ${input.restaurantId}'s ${itemCount} items into ${inputs.length} meal calls to keep each response manageable.`);
+async function classifyMenu(input, progressPath) {
+  const sourceItems = input.meals.flatMap((meal) => meal.sections.flatMap((section) => section.items));
+  const batchCount = Math.ceil(sourceItems.length / MAX_ITEMS_PER_CALL);
+  if (batchCount > 1) {
+    console.log(`Classifying ${input.restaurantId}'s ${sourceItems.length} items in ${batchCount} batches.`);
   }
 
-  const meals = [];
-  for (const part of inputs) {
-    const classified = await classifyInput(part);
-    meals.push(...classified.meals);
+  const signature = {
+    restaurantId: input.restaurantId,
+    menuHash: input.menuHash,
+    rubricVersion: input.rubricVersion,
+    promptVersion: PROMPT_VERSION,
+    schemaVersion: RESULT_SCHEMA_VERSION,
+    model: CODEX_MODEL,
+    reasoningEffort: REASONING_EFFORT,
+    itemCount: sourceItems.length,
+    batchSize: MAX_ITEMS_PER_CALL,
+  };
+  let savedBatches = [];
+  try {
+    const progress = await readJson(progressPath);
+    if (Object.entries(signature).every(([key, value]) => progress[key] === value) && Array.isArray(progress.batches)) {
+      savedBatches = progress.batches;
+    }
+  } catch { /* No matching local progress file. */ }
+
+  const findings = [];
+  for (let start = 0; start < sourceItems.length; start += MAX_ITEMS_PER_CALL) {
+    const batchNumber = Math.floor(start / MAX_ITEMS_PER_CALL) + 1;
+    const batch = sourceItems.slice(start, start + MAX_ITEMS_PER_CALL);
+    let output = savedBatches[batchNumber - 1];
+    if (output) {
+      try {
+        validateClassification(output, batch, input.criteria);
+        console.log(`Reusing ${input.restaurantId} batch ${batchNumber}/${batchCount}.`);
+      } catch {
+        savedBatches = savedBatches.slice(0, batchNumber - 1);
+        output = null;
+      }
+    }
+    if (!output) {
+      savedBatches = savedBatches.slice(0, batchNumber - 1);
+      output = await classifyInput(batch, input.criteria, input.restaurantId, batchNumber, batchCount);
+      savedBatches.push(output);
+      await writeJsonAtomic(progressPath, { ...signature, batches: savedBatches });
+    }
+    findings.push(...validateClassification(output, batch, input.criteria));
   }
 
-  return { ...input, meals };
+  let itemPosition = 0;
+  return {
+    meals: input.meals.map((meal) => ({
+      mealIndex: meal.mealIndex,
+      mealType: meal.mealType,
+      title: meal.title,
+      sections: meal.sections.map((section) => ({
+        sectionIndex: section.sectionIndex,
+        name: section.name,
+        items: section.items.map((item) => ({
+          itemIndex: item.itemIndex,
+          sourceItemId: item.sourceItemId,
+          classifications: findings[itemPosition++],
+        })),
+      })),
+    })),
+  };
 }
 
 async function main() {
@@ -389,7 +370,8 @@ async function main() {
       try {
         const menu = await readJson(join(dataDir, 'menus', menuMeta.file));
         const input = buildClassificationInput(id, menuMeta.menuHash, rubric, menu);
-        const classified = await classifyMenu(input);
+        const progressPath = join(root, '.cache', 'menu-scoring', `${id}.json`);
+        const classified = await classifyMenu(input, progressPath);
         const classificationFile = `classification-${id}.json`;
         const result = {
           schemaVersion: RESULT_SCHEMA_VERSION,
@@ -421,11 +403,11 @@ async function main() {
           metadata.menus[id].rubricVersion = rubric.version;
           metadata.menus[id].promptVersion = PROMPT_VERSION;
           metadata.menus[id].classificationFile = classificationFile;
-          metadata.menus[id].scoreFile = null;
           await writeJsonAtomic(scoreIndexPath, scoreIndex);
           await writeJsonAtomic(metadataPath, metadata);
         });
         await writeChain;
+        await rm(progressPath, { force: true });
         await rm(join(scoresDir, 'failures', `${id}.json`), { force: true });
         completed += 1;
         const itemCount = input.meals.reduce((sum, meal) => sum + meal.sections.reduce((sectionSum, section) => sectionSum + section.items.length, 0), 0);
@@ -448,7 +430,13 @@ async function main() {
 
   const manifestPath = join(dataDir, 'manifest.json');
   const manifest = await readJson(manifestPath);
-  manifest.classifiedMenuCount = Object.keys(scoreIndex.byRestaurantId).length;
+  delete manifest.scoredMenuCount;
+  delete manifest.needsScoringCount;
+  manifest.rubricVersion = rubric.version;
+  manifest.promptVersion = PROMPT_VERSION;
+  manifest.classifiedMenuCount = Object.values(scoreIndex.byRestaurantId).filter((entry) => (
+    entry.rubricVersion === rubric.version && entry.promptVersion === PROMPT_VERSION
+  )).length;
   manifest.needsClassificationCount = Math.max(0, Object.keys(metadata.menus).length - manifest.classifiedMenuCount);
   manifest.generatedAt = new Date().toISOString();
   await writeJsonAtomic(manifestPath, manifest);

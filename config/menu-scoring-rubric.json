@@ -1,0 +1,43 @@
+{
+  "version": "menu-food-variety-v4",
+  "scoreRange": [0, 100],
+  "resultUnit": "menu-item-classification",
+  "criteria": [
+    {
+      "id": "fish",
+      "label": "Fish",
+      "description": "The menu item explicitly includes fish such as salmon, trout, tuna, or cod, or fish roe such as ikura. The literal phrase 'catch of the day' also counts as fish even when the species is not named. Fish and fish roe are not shellfish."
+    },
+    {
+      "id": "shellfish",
+      "label": "Shellfish",
+      "description": "The menu item explicitly includes a crustacean or mollusc, such as crab, lobster, prawn, shrimp, oyster, mussel, clam, scallop, or squid. Fish and fish roe are not shellfish."
+    },
+    {
+      "id": "beef",
+      "label": "Beef",
+      "description": "Beef or veal is listed as an ingredient."
+    },
+    {
+      "id": "pork",
+      "label": "Pork",
+      "description": "Pork is listed as an ingredient, including bacon, ham, or lardon."
+    },
+    {
+      "id": "poultry",
+      "label": "Poultry",
+      "description": "Chicken, duck, turkey, or another type of poultry is listed as an ingredient."
+    },
+    {
+      "id": "lamb_goat",
+      "label": "Lamb",
+      "description": "Lamb or goat is listed as an ingredient."
+    },
+    {
+      "id": "vegetarian",
+      "label": "Vegetarian option",
+      "description": "The item is marked vegetarian (for example, (V)) or all listed ingredients clearly make a vegetarian dish. A side, sauce, or garnish alone does not count."
+    }
+  ],
+  "ambiguity": "Classify each menu item independently for every criterion. Mark a criterion present only when the item's text supports it; otherwise mark it absent. There is no uncertain status. Do not infer ingredients from cuisine or likely preparation. A present classification requires an exact evidence quote from that item's name, description, or tags."
+}

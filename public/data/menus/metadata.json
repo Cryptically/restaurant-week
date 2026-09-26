@@ -10,9 +10,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055205.json"
     },
     "2055208": {
@@ -22,9 +21,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055208.json"
     },
     "2055216": {
@@ -34,9 +32,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055216.json"
     },
     "2055219": {
@@ -46,9 +43,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055219.json"
     },
     "2055222": {
@@ -58,9 +54,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055222.json"
     },
     "2055223": {
@@ -70,9 +65,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055223.json"
     },
     "2055240": {
@@ -82,9 +76,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055240.json"
     },
     "2055256": {
@@ -94,9 +87,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055256.json"
     },
     "2055264": {
@@ -106,9 +98,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055264.json"
     },
     "2055270": {
@@ -118,9 +109,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055270.json"
     },
     "2055275": {
@@ -130,9 +120,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055275.json"
     },
     "2055296": {
@@ -142,9 +131,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055296.json"
     },
     "2055301": {
@@ -154,9 +142,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055301.json"
     },
     "2055363": {
@@ -166,9 +153,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055363.json"
     },
     "2055422": {
@@ -178,9 +164,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055422.json"
     },
     "2055471": {
@@ -190,9 +175,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055471.json"
     },
     "2055541": {
@@ -202,9 +186,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055541.json"
     },
     "2055727": {
@@ -214,9 +197,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2055727.json"
     },
     "2056126": {
@@ -226,9 +208,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-2056126.json"
     },
     "205173372": {
@@ -238,9 +219,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205173372.json"
     },
     "205174395": {
@@ -250,9 +230,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205174395.json"
     },
     "205174689": {
@@ -262,9 +241,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205174689.json"
     },
     "205174744": {
@@ -274,9 +252,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205174744.json"
     },
     "205174745": {
@@ -286,9 +263,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205174745.json"
     },
     "205174962": {
@@ -298,9 +274,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205174962.json"
     },
     "205175056": {
@@ -310,9 +285,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205175056.json"
     },
     "205175270": {
@@ -322,9 +296,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205175270.json"
     },
     "205175679": {
@@ -334,9 +307,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205175679.json"
     },
     "205175711": {
@@ -346,9 +318,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205175711.json"
     },
     "205175712": {
@@ -358,9 +329,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205175712.json"
     },
     "205176024": {
@@ -370,9 +340,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205176024.json"
     },
     "205176032": {
@@ -382,9 +351,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205176032.json"
     },
     "205176046": {
@@ -394,9 +362,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205176046.json"
     },
     "205176080": {
@@ -406,9 +373,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205176080.json"
     },
     "205176100": {
@@ -418,9 +384,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205176100.json"
     },
     "205176862": {
@@ -430,9 +395,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205176862.json"
     },
     "205176870": {
@@ -442,9 +406,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205176870.json"
     },
     "205177182": {
@@ -454,9 +417,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205177182.json"
     },
     "205177483": {
@@ -466,9 +428,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205177483.json"
     },
     "205178206": {
@@ -478,9 +439,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205178206.json"
     },
     "205178250": {
@@ -490,9 +450,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205178250.json"
     },
     "205178300": {
@@ -502,9 +461,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205178300.json"
     },
     "205178376": {
@@ -514,9 +472,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205178376.json"
     },
     "205178400": {
@@ -526,9 +483,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205178400.json"
     },
     "205178890": {
@@ -538,9 +494,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205178890.json"
     },
     "205178892": {
@@ -550,9 +505,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205178892.json"
     },
     "205180536": {
@@ -562,9 +516,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205180536.json"
     },
     "205180562": {
@@ -574,9 +527,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205180562.json"
     },
     "205180586": {
@@ -586,9 +538,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205180586.json"
     },
     "205180632": {
@@ -598,9 +549,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205180632.json"
     },
     "205188852": {
@@ -610,9 +560,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205188852.json"
     },
     "205188876": {
@@ -622,9 +571,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205188876.json"
     },
     "205188890": {
@@ -634,9 +582,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205188890.json"
     },
     "205188950": {
@@ -646,9 +593,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205188950.json"
     },
     "205188985": {
@@ -658,9 +604,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205188985.json"
     },
     "205189596": {
@@ -670,9 +615,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205189596.json"
     },
     "205190142": {
@@ -682,9 +626,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205190142.json"
     },
     "205190588": {
@@ -694,9 +637,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205190588.json"
     },
     "205190624": {
@@ -706,9 +648,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205190624.json"
     },
     "205190654": {
@@ -718,9 +659,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205190654.json"
     },
     "205190710": {
@@ -730,9 +670,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205190710.json"
     },
     "205190726": {
@@ -742,9 +681,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205190726.json"
     },
     "205191138": {
@@ -754,9 +692,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205191138.json"
     },
     "205191658": {
@@ -766,9 +703,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205191658.json"
     },
     "205191660": {
@@ -778,9 +714,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205191660.json"
     },
     "205191666": {
@@ -790,9 +725,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205191666.json"
     },
     "205192160": {
@@ -802,9 +736,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205192160.json"
     },
     "205192176": {
@@ -814,9 +747,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205192176.json"
     },
     "205192201": {
@@ -826,9 +758,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205192201.json"
     },
     "205192315": {
@@ -838,9 +769,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205192315.json"
     },
     "205192884": {
@@ -850,9 +780,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205192884.json"
     },
     "205192946": {
@@ -862,9 +791,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205192946.json"
     },
     "205192948": {
@@ -874,9 +802,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205192948.json"
     },
     "205192950": {
@@ -886,9 +813,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205192950.json"
     },
     "205193128": {
@@ -898,9 +824,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205193128.json"
     },
     "205193338": {
@@ -910,9 +835,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205193338.json"
     },
     "205193596": {
@@ -922,9 +846,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205193596.json"
     },
     "205193622": {
@@ -934,9 +857,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205193622.json"
     },
     "205193626": {
@@ -946,9 +868,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205193626.json"
     },
     "205193994": {
@@ -958,9 +879,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205193994.json"
     },
     "205194942": {
@@ -970,9 +890,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205194942.json"
     },
     "205194944": {
@@ -982,9 +901,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205194944.json"
     },
     "205195034": {
@@ -994,9 +912,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195034.json"
     },
     "205195064": {
@@ -1006,9 +923,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195064.json"
     },
     "205195066": {
@@ -1018,9 +934,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195066.json"
     },
     "205195068": {
@@ -1030,9 +945,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195068.json"
     },
     "205195070": {
@@ -1042,9 +956,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195070.json"
     },
     "205195072": {
@@ -1054,9 +967,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195072.json"
     },
     "205195076": {
@@ -1066,9 +978,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195076.json"
     },
     "205195080": {
@@ -1078,9 +989,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195080.json"
     },
     "205195082": {
@@ -1090,9 +1000,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195082.json"
     },
     "205195084": {
@@ -1102,9 +1011,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195084.json"
     },
     "205195086": {
@@ -1114,9 +1022,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195086.json"
     },
     "205195120": {
@@ -1126,9 +1033,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195120.json"
     },
     "205195132": {
@@ -1138,9 +1044,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195132.json"
     },
     "205195136": {
@@ -1150,9 +1055,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195136.json"
     },
     "205195138": {
@@ -1162,9 +1066,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195138.json"
     },
     "205195204": {
@@ -1174,9 +1077,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195204.json"
     },
     "205195316": {
@@ -1186,9 +1088,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205195316.json"
     },
     "205196188": {
@@ -1198,9 +1099,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205196188.json"
     },
     "205196416": {
@@ -1210,9 +1110,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205196416.json"
     },
     "205196450": {
@@ -1222,9 +1121,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205196450.json"
     },
     "205196716": {
@@ -1234,9 +1132,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205196716.json"
     },
     "205196722": {
@@ -1246,9 +1143,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205196722.json"
     },
     "205196762": {
@@ -1258,9 +1154,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205196762.json"
     },
     "205196808": {
@@ -1270,9 +1165,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205196808.json"
     },
     "205196812": {
@@ -1282,9 +1176,8 @@
       "hashAlgorithm": "sha256",
       "hashVersion": "menu-score-input-v2",
       "analysisStatus": "classified",
-      "rubricVersion": "menu-food-variety-v2",
-      "promptVersion": "menu-item-classifier-v2",
-      "scoreFile": null,
+      "rubricVersion": "menu-food-variety-v4",
+      "promptVersion": "menu-item-classifier-v4",
       "classificationFile": "classification-205196812.json"
     }
   }

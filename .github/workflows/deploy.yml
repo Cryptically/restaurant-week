@@ -41,6 +41,9 @@ jobs:
       - name: Build production site
         run: npm run build
 
+      - name: Validate published restaurant, menu, and scoring data
+        run: node scripts/validate-published-data.mjs dist/data
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

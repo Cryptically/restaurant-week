@@ -1,10 +1,16 @@
-export function calculateCourseScore(criteria, findings) {
-  const totalWeight = criteria.reduce((sum, criterion) => sum + criterion.weight, 0);
-  if (!totalWeight) return null;
-  const earnedWeight = criteria.reduce((sum, criterion) => (
-    findings[criterion.id]?.status === 'present' ? sum + criterion.weight : sum
-  ), 0);
-  return Number((earnedWeight / totalWeight * 100).toFixed(1));
+export function calculateItemScore(criteria, findings) {
+  if (!criteria.length) return null;
+  if (criteria.some(({ id }) => !['present', 'absent'].includes(findings[id]?.status))) return null;
+  return criteria.some(({ id }) => findings[id].status === 'present') ? 100 : 0;
+}
+
+export function calculateSectionScore(criteria, items) {
+  if (!criteria.length || !items.length) return null;
+  const hasMissingFindings = items.some((item) => criteria.some(({ id }) => (
+    !['present', 'absent'].includes(item.classifications?.[id]?.status)
+  )));
+  if (hasMissingFindings) return null;
+  return items.some((item) => criteria.some(({ id }) => item.classifications[id].status === 'present')) ? 100 : 0;
 }
 
 export function meanScore(values) {
